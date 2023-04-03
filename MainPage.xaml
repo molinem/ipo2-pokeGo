@@ -56,7 +56,8 @@
                     <Button Grid.Row="3" Grid.Column="1" Content="Captura" Height="50" Background="{x:Null}" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" BorderBrush="{x:Null}" Click="btnCaptura_Click" Margin="0,0,25,0"/>
                 </Grid>
             </SplitView.Pane>
-        </SplitView>
+        </SplitView>
+
 
     </Grid>
 </Page>

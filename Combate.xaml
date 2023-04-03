@@ -1,14 +1,19 @@
 ﻿<Page
-    x:Class="PokeGo.Combate"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:PokeGo"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    xmlns:Custom="using:Microsoft.UI.Xaml.Controls"
+    x:Class="PokeGo.Combate"
+    mc:Ignorable="d">
 
-    <Grid>
+    <RelativePanel>
+        <RatingControl x:Name="rcStars" HorizontalAlignment="Center" VerticalAlignment="Center" Width="80" Height="32" RelativePanel.AlignVerticalCenterWithPanel="True" ValueChanged="rcStars_ValueChanged"/>
+        <TextBox x:Name="tbPokemon" HorizontalAlignment="Left" Height="51" Text="Pikachu" TextWrapping="Wrap" VerticalAlignment="Center" Background="{x:Null}" FontSize="30" RelativePanel.AlignVerticalCenterWith="rcStars" RelativePanel.RightOf="rcStars" Margin="30,0,0,0"/>
 
-    </Grid>
+        <RatingControl x:Name="rcStars1" Width="80" Height="32" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="0,160,0,0"/>
+        <TextBox x:Name="tbPokemon1" HorizontalAlignment="Left" Height="51" Text="Pikachu2" TextWrapping="Wrap" VerticalAlignment="Center" Background="{x:Null}" FontSize="30" RelativePanel.AlignVerticalCenterWith="rcStars" RelativePanel.RightOf="rcStars" Margin="30,160,0,0"/>
+        
+    </RelativePanel>
 </Page>

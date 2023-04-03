@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Toolkit.Uwp.Notifications;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -6,6 +7,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Core;
+using Windows.UI.Notifications;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -34,7 +36,96 @@ namespace PokeGo
             fmMain.Navigate(typeof(Inicio));
             checkBackStack();
             SystemNavigationManager.GetForCurrentView().BackRequested += opcionVolver;
+
+
+            TileContent content = new TileContent()
+            {
+                Visual = new TileVisual()
+                {
+                    TileMedium = new TileBinding()
+                    {
+                        Content = new TileBindingContentAdaptive()
+                        {
+                            Children =
+                            {
+                                new AdaptiveText()
+                                {
+                                    Text = "IPOkemon",
+                                    HintStyle = AdaptiveTextStyle.Subtitle
+                                },
+
+                                new AdaptiveText()
+                                {
+                                    Text = "Un proyecto de IPO2",
+                                    HintStyle = AdaptiveTextStyle.CaptionSubtle
+                                },
+                            }
+                        }
+                    },
+
+                    TileWide = new TileBinding()
+                    {
+                        Branding = TileBranding.NameAndLogo,
+                        DisplayName = "Version 1.0",
+                        Content = new TileBindingContentAdaptive()
+                        {
+                            Children = {
+                                new AdaptiveText()
+                                {
+                                    Text = "IPOkemon",
+                                    HintStyle = AdaptiveTextStyle.Subtitle
+                                },
+
+                                new AdaptiveText()
+                                {
+                                    Text = "Un Proyecto de IPO2",
+                                    HintStyle = AdaptiveTextStyle.CaptionSubtle
+                                },
+ 
+                                new AdaptiveText()
+                                {
+                                    Text = "Una aplicación sobre Pokemon hecha con tecnología UWP",
+                                    HintWrap = true,
+                                }
+                            }
+                        }
+                    },
+
+
+                    TileLarge = new TileBinding()
+                    {
+                        Content = new TileBindingContentAdaptive()
+                        {
+                            Children = {
+                                new AdaptiveText()
+                                {
+                                    Text = "IPOkemon",
+                                    HintStyle = AdaptiveTextStyle.Subtitle
+                                },
+
+                                new AdaptiveText()
+                                {
+                                    Text = "Un Proyecto de IPO2",
+                                    HintStyle = AdaptiveTextStyle.CaptionSubtle
+                                },
+
+                                new AdaptiveText()
+                                {
+                                    Text = "Una aplicación sobre Pokemon hecha con tecnología UWP",
+                                    HintStyle = AdaptiveTextStyle.CaptionSubtle
+                                }
+                            }
+                        }
+                    },
+                }
+            };
+            var notification = new TileNotification(content.GetXml());
+            notification.ExpirationTime = DateTimeOffset.UtcNow.AddSeconds(30);
+            var updater = TileUpdateManager.CreateTileUpdaterForApplication();
+            updater.Update(notification);
         }
+
+
 
         /// <summary>
         /// Para detectar cuando cambia el tamaño de 

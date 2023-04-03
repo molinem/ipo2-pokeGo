@@ -63,3 +63,11 @@ C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\MultipleQualifiersPerDimensionFound.
 C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\ProjectArchitectures.txt
 C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
 C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\PokeGo.csproj.AssemblyReference.cache
+C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
+C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\WebView2Loader.dll
+C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\Microsoft.Web.WebView2.Core.winmd
+C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\Microsoft.Toolkit.Uwp.Notifications.pri.xml
+C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_637920505780000000.json
