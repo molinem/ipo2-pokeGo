@@ -15,5 +15,6 @@
         <RatingControl x:Name="rcStars1" Width="80" Height="32" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="0,160,0,0"/>
         <TextBox x:Name="tbPokemon1" HorizontalAlignment="Left" Height="51" Text="Pikachu2" TextWrapping="Wrap" VerticalAlignment="Center" Background="{x:Null}" FontSize="30" RelativePanel.AlignVerticalCenterWith="rcStars" RelativePanel.RightOf="rcStars" Margin="30,160,0,0"/>
         
-    </RelativePanel>
+    </RelativePanel>
+
 </Page>

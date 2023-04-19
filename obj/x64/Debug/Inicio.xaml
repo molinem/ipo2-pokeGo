@@ -16,7 +16,6 @@
         <Image Source="/Assets/Inicio/inicial.png" Stretch="Fill" Grid.RowSpan="2"/>
         <TextBlock x:ConnectionId='2' x:Name="txtInicio" HorizontalAlignment="Left" Margin="71,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="Black" Foreground="#FF060606" FontSize="30" Grid.Row="1">
             <Run Text="¡Bienvenidos al mundo Pokémon! Prepárate para explorar un mundo lleno de criaturas fascinantes y misterios ocultos."/>
-            
             <Run Text="App desarrollada por:"/>
             <Bold><Run Text="Luis Molina Muñoz-Torrero"/></Bold>
             <Run Text="y"/>
