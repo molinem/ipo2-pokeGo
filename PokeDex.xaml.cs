@@ -7,6 +7,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -33,11 +34,7 @@ namespace PokeGo
 
             conectarDB();
 
-            // Valores del ComboBox de filtros
-            cmbFiltroCategoria.Items.Add("Pato");
-            cmbFiltroCategoria.Items.Add("BolaClavos");
-            cmbFiltroCategoria.Items.Add("Estrella");
-            cmbFiltroCategoria.Items.Add("Serpiente");
+           
         }
 
         
@@ -45,7 +42,7 @@ namespace PokeGo
         {
             // Obtener los valores de los filtros
             string filtroNombre = txtFiltroNombre.Text.Trim();
-            string filtroTipo = cmbFiltroCategoria.SelectedItem as string;
+            
 
             List<Pokemon> listaFiltrada = listaPokemon;
 
@@ -54,14 +51,9 @@ namespace PokeGo
                 listaFiltrada = listaFiltrada.Where(p => p.Nombre.ToLower().Contains(filtroNombre.ToLower())).ToList();
             }
 
-            if (!string.IsNullOrEmpty(filtroTipo))
-            {
-                listaFiltrada = listaFiltrada.Where(p => p.Categoria.ToLower().Contains(filtroTipo.ToLower())).ToList();
-            }
-
             // Actualizar la lista
             lstPokemon.ItemsSource = listaFiltrada;
-            cmbFiltroCategoria.SelectedItem = "Categoria";
+            
         }
         
 
@@ -108,6 +100,36 @@ namespace PokeGo
                 Pokemon pk = (Pokemon)lstPokemon.SelectedItem;
                 System.Diagnostics.Debug.WriteLine(pk.Nombre);
             }
+        }
+
+        private void Image_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Entro en la opción");
+        }
+
+        private void gotFocusLupa(object sender, RoutedEventArgs e)
+        {
+            btnLupa.Background = new SolidColorBrush(Colors.Red);
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            string nombreArchivo = "fondo.mp4"; // Nombre del archivo
+            string rutaCarpeta = "VIDEOS"; // Ruta relativa de la carpeta dentro del proyecto
+            string videoFilePath = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), rutaCarpeta, nombreArchivo);
+
+            // Establece la fuente del MediaElement como el archivo de video
+            mediaElement.Source = new Uri(videoFilePath);
+
+            // Reproduce el video
+            mediaElement.Play();
+        }
+
+        private void MediaElement_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            // Reinicia el video en bucle cuando se completa la reproducción
+            mediaElement.Position = TimeSpan.Zero;
+            mediaElement.Play();
         }
     }
 }

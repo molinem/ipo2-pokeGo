@@ -73,6 +73,12 @@
     <AppxPackagedFile Include="C:\Repositorios\PokeGo\PokeGo\Assets\PokeDex\ekans.png">
       <PackagePath>Assets\PokeDex\ekans.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\PokeGo\PokeGo\Assets\PokeDex\lupa.png">
+      <PackagePath>Assets\PokeDex\lupa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\PokeGo\PokeGo\Assets\PokeDex\nombrePokedex.png">
+      <PackagePath>Assets\PokeDex\nombrePokedex.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\PokeGo\PokeGo\Assets\PokeDex\psyduck.png">
       <PackagePath>Assets\PokeDex\psyduck.png</PackagePath>
     </AppxPackagedFile>

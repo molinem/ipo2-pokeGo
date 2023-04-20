@@ -11,7 +11,6 @@ C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\resources.pri
 C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\AppxManifest.xml
 C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\Core\AppxManifest.xml
 C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\Core\PokeGo.exe
-C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\PokeGo.build.appxrecipe
 C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\Microsoft.Web.WebView2.Core.dll
 C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\Microsoft.Data.Sqlite.dll
 C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
@@ -79,4 +78,4 @@ C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\resources.en-us.resfiles.intermediat
 C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\ProjectArchitectures.txt
 C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
 C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_637920505780000000.json
-C:\Repositorios\PokeGo\PokeGo\obj\x64\Debug\PokeGo.csproj.AssemblyReference.cache
+C:\Repositorios\PokeGo\PokeGo\bin\x64\Debug\PokeGo.build.appxrecipe

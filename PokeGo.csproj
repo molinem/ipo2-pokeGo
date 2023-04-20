@@ -146,6 +146,8 @@
     <Content Include="Assets\fondoInicial.png" />
     <Content Include="Assets\Inicio\inicial.png" />
     <Content Include="Assets\PokeDex\ekans.png" />
+    <Content Include="Assets\PokeDex\lupa.png" />
+    <Content Include="Assets\PokeDex\nombrePokedex.png" />
     <Content Include="Assets\PokeDex\psyduck.png" />
     <Content Include="Assets\PokeDex\staryu.png" />
     <Content Include="Assets\PokeDex\togepi.png" />
