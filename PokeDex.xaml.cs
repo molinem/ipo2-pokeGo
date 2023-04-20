@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 
@@ -31,10 +32,7 @@ namespace PokeGo
         public PokeDex()
         {
             this.InitializeComponent();
-
             conectarDB();
-
-           
         }
 
         
@@ -92,13 +90,40 @@ namespace PokeGo
             lstPokemon.ItemsSource = listaPokemon;
         }
 
-        
+        public static readonly DependencyProperty ImagenSourceProperty = DependencyProperty.Register("ImagenSource", typeof(ImageSource), typeof(PokeDex), new PropertyMetadata(null));
+
+        /// <summary>
+        /// Utilizado para la fuente de imagen
+        /// </summary>
+        public BitmapImage ImagenSource
+        {
+            get { return (BitmapImage)GetValue(ImagenSourceProperty); }
+            set { SetValue(ImagenSourceProperty, value); }
+        }
+
+
+        /// <summary>
+        /// Cuando la selección en la
+        /// listView cambia
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void lstPokemon_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (lstPokemon.SelectedItem != null)
             {
                 Pokemon pk = (Pokemon)lstPokemon.SelectedItem;
-                System.Diagnostics.Debug.WriteLine(pk.Nombre);
+
+                //Imagen
+                string nombreArchivo = pk.Nombre.ToLower()+".png";
+                string rutaCarpeta = "PoKeDex";
+                string rutaArchivo = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), rutaCarpeta, nombreArchivo.Replace(" ", "").Trim());
+
+                ImagenSource = new BitmapImage(new Uri(rutaArchivo));
+                imgPokemon.Source = ImagenSource;
+
+                //Nombre Pokemon
+                txtNombrePk.Text = pk.Nombre;
             }
         }
 
@@ -112,6 +137,11 @@ namespace PokeGo
             btnLupa.Background = new SolidColorBrush(Colors.Red);
         }
 
+        /// <summary>
+        /// Se carga una vez el Page es cargado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             string nombreArchivo = "fondo.mp4"; // Nombre del archivo
@@ -120,11 +150,14 @@ namespace PokeGo
 
             // Establece la fuente del MediaElement como el archivo de video
             mediaElement.Source = new Uri(videoFilePath);
-
-            // Reproduce el video
             mediaElement.Play();
         }
 
+        /// <summary>
+        /// Evento cuando acaba el vídeo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MediaElement_MediaEnded(object sender, RoutedEventArgs e)
         {
             // Reinicia el video en bucle cuando se completa la reproducción

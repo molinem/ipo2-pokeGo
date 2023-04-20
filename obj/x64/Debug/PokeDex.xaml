@@ -1,4 +1,4 @@
-﻿<Page x:ConnectionId='1'
+﻿<Page x:ConnectionId='1' x:Name="pokedex"
     x:Class="PokeGo.PokeDex"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -13,33 +13,35 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
+
         <MediaElement x:ConnectionId='2' x:Name="mediaElement" Stretch="UniformToFill"                                      Grid.RowSpan="2"/>
-        
+
         <!-- Controles de filtrado -->
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="20">
             <Image Source="/Assets/PokeDex/nombrePokedex.png" Height="108" Width="370"/>
-            <TextBox x:ConnectionId='9' x:Name="txtFiltroNombre" PlaceholderText="Nombre" Width="411" Height="47" Margin="10,10,0,0" FontSize="24"/>
-            <Button x:ConnectionId='10' x:Name="btnLupa"  Margin="50,10,5,0"  Height="47" Width="55"                       Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
-                <Image x:ConnectionId='11' x:Name="imgLupa" Source="/Assets/PokeDex/lupa.png" Margin="-22,-12,-20,-11" RequestedTheme="Light"                        />
+            <TextBox x:ConnectionId='12' x:Name="txtFiltroNombre" PlaceholderText="Nombre" Width="411" Height="47" Margin="10,10,0,0" FontSize="24"/>
+            <Button x:ConnectionId='13' x:Name="btnLupa"  Margin="50,10,5,0"  Height="47" Width="55"                       Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
+                <Image x:ConnectionId='14' x:Name="imgLupa" Source="/Assets/PokeDex/lupa.png" Margin="-22,-12,-20,-11" RequestedTheme="Light"                        />
             </Button>
-
         </StackPanel>
 
         <Grid Grid.Row="1">
             <!-- Lista de Pokemon -->
-            <ListView x:ConnectionId='3' x:Name="lstPokemon" Margin="100,100,750,100">
+            <ListView x:ConnectionId='3' x:Name="lstPokemon" Margin="100,100,909,100"                                               >
                 <ListView.ItemTemplate>
                     <DataTemplate                           >
-                        <StackPanel x:ConnectionId='5' Margin="5">
-                            <TextBlock x:ConnectionId='6' x:Name="txtNumero"                        Style="{ThemeResource BaseTextBlockStyle}" FontSize="18" />
-                            <TextBlock x:ConnectionId='7' x:Name="TxtNombre"                        Style="{ThemeResource BodyTextBlockStyle}" />
-                            <Image x:ConnectionId='8' x:Name="imgPokemon"                          Stretch="Fill" Width="150" Height="200"/>
+                        <StackPanel x:ConnectionId='8' Margin="5">
+                            <TextBlock x:ConnectionId='9' x:Name="txtNumero"                        Style="{ThemeResource BaseTextBlockStyle}" FontSize="18" />
+                            <TextBlock x:ConnectionId='10' x:Name="TxtNombre"                        Style="{ThemeResource BodyTextBlockStyle}" />
+                            <Image x:ConnectionId='11' x:Name="imgPokemon"                          Stretch="Fill" Width="150" Height="200"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
 
-            <Rectangle Fill="#FFF1ECEC" Margin="922,100,100,100"></Rectangle>
+            <TextBlock x:ConnectionId='4' x:Name="txtNombrePk" Text="?" HorizontalAlignment="Left" Width="132" Margin="758,619,0,163" RenderTransformOrigin="0.5,0.5" FontSize="28" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold"/>
+            <Image x:ConnectionId='5' x:Name="imgPokedex" Source="/Assets/PokeDex/pokedex2.png" Margin="625,101,-110,97" Height="654"/>
+            <Image x:ConnectionId='6' x:Name="imgPokemon" Source="/Assets/PokeDex/pokemon_random.gif" Margin="778,344,523,279"/>
         </Grid>
 
 

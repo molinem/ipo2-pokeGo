@@ -148,6 +148,8 @@
     <Content Include="Assets\PokeDex\ekans.png" />
     <Content Include="Assets\PokeDex\lupa.png" />
     <Content Include="Assets\PokeDex\nombrePokedex.png" />
+    <Content Include="Assets\PokeDex\pokedex2.png" />
+    <Content Include="Assets\PokeDex\pokemon_random.gif" />
     <Content Include="Assets\PokeDex\psyduck.png" />
     <Content Include="Assets\PokeDex\staryu.png" />
     <Content Include="Assets\PokeDex\togepi.png" />
@@ -203,9 +205,6 @@
   <ItemGroup>
     <Folder Include="Assets\Captura\" />
     <Folder Include="Assets\Combate\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="DB\pokemons.db" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

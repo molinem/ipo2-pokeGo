@@ -79,6 +79,9 @@
     <AppxPackagedFile Include="C:\Repositorios\PokeGo\PokeGo\Assets\PokeDex\nombrePokedex.png">
       <PackagePath>Assets\PokeDex\nombrePokedex.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\PokeGo\PokeGo\Assets\PokeDex\pokedex2.png">
+      <PackagePath>Assets\PokeDex\pokedex2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\PokeGo\PokeGo\Assets\PokeDex\psyduck.png">
       <PackagePath>Assets\PokeDex\psyduck.png</PackagePath>
     </AppxPackagedFile>
@@ -114,6 +117,9 @@
     <AppxPackagedFile Include="C:\Repositorios\PokeGo\PokeGo\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\PokeGo\PokeGo\Assets\PokeDex\pokemon_random.gif">
+      <PackagePath>Assets\PokeDex\pokemon_random.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\PokeGo\PokeGo\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
