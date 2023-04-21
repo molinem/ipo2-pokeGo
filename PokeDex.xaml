@@ -40,6 +40,10 @@
             </ListView>
 
             <TextBlock x:Name="txtNombrePk" Text="?" HorizontalAlignment="Left" Width="132" Margin="758,617,0,165" RenderTransformOrigin="0.5,0.5" FontSize="28" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold"/>
+            <TextBlock x:Name="txtDescripcionPk" Text="?" HorizontalAlignment="Left" Width="327" Margin="1208,279,0,406" RenderTransformOrigin="0.5,0.5" FontSize="18" TextAlignment="Start" Canvas.ZIndex="10" FontWeight="Bold" Foreground="White" TextWrapping="Wrap"/>
+            <TextBlock x:Name="txtCategoriaPk" Text="?" HorizontalAlignment="Left" Width="144" Margin="1199,507,0,275" RenderTransformOrigin="0.5,0.5" FontSize="28" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold"/>
+            <TextBlock x:Name="txtAlturaPk" Text="?" HorizontalAlignment="Left" Width="170" Margin="1189,585,0,197" RenderTransformOrigin="0.5,0.5" FontSize="22" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold" Foreground="White"/>
+            <TextBlock x:Name="txtPesoPk" Text="?" HorizontalAlignment="Left" Width="170" Margin="1384,585,0,197" RenderTransformOrigin="0.5,0.5" FontSize="22" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold" Foreground="White"/>
             <Image x:Name="imgPokedex" Source="/Assets/PokeDex/pokedex2.png" Margin="625,101,-110,97" Height="654"/>
             <Image x:Name="imgPokemon" Source="/Assets/PokeDex/pokemon_random.gif" Margin="778,344,523,279"/>
         </Grid>

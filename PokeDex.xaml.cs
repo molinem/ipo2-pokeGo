@@ -122,8 +122,12 @@ namespace PokeGo
                 ImagenSource = new BitmapImage(new Uri(rutaArchivo));
                 imgPokemon.Source = ImagenSource;
 
-                //Nombre Pokemon
+                //Datos Pokemon
                 txtNombrePk.Text = pk.Nombre;
+                txtDescripcionPk.Text = pk.Descripcion;
+                txtCategoriaPk.Text = pk.Categoria;
+                txtAlturaPk.Text = "Altura-> "+pk.Altura.ToString()+"m";
+                txtPesoPk.Text = "Peso-> " + pk.Peso.ToString() + "Kg";
             }
         }
 

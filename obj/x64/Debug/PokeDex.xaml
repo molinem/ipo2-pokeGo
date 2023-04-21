@@ -19,9 +19,9 @@
         <!-- Controles de filtrado -->
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="20">
             <Image Source="/Assets/PokeDex/nombrePokedex.png" Height="108" Width="370"/>
-            <TextBox x:ConnectionId='12' x:Name="txtFiltroNombre" PlaceholderText="Nombre" Width="411" Height="47" Margin="10,10,0,0" FontSize="24"/>
-            <Button x:ConnectionId='13' x:Name="btnLupa"  Margin="50,10,5,0"  Height="47" Width="55"                       Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
-                <Image x:ConnectionId='14' x:Name="imgLupa" Source="/Assets/PokeDex/lupa.png" Margin="-22,-12,-20,-11" RequestedTheme="Light"                        />
+            <TextBox x:ConnectionId='16' x:Name="txtFiltroNombre" PlaceholderText="Nombre" Width="411" Height="47" Margin="10,10,0,0" FontSize="24"/>
+            <Button x:ConnectionId='17' x:Name="btnLupa"  Margin="50,10,5,0"  Height="47" Width="55"                       Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
+                <Image x:ConnectionId='18' x:Name="imgLupa" Source="/Assets/PokeDex/lupa.png" Margin="-22,-12,-20,-11" RequestedTheme="Light"                        />
             </Button>
         </StackPanel>
 
@@ -30,18 +30,22 @@
             <ListView x:ConnectionId='3' x:Name="lstPokemon" Margin="100,100,909,100"                                               >
                 <ListView.ItemTemplate>
                     <DataTemplate                           >
-                        <StackPanel x:ConnectionId='8' Margin="5">
-                            <TextBlock x:ConnectionId='9' x:Name="txtNumero"                        Style="{ThemeResource BaseTextBlockStyle}" FontSize="18" />
-                            <TextBlock x:ConnectionId='10' x:Name="TxtNombre"                        Style="{ThemeResource BodyTextBlockStyle}" />
-                            <Image x:ConnectionId='11' x:Name="imgPokemon"                          Stretch="Fill" Width="150" Height="200"/>
+                        <StackPanel x:ConnectionId='12' Margin="5">
+                            <TextBlock x:ConnectionId='13' x:Name="txtNumero"                        Style="{ThemeResource BaseTextBlockStyle}" FontSize="18" />
+                            <TextBlock x:ConnectionId='14' x:Name="TxtNombre"                        Style="{ThemeResource BodyTextBlockStyle}" />
+                            <Image x:ConnectionId='15' x:Name="imgPokemon"                          Stretch="Fill" Width="150" Height="200"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
 
-            <TextBlock x:ConnectionId='4' x:Name="txtNombrePk" Text="?" HorizontalAlignment="Left" Width="132" Margin="758,619,0,163" RenderTransformOrigin="0.5,0.5" FontSize="28" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold"/>
-            <Image x:ConnectionId='5' x:Name="imgPokedex" Source="/Assets/PokeDex/pokedex2.png" Margin="625,101,-110,97" Height="654"/>
-            <Image x:ConnectionId='6' x:Name="imgPokemon" Source="/Assets/PokeDex/pokemon_random.gif" Margin="778,344,523,279"/>
+            <TextBlock x:ConnectionId='4' x:Name="txtNombrePk" Text="?" HorizontalAlignment="Left" Width="132" Margin="758,617,0,165" RenderTransformOrigin="0.5,0.5" FontSize="28" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold"/>
+            <TextBlock x:ConnectionId='5' x:Name="txtDescripcionPk" Text="?" HorizontalAlignment="Left" Width="327" Margin="1208,279,0,406" RenderTransformOrigin="0.5,0.5" FontSize="18" TextAlignment="Start" Canvas.ZIndex="10" FontWeight="Bold" Foreground="White" TextWrapping="Wrap"/>
+            <TextBlock x:ConnectionId='6' x:Name="txtCategoriaPk" Text="?" HorizontalAlignment="Left" Width="144" Margin="1199,507,0,275" RenderTransformOrigin="0.5,0.5" FontSize="28" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold"/>
+            <TextBlock x:ConnectionId='7' x:Name="txtAlturaPk" Text="?" HorizontalAlignment="Left" Width="170" Margin="1189,585,0,197" RenderTransformOrigin="0.5,0.5" FontSize="22" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold" Foreground="White"/>
+            <TextBlock x:ConnectionId='8' x:Name="txtPesoPk" Text="?" HorizontalAlignment="Left" Width="170" Margin="1384,585,0,197" RenderTransformOrigin="0.5,0.5" FontSize="22" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold" Foreground="White"/>
+            <Image x:ConnectionId='9' x:Name="imgPokedex" Source="/Assets/PokeDex/pokedex2.png" Margin="625,101,-110,97" Height="654"/>
+            <Image x:ConnectionId='10' x:Name="imgPokemon" Source="/Assets/PokeDex/pokemon_random.gif" Margin="778,344,523,279"/>
         </Grid>
 
 
