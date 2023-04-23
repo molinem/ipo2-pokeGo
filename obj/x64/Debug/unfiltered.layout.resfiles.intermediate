@@ -1,4 +1,8 @@
 WinMetadata\Windows.winmd
+Assets\Combate\combate.png
+Assets\Combate\fondo.jpg
+Assets\Combate\volto1.png
+Assets\Combate\volto2.png
 Assets\fondoInicial.png
 Assets\Inicio\inicial.png
 Assets\LockScreenLogo.scale-200.png
@@ -23,4 +27,5 @@ Inicio.xbf
 MainPage.xbf
 PokeDex.xbf
 PokeGo.xr.xml
+SeleccionPokemon.xbf
 Properties\Default.rd.xml

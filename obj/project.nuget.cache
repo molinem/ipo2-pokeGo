@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u8kZMZAnPdkQYaQNPpUUN0tXrKnifZIq64UtHId7ihysexl44B6jBbJ8X4Ka+nUXgA0fl6Qod/woXJWYuIespg==",
+  "dgSpecHash": "PH+bwIroB/qMGSkMMj5gx2NrR8e+g6IUgXLQSFpBN8HCHBv1ttc2qhGjNY9xSrIxXmqYNLEkONSbUONgVMW4rQ==",
   "success": true,
-  "projectFilePath": "C:\\Repositorios\\PokeGo\\PokeGo\\PokeGo.csproj",
+  "projectFilePath": "C:\\Repositorios\\ipo2-pokeGo\\PokeGo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moli\\.nuget\\packages\\microsoft.data.sqlite\\7.0.5\\microsoft.data.sqlite.7.0.5.nupkg.sha512",
     "C:\\Users\\Moli\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.5\\microsoft.data.sqlite.core.7.0.5.nupkg.sha512",

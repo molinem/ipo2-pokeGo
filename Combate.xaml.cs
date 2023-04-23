@@ -24,39 +24,26 @@ namespace PokeGo
     /// </summary>
     public sealed partial class Combate : Page
     {
+        private static Frame frInicio;
         public Combate()
         {
             this.InitializeComponent();
-            ApplicationView.GetForCurrentView().VisibleBoundsChanged += UcRatingText_VisibleBoundsChanged;
         }
 
-        private void UcRatingText_VisibleBoundsChanged(ApplicationView sender, object args)
+        public static void setFrame(Frame fr)
         {
-            var Width = ApplicationView.GetForCurrentView().VisibleBounds.Width;
-            if (Width >= 600)
-            {
-                RelativePanel.SetBelow(tbPokemon, null);
-                RelativePanel.SetRightOf(tbPokemon, rcStars);
-                RelativePanel.SetAlignVerticalCenterWith(tbPokemon, rcStars);
-                RelativePanel.SetAlignVerticalCenterWithPanel(rcStars, true);
-            }
-            else
-            {
-                RelativePanel.SetRightOf(tbPokemon, null);
-                RelativePanel.SetBelow(tbPokemon, rcStars);
-                RelativePanel.SetAlignVerticalCenterWith(tbPokemon, null);
-                RelativePanel.SetAlignVerticalCenterWithPanel(rcStars, false);
-            }
+            frInicio = fr;
         }
 
-        private void rcStars_ValueChanged(RatingControl sender, object args)
+        private void btnUnJugador_Click(object sender, RoutedEventArgs e)
         {
-            new ToastContentBuilder()
-                .AddArgument("action", "Favoritos")
-                .AddArgument("conversationId", 9813)
-                .AddText("Golbat ha evolucionado")
-                .AddText("Puedes ver más información en IPOkemon")
-                .Show();
+            frInicio.Navigate(typeof(SeleccionPokemon));
+
+        }
+
+        private void btnDosJugador_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

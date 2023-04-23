@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositorios\\PokeGo\\PokeGo\\PokeGo.csproj": {}
+    "C:\\Repositorios\\ipo2-pokeGo\\PokeGo.csproj": {}
   },
   "projects": {
-    "C:\\Repositorios\\PokeGo\\PokeGo\\PokeGo.csproj": {
+    "C:\\Repositorios\\ipo2-pokeGo\\PokeGo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorios\\PokeGo\\PokeGo\\PokeGo.csproj",
+        "projectUniqueName": "C:\\Repositorios\\ipo2-pokeGo\\PokeGo.csproj",
         "projectName": "PokeGo",
-        "projectPath": "C:\\Repositorios\\PokeGo\\PokeGo\\PokeGo.csproj",
+        "projectPath": "C:\\Repositorios\\ipo2-pokeGo\\PokeGo.csproj",
         "packagesPath": "C:\\Users\\Moli\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorios\\PokeGo\\PokeGo\\obj\\",
+        "outputPath": "C:\\Repositorios\\ipo2-pokeGo\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

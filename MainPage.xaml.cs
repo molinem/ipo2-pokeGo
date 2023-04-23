@@ -126,7 +126,6 @@ namespace PokeGo
         }
 
 
-
         /// <summary>
         /// Para detectar cuando cambia el tamaño de 
         /// la pantallla y así adaptarlo
@@ -220,6 +219,7 @@ namespace PokeGo
         private void btnCombate_Click(object sender, RoutedEventArgs e)
         {
             fmMain.Navigate(typeof(Combate));
+            Combate.setFrame(fmMain);
             checkBackStack();
         }
 
