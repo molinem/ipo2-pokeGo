@@ -24,26 +24,46 @@ namespace PokeGo
     /// </summary>
     public sealed partial class Combate : Page
     {
-        private static Frame frInicio;
+        public static Frame frInicio;
         public Combate()
         {
             this.InitializeComponent();
         }
 
+        /// <summary>
+        /// Establece la variable Frame
+        /// </summary>
+        /// <param name="fr"></param>
         public static void setFrame(Frame fr)
         {
             frInicio = fr;
         }
 
+        /// <summary>
+        /// Evento de hacer click
+        /// en un jugador
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnUnJugador_Click(object sender, RoutedEventArgs e)
         {
-            frInicio.Navigate(typeof(SeleccionPokemon));
-
+            frInicio.Navigate(typeof(SeleccionPokemon1Player));
         }
 
+        /// <summary>
+        /// Evento de hacer click
+        /// en dos jugadores
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnDosJugador_Click(object sender, RoutedEventArgs e)
         {
+            frInicio.Navigate(typeof(SeleccionPokemon2Players));
+        }
 
+        private void btnUnJugador_GettingFocus(UIElement sender, GettingFocusEventArgs args)
+        {
+            ToolTipService.SetToolTip(btnUnJugador, "Texto de Caption");
         }
     }
 }

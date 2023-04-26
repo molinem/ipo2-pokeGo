@@ -16,16 +16,20 @@
 
 
 
-        <Image x:Name="imgFondo" Source="/Assets/Combate/fondo.jpg" Margin="0,-140,0,-6" RequestedTheme="Light" Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" />
+        <Image x:Name="imgFondo" Source="/Assets/Combate/fondo.png" Margin="0,-140,0,-6" RequestedTheme="Light" Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" />
 
 
 
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,20,630,20" HorizontalAlignment="Right" Width="414">
             <Image x:Name="imgCombate" Source="/Assets/Combate/combate.png" Height="170" Width="433" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </StackPanel>
-        <Button x:Name="btnUnJugador"  Margin="282,136,0,0"  Height="334" Width="283" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Row="1" VerticalAlignment="Top" Click="btnUnJugador_Click">
+
+        <TextBlock x:Name="txt1Jugador" FontWeight="Bold" Text="1 Jugador" Margin="339,58,984,647" FontSize="36" Foreground="#FF0E0E0E" Grid.Row="1"/>
+        <Button x:Name="btnUnJugador" Margin="282,136,0,0"  Height="334" Width="283" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Row="1" VerticalAlignment="Top" Click="btnUnJugador_Click" GettingFocus="btnUnJugador_GettingFocus" >
             <Image x:Name="imgVolto1" Source="/Assets/Combate/volto1.png" Margin="-21,-7,-21,-16" RequestedTheme="Light"/>
         </Button>
+
+        <TextBlock x:Name="txt2Jugador" FontWeight="Bold" Text="2 Jugadores" Margin="1012,58,266,647" FontSize="36" Foreground="#FF0E0E0E" Grid.Row="1"/>
         <Button x:Name="btnDosJugador"  Margin="966,136,0,0"  Height="334" Width="295" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Row="1" VerticalAlignment="Top" Click="btnDosJugador_Click">
             <Image x:Name="imgVolto2" Source="/Assets/Combate/volto2.png" Margin="0,-7,-21,-16" RequestedTheme="Light"/>
         </Button>

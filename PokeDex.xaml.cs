@@ -35,13 +35,16 @@ namespace PokeGo
             conectarDB();
         }
 
-        
+        /// <summary>
+        /// Método encargado de filtrar 
+        /// el contenido de la listView
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Filtrar_Click(object sender, RoutedEventArgs e)
         {
             // Obtener los valores de los filtros
             string filtroNombre = txtFiltroNombre.Text.Trim();
-            
-
             List<Pokemon> listaFiltrada = listaPokemon;
 
             if (!string.IsNullOrEmpty(filtroNombre))
@@ -131,16 +134,6 @@ namespace PokeGo
             }
         }
 
-        private void Image_PointerReleased(object sender, PointerRoutedEventArgs e)
-        {
-            System.Diagnostics.Debug.WriteLine("Entro en la opción");
-        }
-
-        private void gotFocusLupa(object sender, RoutedEventArgs e)
-        {
-            btnLupa.Background = new SolidColorBrush(Colors.Red);
-        }
-
         /// <summary>
         /// Se carga una vez el Page es cargado
         /// </summary>
@@ -164,9 +157,21 @@ namespace PokeGo
         /// <param name="e"></param>
         private void MediaElement_MediaEnded(object sender, RoutedEventArgs e)
         {
-            // Reinicia el video en bucle cuando se completa la reproducción
+            // Reiniciar el video en bucle
             mediaElement.Position = TimeSpan.Zero;
             mediaElement.Play();
+        }
+
+        /// <summary>
+        /// Cuando pulsamos el botón
+        /// de actualizar en la interfaz
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnActualizar_Click(object sender, RoutedEventArgs e)
+        {
+            txtFiltroNombre.Text = "";
+            conectarDB();
         }
     }
 }

@@ -27,7 +27,6 @@ namespace PokeGo
             this.InitializeComponent();
         }
 
-        
         /// <summary>
         /// Se carga una vez el Page es cargado
         /// </summary>

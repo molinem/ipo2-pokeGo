@@ -22,21 +22,17 @@ namespace PokeGo
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class SeleccionPokemon : Page
+    public sealed partial class SeleccionPokemon2Players : Page
     {
-        public SeleccionPokemon()
+        public SeleccionPokemon2Players()
         {
             this.InitializeComponent();
         }
 
-        private void btnUnJugador_Click(object sender, RoutedEventArgs e)
+        
+        private void imgAtras_PointerReleased(object sender, PointerRoutedEventArgs e)
         {
-            
-        }
-
-        private void btnDosJugador_Click(object sender, RoutedEventArgs e)
-        {
-
+            Combate.frInicio.Navigate(typeof(Combate));
         }
     }
 }

@@ -9,22 +9,22 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="99*"/>
-            <RowDefinition Height="26*"/>
+            <RowDefinition Height="397*"/>
+            <RowDefinition Height="103*"/>
         </Grid.RowDefinitions>
 
         <MediaElement x:Name="mediaElement" Stretch="UniformToFill" MediaEnded="MediaElement_MediaEnded"  Grid.RowSpan="2"/>
 
 
-        <Rectangle Fill="#FF535B66" Margin="10,10,10,104" Grid.Row="1" Opacity="0.86"/>
-        <TextBlock x:Name="txtInicio" HorizontalAlignment="Left" Margin="71,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="Black" Foreground="#FF060606" FontSize="30" Grid.Row="1">
+        <Rectangle Fill="#FF7C90AC" Margin="10,10,10,104" Grid.Row="1" Opacity="0.86"/>
+        <TextBlock x:Name="txtInicio" HorizontalAlignment="Left" Margin="71,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="Black" Foreground="#FF060606" FontSize="30" Grid.Row="1" Height="80" Width="1319">
             <Run Text="¡Bienvenidos al mundo Pokémon! Prepárate para explorar un mundo lleno de criaturas fascinantes y misterios ocultos."/>
             <Run Text="App desarrollada por:"/>
-            <Bold><Run Text="Luis Molina Muñoz-Torrero"/></Bold>
+            <Bold><Run Text="Luis Molina Muñoz-Torrero" Foreground="White"/></Bold>
             <Run Text="y"/>
-            <Bold><Run Text="Ángel Villafranca Iniesta"/></Bold>
+            <Bold><Run Text="Ángel Villafranca Iniesta" Foreground="White"/></Bold>
         </TextBlock>
-        
+
 
     </Grid>
 </Page>
