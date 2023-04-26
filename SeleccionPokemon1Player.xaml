@@ -21,7 +21,7 @@
             <Image x:Name="imgCombate" Source="/Assets/Combate/1_Jugador.png" Height="170" Width="433" VerticalAlignment="Center" Margin="440,0,0,0"/>
         </StackPanel>
 
-        <TextBlock x:Name="txtSeleccionPokemon" FontWeight="Bold" Text="Selecciona un pokemon" Margin="599,196,488,719" FontSize="36" Grid.RowSpan="2" Foreground="#FF0E0E0E"/>
+        <TextBlock x:Name="txtSeleccionPokemon" FontWeight="Bold" Text="Selecciona un pokémon" Margin="599,196,488,719" FontSize="36" Grid.RowSpan="2" Foreground="#FF0E0E0E"/>
         <Image x:Name="imgCharmander" Source="/Assets/Combate/charmander.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="502,82,0,0" Grid.Row="1" PointerReleased="imgCharmander_PointerReleased"/>
         <Image x:Name="imgDragonite" Source="/Assets/Combate/dragonite.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="913,82,0,0" Grid.Row="1" PointerReleased="imgDragonite_PointerReleased"/>
         <Image x:Name="imgPokemon3" Source="/Assets/Combate/charmander.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="502,324,0,0" Grid.Row="1" PointerReleased="imgPokemon3_PointerReleased"/>
