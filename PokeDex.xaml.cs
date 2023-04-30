@@ -33,6 +33,13 @@ namespace PokeGo
         {
             this.InitializeComponent();
             conectarDB();
+
+            txtNombrePk.Visibility = Visibility.Collapsed;
+            txtDescripcionPk.Visibility = Visibility.Collapsed;
+            txtCategoriaPk.Visibility = Visibility.Collapsed;
+            txtAlturaPk.Visibility = Visibility.Collapsed;
+            txtPesoPk.Visibility = Visibility.Collapsed;
+            imgPokemon.Visibility = Visibility.Collapsed;
         }
 
         /// <summary>
@@ -131,6 +138,13 @@ namespace PokeGo
                 txtCategoriaPk.Text = pk.Categoria;
                 txtAlturaPk.Text = "Altura-> "+pk.Altura.ToString()+"m";
                 txtPesoPk.Text = "Peso-> " + pk.Peso.ToString() + "Kg";
+
+                txtNombrePk.Visibility = Visibility.Visible;
+                txtDescripcionPk.Visibility = Visibility.Visible;
+                txtCategoriaPk.Visibility = Visibility.Visible;
+                txtAlturaPk.Visibility = Visibility.Visible;
+                txtPesoPk.Visibility = Visibility.Visible;
+                imgPokemon.Visibility = Visibility.Visible;
             }
         }
 

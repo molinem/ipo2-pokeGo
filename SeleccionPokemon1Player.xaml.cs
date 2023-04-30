@@ -81,7 +81,7 @@ namespace PokeGo
         /// <param name="e"></param>
         private void imgPokemon3_PointerReleased(object sender, PointerRoutedEventArgs e)
         {
-            pokemonElegido("Pok3");
+            pokemonElegido("Jigglypuff");
         }
 
         /// <summary>
@@ -92,7 +92,7 @@ namespace PokeGo
         /// <param name="e"></param>
         private void imgPokemon4_PointerReleased(object sender, PointerRoutedEventArgs e)
         {
-            pokemonElegido("Pok4");
+            pokemonElegido("Zapdos");
         }
 
         /// <summary>

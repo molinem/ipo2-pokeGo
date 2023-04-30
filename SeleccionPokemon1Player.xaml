@@ -4,32 +4,45 @@
     xmlns:local="using:PokeGo"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:Custom="using:Microsoft.UI.Xaml.Controls"
+    xmlns:Custom="using:Microsoft.UI.Xaml.Controls" x:Name="pageSeleccionPokemon1Player"
     x:Class="PokeGo.SeleccionPokemon1Player"
     mc:Ignorable="d">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
+    <Viewbox Stretch="Fill">
+
+        <Grid Height="1000" Width="1500">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Image x:Name="imgFondo" Source="/Assets/Combate/1jugador.png" Margin="0,-140,0,-6" RequestedTheme="Light" Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" />
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="73,20,0,20" HorizontalAlignment="Left" Width="1286">
+                <Image x:Name="imgAtras" Source="/Assets/Combate/atras.png" Height="80" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center" PointerReleased="imgAtras_PointerReleased"/>
+                <Image x:Name="imgCombate" Source="/Assets/Combate/1_Jugador.png" Height="170" Width="433" VerticalAlignment="Center" Margin="440,0,0,0"/>
+            </StackPanel>
+
+            <TextBlock x:Name="txtSeleccionPokemon" FontWeight="Bold" Text="Selecciona un pokémon" Margin="599,196,488,719" FontSize="36" Grid.RowSpan="2" Foreground="#FF0E0E0E"/>
+
+            <Rectangle x:Name="rectagleP1" HorizontalAlignment="Left" Height="208" Margin="502,82,0,0" Grid.Row="1" Stroke="#FF468ADC" VerticalAlignment="Top" Width="200" FocusVisualPrimaryBrush="#FFEA9E9E" StrokeThickness="100" Opacity="0.5"/>
+            <Image x:Name="imgCharmander" Source="/Assets/Combate/charmander.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="502,82,0,0" Grid.Row="1" PointerReleased="imgCharmander_PointerReleased"/>
+
+            <Rectangle x:Name="rectagleP2" HorizontalAlignment="Left" Height="208" Margin="913,78,0,0" Grid.Row="1" Stroke="#FF468ADC" VerticalAlignment="Top" Width="200" FocusVisualPrimaryBrush="#FFEA9E9E" StrokeThickness="100" Opacity="0.5"/>
+            <Image x:Name="imgDragonite" Source="/Assets/Combate/dragonite.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="913,82,0,0" Grid.Row="1" PointerReleased="imgDragonite_PointerReleased"/>
+
+            <Rectangle x:Name="rectagleP3" HorizontalAlignment="Left" Height="208" Margin="502,324,0,0" Grid.Row="1" Stroke="#FF468ADC" VerticalAlignment="Top" Width="200" FocusVisualPrimaryBrush="#FFEA9E9E" StrokeThickness="100" Opacity="0.5"/>
+            <Image x:Name="imgJiggly" Source="/Assets/Combate/jigglypuff.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="502,324,0,0" Grid.Row="1" PointerReleased="imgPokemon3_PointerReleased"/>
+
+            <Rectangle x:Name="rectagleP4" HorizontalAlignment="Left" Height="208" Margin="913,324,0,0" Grid.Row="1" Stroke="#FF468ADC" VerticalAlignment="Top" Width="200" FocusVisualPrimaryBrush="#FFEA9E9E" StrokeThickness="100" Opacity="0.5"/>
+            <Image x:Name="imgZapdos" Source="/Assets/Combate/zapdos.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="913,324,0,0" Grid.Row="1" PointerReleased="imgPokemon4_PointerReleased"/>
+
+            <TextBlock x:Name="txtPokemonElegido" FontWeight="Bold" Text="Esperando selección..." Margin="343,558,210,147" FontSize="36" Grid.Row="1" Foreground="#FF0F0F0F" TextAlignment="Center"/>
+            <Button x:Name="btnAceptarPokemon" Margin="800,633,0,0"  Height="87" Width="89" Click="btnAceptarPokemon_Click"  Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Row="1" VerticalAlignment="Top">
+                <Image x:Name="imgAceptar" Source="/Assets/Combate/aceptar.png" Margin="-20,-12,-22,-11" RequestedTheme="Light"/>
+            </Button>
 
 
-        <Image x:Name="imgFondo" Source="/Assets/Combate/1jugador.png" Margin="0,-140,0,-6" RequestedTheme="Light" Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" />
-        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="73,20,0,20" HorizontalAlignment="Left" Width="1286">
-            <Image x:Name="imgAtras" Source="/Assets/Combate/atras.png" Height="80" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center" PointerReleased="imgAtras_PointerReleased"/>
-            <Image x:Name="imgCombate" Source="/Assets/Combate/1_Jugador.png" Height="170" Width="433" VerticalAlignment="Center" Margin="440,0,0,0"/>
-        </StackPanel>
+        </Grid>
 
-        <TextBlock x:Name="txtSeleccionPokemon" FontWeight="Bold" Text="Selecciona un pokémon" Margin="599,196,488,719" FontSize="36" Grid.RowSpan="2" Foreground="#FF0E0E0E"/>
-        <Image x:Name="imgCharmander" Source="/Assets/Combate/charmander.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="502,82,0,0" Grid.Row="1" PointerReleased="imgCharmander_PointerReleased"/>
-        <Image x:Name="imgDragonite" Source="/Assets/Combate/dragonite.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="913,82,0,0" Grid.Row="1" PointerReleased="imgDragonite_PointerReleased"/>
-        <Image x:Name="imgPokemon3" Source="/Assets/Combate/charmander.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="502,324,0,0" Grid.Row="1" PointerReleased="imgPokemon3_PointerReleased"/>
-        <Image x:Name="imgPokemon4" Source="/Assets/Combate/dragonite.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="913,324,0,0" Grid.Row="1" PointerReleased="imgPokemon4_PointerReleased"/>
-        <TextBlock x:Name="txtPokemonElegido" FontWeight="Bold" Text="Esperando selección..." Margin="343,550,210,155" FontSize="36" Grid.Row="1" Foreground="#FF0F0F0F" TextAlignment="Center"/>
-        <Button x:Name="btnAceptarPokemon" Margin="800,633,0,0"  Height="87" Width="89" Click="btnAceptarPokemon_Click"  Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Row="1" VerticalAlignment="Top">
-            <Image x:Name="imgAceptar" Source="/Assets/Combate/aceptar.png" Margin="-22,-12,-20,-11" RequestedTheme="Light"/>
-        </Button>
-    </Grid>
+    </Viewbox>
 
 </Page>

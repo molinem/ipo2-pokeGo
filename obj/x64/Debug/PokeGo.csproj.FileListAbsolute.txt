@@ -176,3 +176,4 @@ C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorCharmander.g.i.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorCharmander.g.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorCharmander.xaml
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorCharmander.xbf
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\PokeGo.csproj.AssemblyReference.cache

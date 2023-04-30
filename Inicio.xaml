@@ -7,24 +7,21 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Loaded="Page_Loaded">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="397*"/>
-            <RowDefinition Height="103*"/>
-        </Grid.RowDefinitions>
+    <Viewbox Stretch="Fill">
 
-        <MediaElement x:Name="mediaElement" Stretch="UniformToFill" MediaEnded="MediaElement_MediaEnded"  Grid.RowSpan="2"/>
+        <Grid Height="1000" Width="1500">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="397*"/>
+                <RowDefinition Height="103*"/>
+            </Grid.RowDefinitions>
 
-
-        <Rectangle Fill="#FF7C90AC" Margin="10,10,10,104" Grid.Row="1" Opacity="0.86"/>
-        <TextBlock x:Name="txtInicio" HorizontalAlignment="Left" Margin="71,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="Black" Foreground="#FF060606" FontSize="30" Grid.Row="1" Height="80" Width="1319">
-            <Run Text="¡Bienvenidos al mundo Pokémon! Prepárate para explorar un mundo lleno de criaturas fascinantes y misterios ocultos."/>
-            <Run Text="App desarrollada por:"/>
-            <Bold><Run Text="Luis Molina Muñoz-Torrero" Foreground="White"/></Bold>
-            <Run Text="y"/>
-            <Bold><Run Text="Ángel Villafranca Iniesta" Foreground="White"/></Bold>
-        </TextBlock>
+            <MediaElement x:Name="mediaElement" Stretch="UniformToFill" MediaEnded="MediaElement_MediaEnded"  Grid.RowSpan="2"/>
 
 
-    </Grid>
+            <Rectangle Fill="#FF7C90AC" Margin="10,10,10,104" Grid.Row="1" Opacity="0.86"/>
+            <TextBlock x:Name="txtInicio" HorizontalAlignment="Left" Margin="71,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="Black" Foreground="#FF060606" FontSize="30" Grid.Row="1" Height="80" Width="1319"><Run Text="¡Bienvenidos al mundo Pokémon! Prepárate para explorar un mundo lleno de criaturas fascinantes y misterios ocultos."/><Run Text=" "/><Run Text="App desarrollada por:"/><Run Text=" "/><Bold><Run Text="Luis Molina Muñoz-Torrero" Foreground="White"/></Bold><Run Text=" "/><Run Text="y"/><Run Text=" "/><Bold><Run Text="Ángel Villafranca Iniesta" Foreground="White"/></Bold></TextBlock>
+
+
+        </Grid>
+    </Viewbox>
 </Page>

@@ -161,12 +161,15 @@
     <Content Include="Assets\Combate\combate.png" />
     <Content Include="Assets\Combate\dragonite.png" />
     <Content Include="Assets\Combate\fondo.png" />
+    <Content Include="Assets\Combate\jigglypuff.png" />
     <Content Include="Assets\Combate\volto1.png" />
     <Content Include="Assets\Combate\volto2.png" />
+    <Content Include="Assets\Combate\zapdos.png" />
     <Content Include="Assets\fondoInicial.png" />
     <Content Include="Assets\Inicio\inicial.png" />
     <Content Include="Assets\PokeDex\actualizar.png" />
     <Content Include="Assets\PokeDex\ekans.png" />
+    <Content Include="Assets\PokeDex\jigglypuff.png" />
     <Content Include="Assets\PokeDex\lupa.png" />
     <Content Include="Assets\PokeDex\nombrePokedex.png" />
     <Content Include="Assets\PokeDex\pokedex2.png" />
@@ -174,6 +177,7 @@
     <Content Include="Assets\PokeDex\psyduck.png" />
     <Content Include="Assets\PokeDex\staryu.png" />
     <Content Include="Assets\PokeDex\togepi.png" />
+    <Content Include="Assets\PokeDex\zapdos.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
