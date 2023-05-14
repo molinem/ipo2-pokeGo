@@ -15,28 +15,119 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="RequestedTheme" />
       <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
       <RootProperty Name="ColumnDefinitions" />
-      <RootProperty Name="RowDefinitions" />
-      <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
-      <RootMethod Name="GetColumn" />
-      <RootMethod Name="SetColumn" />
-      <RootMethod Name="GetRow" />
-      <RootMethod Name="SetRow" />
       <RootMethod Name="GetRowSpan" />
       <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="PokeGo.Captura" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="StretchDirection" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
+      <RootEvent Name="PointerReleased" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Spacing" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Opacity" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FocusVisualSecondaryBrush" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="FocusVisualPrimaryBrush" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Background" />
+      <RootEvent Name="Click" />
+      <RootEvent Name="GettingFocus" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="PokeGo.CombatePokemon1Player" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Resources" />
       <RootProperty Name="Content" />
@@ -151,16 +242,6 @@
       <RootProperty Name="KeyTime" />
       <RootProperty Name="Value" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Opacity" />
-      <RootProperty Name="Orientation" />
-      <RootProperty Name="Spacing" />
-      <RootProperty Name="RenderTransform" />
-      <RootProperty Name="Children" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Width" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="Background" />
       <RootProperty Name="BorderThickness" />
@@ -173,18 +254,6 @@
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
-    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
-      <RootProperty Name="Fill" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Stroke" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="UseLayoutRounding" />
-      <RootProperty Name="RenderTransform" />
-      <RootProperty Name="Opacity" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.TranslateTransform">
       <RootProperty Name="X" />
       <RootProperty Name="Y" />
@@ -203,22 +272,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Image">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Source" />
-      <RootProperty Name="Stretch" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="RequestedTheme" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
-      <RootEvent Name="PointerReleased" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Path">
       <RootProperty Name="Visibility" />
       <RootProperty Name="Data" />
@@ -234,18 +287,6 @@
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Stretch" />
-      <RootProperty Name="MinHeight" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="StretchDirection" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Child" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
       <RootProperty Name="Rotation" />
@@ -284,40 +325,6 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="PokeGo.ucVisorCharmander" />
     <RootType FullName="PokeGo.SeleccionPokemon2Players" />
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="FontWeight" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="TextAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Inlines" />
-      <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="Style" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="FontWeight" />
-      <RootProperty Name="BorderBrush" />
-      <RootEvent Name="Click" />
-      <RootEvent Name="GettingFocus" />
-    </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="PokeGo.SeleccionPokemon1Player" />
     <RootType FullName="PokeGo.Combate" />
     <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">

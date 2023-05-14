@@ -22,8 +22,8 @@
 
 
 
-            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,20,630,20" HorizontalAlignment="Right" Width="414">
-                <Image x:ConnectionId='9' x:Name="imgCombate" Source="/Assets/Combate/combate.png" Height="170" Width="433" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="456,20,0,20" HorizontalAlignment="Left" Width="537">
+                <Image x:ConnectionId='9' x:Name="imgCombate" Source="/Assets/Combate/combate.png" Height="170" Width="454" Margin="59,0,0,0"/>
             </StackPanel>
 
             <TextBlock x:ConnectionId='3' x:Name="txt1Jugador" FontWeight="Bold" Text="1 Jugador" Margin="339,58,984,647" FontSize="36" Foreground="#FF0E0E0E" Grid.Row="1"/>

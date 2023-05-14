@@ -166,6 +166,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\combate1Player.jpg">
+      <PackagePath>Assets\Combate\combate1Player.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\fondo.jpg">
       <PackagePath>Assets\Combate\fondo.jpg</PackagePath>
     </AppxPackagedFile>
@@ -183,6 +186,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Captura.xbf">
       <PackagePath>Captura.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\CombatePokemon1Player.xbf">
+      <PackagePath>CombatePokemon1Player.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorCharmander.xbf">
       <PackagePath>ucVisorCharmander.xbf</PackagePath>

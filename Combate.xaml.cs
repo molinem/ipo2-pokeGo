@@ -61,6 +61,7 @@ namespace PokeGo
             frInicio.Navigate(typeof(SeleccionPokemon2Players));
         }
 
+
         private void btnUnJugador_GettingFocus(UIElement sender, GettingFocusEventArgs args)
         {
             ToolTipService.SetToolTip(btnUnJugador, "Texto de Caption");

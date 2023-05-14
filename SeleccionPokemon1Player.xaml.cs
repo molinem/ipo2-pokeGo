@@ -24,6 +24,7 @@ namespace PokeGo
     /// </summary>
     public sealed partial class SeleccionPokemon1Player : Page
     {
+        private String pokemonSeleccionado;
         public SeleccionPokemon1Player()
         {
             this.InitializeComponent();
@@ -48,6 +49,7 @@ namespace PokeGo
         private void pokemonElegido(String nombrePk)
         {
             txtPokemonElegido.Text = "Ha elegido " + nombrePk + " para combatir";
+            pokemonSeleccionado = nombrePk;
             btnAceptarPokemon.Visibility = Visibility.Visible;
         }
 
@@ -102,7 +104,8 @@ namespace PokeGo
         /// <param name="e"></param>
         private void btnAceptarPokemon_Click(object sender, RoutedEventArgs e)
         {
-
+            CombatePokemon1Player.setPokemonSeleccionado(pokemonSeleccionado);
+            Combate.frInicio.Navigate(typeof(CombatePokemon1Player));
         }
     }
 }

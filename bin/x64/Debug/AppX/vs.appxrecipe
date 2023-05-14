@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>168D9DAD9EA5B99F718EFD22598A9C8E8B64D1AE0970C6DC4584BF5A6C459EF6</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>18CBE314BC8EF20C4A3E8F646E3B14A8C819E2EDB9FA43030B079E379166CA9C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>e11c221a-444d-478f-b0a9-5ea43ce7229b_1.0.0.0_x64__srscwv5t0w6xc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e11c221a-444d-478f-b0a9-5ea43ce7229b_srscwv5t0w6xc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e11c221a-444d-478f-b0a9-5ea43ce7229b</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-14T22:50:26.677</Modified>
+      <Modified>2023-05-14T23:45:39.162</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\PokeGo.exe">
       <PackagePath>entrypoint\PokeGo.exe</PackagePath>
-      <Modified>2023-05-14T22:50:25.760</Modified>
+      <Modified>2023-05-14T23:45:38.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Moli\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
@@ -220,6 +220,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2023-04-30T09:29:06.775</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\combate1Player.jpg">
+      <PackagePath>Assets\Combate\combate1Player.jpg</PackagePath>
+      <Modified>2023-05-14T23:04:19.097</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\fondo.jpg">
       <PackagePath>Assets\Combate\fondo.jpg</PackagePath>
       <Modified>2023-05-14T22:29:09.010</Modified>
@@ -234,43 +238,47 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\PokeGo.xr.xml">
       <PackagePath>PokeGo.xr.xml</PackagePath>
-      <Modified>2023-05-14T22:50:25.653</Modified>
+      <Modified>2023-05-14T23:42:21.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-05-14T22:50:25.695</Modified>
+      <Modified>2023-05-14T23:42:21.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Captura.xbf">
       <PackagePath>Captura.xbf</PackagePath>
-      <Modified>2023-05-14T22:50:25.696</Modified>
+      <Modified>2023-05-14T23:42:21.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\CombatePokemon1Player.xbf">
+      <PackagePath>CombatePokemon1Player.xbf</PackagePath>
+      <Modified>2023-05-14T23:45:38.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorCharmander.xbf">
       <PackagePath>ucVisorCharmander.xbf</PackagePath>
-      <Modified>2023-05-14T22:50:25.687</Modified>
+      <Modified>2023-05-14T23:42:21.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\SeleccionPokemon2Players.xbf">
       <PackagePath>SeleccionPokemon2Players.xbf</PackagePath>
-      <Modified>2023-05-14T22:50:25.696</Modified>
+      <Modified>2023-05-14T23:42:21.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\SeleccionPokemon1Player.xbf">
       <PackagePath>SeleccionPokemon1Player.xbf</PackagePath>
-      <Modified>2023-05-14T22:50:25.696</Modified>
+      <Modified>2023-05-14T23:42:21.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Combate.xbf">
       <PackagePath>Combate.xbf</PackagePath>
-      <Modified>2023-05-14T22:50:25.696</Modified>
+      <Modified>2023-05-14T23:42:21.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Inicio.xbf">
       <PackagePath>Inicio.xbf</PackagePath>
-      <Modified>2023-05-14T22:50:25.696</Modified>
+      <Modified>2023-05-14T23:42:21.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-05-14T22:50:25.696</Modified>
+      <Modified>2023-05-14T23:42:21.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\PokeDex.xbf">
       <PackagePath>PokeDex.xbf</PackagePath>
-      <Modified>2023-05-14T22:50:25.696</Modified>
+      <Modified>2023-05-14T23:42:21.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -286,11 +294,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-14T22:50:26.027</Modified>
+      <Modified>2023-05-14T23:45:38.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Core\PokeGo.exe">
       <PackagePath>PokeGo.exe</PackagePath>
-      <Modified>2023-05-14T22:50:26.674</Modified>
+      <Modified>2023-05-14T23:45:39.160</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

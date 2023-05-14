@@ -122,6 +122,9 @@
     <Compile Include="Captura.xaml.cs">
       <DependentUpon>Captura.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CombatePokemon1Player.xaml.cs">
+      <DependentUpon>CombatePokemon1Player.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ucVisorCharmander.xaml.cs">
       <DependentUpon>ucVisorCharmander.xaml</DependentUpon>
     </Compile>
@@ -159,6 +162,7 @@
     <Content Include="Assets\Combate\atras.png" />
     <Content Include="Assets\Combate\charmander.png" />
     <Content Include="Assets\Combate\combate.png" />
+    <Content Include="Assets\Combate\combate1Player.jpg" />
     <Content Include="Assets\Combate\dragonite.png" />
     <Content Include="Assets\Combate\fondo.jpg" />
     <Content Include="Assets\Combate\fondo.png" />
@@ -196,6 +200,10 @@
     <Page Include="Captura.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CombatePokemon1Player.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="ucVisorCharmander.xaml">
       <SubType>Designer</SubType>
