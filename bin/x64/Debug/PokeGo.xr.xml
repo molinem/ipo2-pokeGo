@@ -183,9 +183,6 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="UseLayoutRounding" />
       <RootProperty Name="RenderTransform" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
-      <RootProperty Name="StrokeThickness" />
       <RootProperty Name="Opacity" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.TranslateTransform">
@@ -311,11 +308,11 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Content" />
       <RootProperty Name="Background" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="BorderBrush" />
       <RootEvent Name="Click" />
       <RootEvent Name="GettingFocus" />

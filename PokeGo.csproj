@@ -160,6 +160,7 @@
     <Content Include="Assets\Combate\charmander.png" />
     <Content Include="Assets\Combate\combate.png" />
     <Content Include="Assets\Combate\dragonite.png" />
+    <Content Include="Assets\Combate\fondo.jpg" />
     <Content Include="Assets\Combate\fondo.png" />
     <Content Include="Assets\Combate\jigglypuff.png" />
     <Content Include="Assets\Combate\volto1.png" />

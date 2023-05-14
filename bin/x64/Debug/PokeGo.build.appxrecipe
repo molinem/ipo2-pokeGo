@@ -166,6 +166,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\fondo.jpg">
+      <PackagePath>Assets\Combate\fondo.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\PokeDex\pokemon_random.gif">
       <PackagePath>Assets\PokeDex\pokemon_random.gif</PackagePath>
     </AppxPackagedFile>

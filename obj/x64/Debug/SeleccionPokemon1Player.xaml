@@ -15,32 +15,21 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <Image x:ConnectionId='2' x:Name="imgFondo" Source="/Assets/Combate/1jugador.png" Margin="0,-140,0,-6" RequestedTheme="Light" Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" />
+            <Image x:ConnectionId='2' x:Name="imgFondo" Source="/Assets/Combate/fondo.jpg" Margin="0,-140,0,0" RequestedTheme="Light" Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="Fill" />
             <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="73,20,0,20" HorizontalAlignment="Left" Width="1286">
-                <Image x:ConnectionId='15' x:Name="imgAtras" Source="/Assets/Combate/atras.png" Height="80" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center"                                           />
-                <Image x:ConnectionId='16' x:Name="imgCombate" Source="/Assets/Combate/1_Jugador.png" Height="170" Width="433" VerticalAlignment="Center" Margin="440,0,0,0"/>
+                <Image x:ConnectionId='11' x:Name="imgAtras" Source="/Assets/Combate/atras.png" Height="80" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center"                                           />
+                <Image x:ConnectionId='12' x:Name="imgCombate" Source="/Assets/Combate/1_Jugador.png" Height="170" Width="550" VerticalAlignment="Center" Margin="337,0,0,0" HorizontalAlignment="Center"/>
             </StackPanel>
 
-            <TextBlock x:ConnectionId='3' x:Name="txtSeleccionPokemon" FontWeight="Bold" Text="Selecciona un pokémon" Margin="599,196,488,719" FontSize="36" Grid.RowSpan="2" Foreground="#FF0E0E0E"/>
-
-            <Rectangle x:ConnectionId='4' x:Name="rectagleP1" HorizontalAlignment="Left" Height="208" Margin="502,82,0,0" Grid.Row="1" Stroke="#FF468ADC" VerticalAlignment="Top" Width="200" FocusVisualPrimaryBrush="#FFEA9E9E" StrokeThickness="100" Opacity="0.5"/>
-            <Image x:ConnectionId='5' x:Name="imgCharmander" Source="/Assets/Combate/charmander.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="502,82,0,0" Grid.Row="1"                                                />
-
-            <Rectangle x:ConnectionId='6' x:Name="rectagleP2" HorizontalAlignment="Left" Height="208" Margin="913,78,0,0" Grid.Row="1" Stroke="#FF468ADC" VerticalAlignment="Top" Width="200" FocusVisualPrimaryBrush="#FFEA9E9E" StrokeThickness="100" Opacity="0.5"/>
-            <Image x:ConnectionId='7' x:Name="imgDragonite" Source="/Assets/Combate/dragonite.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="913,82,0,0" Grid.Row="1"                                               />
-
-            <Rectangle x:ConnectionId='8' x:Name="rectagleP3" HorizontalAlignment="Left" Height="208" Margin="502,324,0,0" Grid.Row="1" Stroke="#FF468ADC" VerticalAlignment="Top" Width="200" FocusVisualPrimaryBrush="#FFEA9E9E" StrokeThickness="100" Opacity="0.5"/>
-            <Image x:ConnectionId='9' x:Name="imgJiggly" Source="/Assets/Combate/jigglypuff.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="502,324,0,0" Grid.Row="1"                                              />
-
-            <Rectangle x:ConnectionId='10' x:Name="rectagleP4" HorizontalAlignment="Left" Height="208" Margin="913,324,0,0" Grid.Row="1" Stroke="#FF468ADC" VerticalAlignment="Top" Width="200" FocusVisualPrimaryBrush="#FFEA9E9E" StrokeThickness="100" Opacity="0.5"/>
-            <Image x:ConnectionId='11' x:Name="imgZapdos" Source="/Assets/Combate/zapdos.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="913,324,0,0" Grid.Row="1"                                              />
-
-            <TextBlock x:ConnectionId='12' x:Name="txtPokemonElegido" FontWeight="Bold" Text="Esperando selección..." Margin="343,558,210,147" FontSize="36" Grid.Row="1" Foreground="#FF0F0F0F" TextAlignment="Center"/>
-            <Button x:ConnectionId='13' x:Name="btnAceptarPokemon" Margin="800,633,0,0"  Height="87" Width="89"                                  Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Row="1" VerticalAlignment="Top">
-                <Image x:ConnectionId='14' x:Name="imgAceptar" Source="/Assets/Combate/aceptar.png" Margin="-20,-12,-22,-11" RequestedTheme="Light"/>
+            <TextBlock x:ConnectionId='3' x:Name="txtSeleccionPokemon" FontWeight="Bold" Text="Selecciona un pokémon" Margin="550,0,537,705" FontSize="36" Grid.Row="1" Foreground="#FFF1F1F1"/>
+            <Image x:ConnectionId='4' x:Name="imgCharmander" Source="/Assets/Combate/charmander.png" Height="195" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="498,195,0,0" Grid.Row="1"                                                />
+            <Image x:ConnectionId='5' x:Name="imgDragonite" Source="/Assets/Combate/dragonite.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="774,197,0,0" Grid.Row="1"                                               />
+            <Image x:ConnectionId='6' x:Name="imgJiggly" Source="/Assets/Combate/jigglypuff.png" Height="200" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="298,385,0,0" Grid.Row="1"                                              />
+            <Image x:ConnectionId='7' x:Name="imgZapdos" Source="/Assets/Combate/zapdos.png" Height="173" Width="222" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="992,395,0,0" Grid.Row="1"                                              />
+            <TextBlock x:ConnectionId='8' x:Name="txtPokemonElegido" FontWeight="Bold" Text="Esperando selección..." Margin="282,568,271,137" FontSize="36" Grid.Row="1" Foreground="#FF0F0F0F" TextAlignment="Center"/>
+            <Button x:ConnectionId='9' x:Name="btnAceptarPokemon" Margin="0,631,0,0"  Height="87" Width="89"                                  Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center">
+                <Image x:ConnectionId='10' x:Name="imgAceptar" Source="/Assets/Combate/aceptar.png" Margin="-21,-12,-21,-11" RequestedTheme="Light"/>
             </Button>
-
-
         </Grid>
 
     </Viewbox>
