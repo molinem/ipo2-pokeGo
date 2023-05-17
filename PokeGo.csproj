@@ -160,12 +160,15 @@
     <Content Include="Assets\Combate\2_Jugadores.png" />
     <Content Include="Assets\Combate\aceptar.png" />
     <Content Include="Assets\Combate\atras.png" />
+    <Content Include="Assets\Combate\batalla_1_jugador.png" />
     <Content Include="Assets\Combate\charmander.png" />
     <Content Include="Assets\Combate\combate.png" />
     <Content Include="Assets\Combate\combate1Player.jpg" />
     <Content Include="Assets\Combate\dragonite.png" />
+    <Content Include="Assets\Combate\energy.png" />
     <Content Include="Assets\Combate\fondo.jpg" />
     <Content Include="Assets\Combate\fondo.png" />
+    <Content Include="Assets\Combate\health.png" />
     <Content Include="Assets\Combate\jigglypuff.png" />
     <Content Include="Assets\Combate\volto1.png" />
     <Content Include="Assets\Combate\volto2.png" />

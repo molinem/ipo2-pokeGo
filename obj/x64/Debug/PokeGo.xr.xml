@@ -42,13 +42,6 @@
       <RootProperty Name="Stretch" />
       <RootProperty Name="Child" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="MinHeight" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="StretchDirection" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
@@ -62,7 +55,6 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootEvent Name="PointerReleased" />
     </RootType>
@@ -126,9 +118,14 @@
       <RootEvent Name="Click" />
       <RootEvent Name="GettingFocus" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="Margin" />
+    </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="PokeGo.CombatePokemon1Player" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Resources" />
       <RootProperty Name="Content" />
     </RootType>
@@ -288,25 +285,20 @@
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
-      <RootProperty Name="Rotation" />
-      <RootProperty Name="SkewY" />
-      <RootProperty Name="TranslateY" />
-      <RootProperty Name="TranslateX" />
-      <RootProperty Name="ScaleY" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="RenderTransform" />
-      <RootProperty Name="Children" />
       <RootMethod Name="GetLeft" />
       <RootMethod Name="SetLeft" />
       <RootMethod Name="GetTop" />
       <RootMethod Name="SetTop" />
       <RootMethod Name="GetZIndex" />
       <RootMethod Name="SetZIndex" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="Rotation" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.TransformGroup">
       <RootProperty Name="Children" />
@@ -315,10 +307,7 @@
       <RootProperty Name="ScaleY" />
       <RootProperty Name="ScaleX" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.SkewTransform">
-      <RootProperty Name="AngleY" />
-      <RootProperty Name="AngleX" />
-    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SkewTransform" />
     <RootType FullName="Windows.UI.Xaml.Media.RotateTransform">
       <RootProperty Name="Angle" />
     </RootType>
