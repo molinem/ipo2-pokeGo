@@ -16,24 +16,31 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 
-// La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace PokeGo
 {
     /// <summary>
-    /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
+    /// Clase encargada de realizar el combate pokemon
     /// </summary>
     public sealed partial class CombatePokemon1Player : Page
     {
+        /// <summary>
+        /// Variables donde almacenamos el nombre de los pokemons
+        /// </summary>
         public static String pokemonSeleccionado;
         public static String pokemonDerecha;
 
         private UserControl poke_1;
         private UserControl poke_2;
 
-        ucVisorCharmander charmander;
-        ucVisorZapdos zapdos;
-        ucVisorDragonite dragonite;
+        ucVisorCharmander charmander_1;
+        ucVisorZapdos zapdos_1;
+        ucVisorDragonite dragonite_1;
+        ucVisorJigglypuff jigglypuff_1;
+
+        ucVisorCharmander charmander_2;
+        ucVisorZapdos zapdos_2;
+        ucVisorDragonite dragonite_2;
+        ucVisorJigglypuff jigglypuff_2;
 
         public CombatePokemon1Player()
         {
@@ -82,29 +89,36 @@ namespace PokeGo
             switch (pokemonSeleccionado)
             {
                 case "Charmander":
-                    charmander = new ucVisorCharmander();
-                    setUserUserControl(poke_1, charmander, relative_poke_izquierda);
-                    animacPermanentes(charmander.animFuegos);
-                    txtQueDebemosHacer.Text = txtQueDebemosHacer.Text + "Charmander?";
+                    charmander_1 = new ucVisorCharmander();
+                    setUserUserControl(poke_1, charmander_1, relative_poke_izquierda);
+                    animacPermanentes(charmander_1.animFuegos);
+                    txtQueDebemosHacer.Text += "Charmander?";
                     break;
                 case "Zapdos":
-                    zapdos = new ucVisorZapdos();
-                    setUserUserControl(poke_1, zapdos, relative_poke_izquierda);
-                    zapdos.animacion();
-                    txtQueDebemosHacer.Text = txtQueDebemosHacer.Text + "Zapdos?";
+                    zapdos_1 = new ucVisorZapdos();
+                    setUserUserControl(poke_1, zapdos_1, relative_poke_izquierda);
+                    zapdos_1.animacion();
+                    txtQueDebemosHacer.Text += "Zapdos?";
                     break;
                 case "Dragonite":
-                    dragonite = new ucVisorDragonite();
-                    setUserUserControl(poke_1, dragonite, relative_poke_izquierda);
-                    txtQueDebemosHacer.Text = txtQueDebemosHacer.Text + "Dragonite?";
+                    dragonite_1 = new ucVisorDragonite();
+                    setUserUserControl(poke_1, dragonite_1, relative_poke_izquierda);
+                    dragonite_2.moverAlas();
+                    txtQueDebemosHacer.Text += "Dragonite?";
                     break;
                 case "Jigglypuff":
-                    
-                    txtQueDebemosHacer.Text = txtQueDebemosHacer.Text + "Jigglypuff?";
+                    jigglypuff_1 = new ucVisorJigglypuff();
+                    setUserUserControl(poke_1, jigglypuff_1, relative_poke_izquierda);
+                    txtQueDebemosHacer.Text += "Jigglypuff?";
                     break;
             }
         }
 
+        /// <summary>
+        /// Cargamos un pokemon aleatorio 
+        /// en el relative panel situado
+        /// a la derecha de la ventana
+        /// </summary>
         private void loadRelativePanelDerecha()
         {
             Random r = new Random();
@@ -112,27 +126,30 @@ namespace PokeGo
             switch (rand)
             {
                 case 1:
-                    charmander = new ucVisorCharmander();
-                    setUserUserControl(poke_2, charmander, relative_poke_derecha);
-                    animacPermanentes(charmander.animFuegos);
+                    charmander_2 = new ucVisorCharmander();
+                    setUserUserControl(poke_2, charmander_2, relative_poke_derecha);
+                    animacPermanentes(charmander_2.animFuegos);
                     pokemonDerecha = "charmander";
                     break;
                 case 2:
-                    zapdos = new ucVisorZapdos();
-                    setUserUserControl(poke_2, zapdos, relative_poke_derecha);
-                    zapdos.animacion();
+                    zapdos_2 = new ucVisorZapdos();
+                    setUserUserControl(poke_2, zapdos_2, relative_poke_derecha);
+                    zapdos_2.animacion();
                     pokemonDerecha = "zapdos";
                     break;
                 case 3:
-                    dragonite = new ucVisorDragonite();
-                    setUserUserControl(poke_2, dragonite, relative_poke_derecha);
+                    dragonite_2 = new ucVisorDragonite();
+                    setUserUserControl(poke_2, dragonite_2, relative_poke_derecha);
+                    dragonite_2.moverAlas();
                     pokemonDerecha = "dragonite";
                     break;
                 case 4:
                     pokemonDerecha = "jigglypuff";
+                    jigglypuff_2 = new ucVisorJigglypuff();
+                    jigglypuff_2.saludar();
+                    setUserUserControl(poke_2, jigglypuff_2, relative_poke_izquierda);
                     break;
             }
-
         }
 
 
@@ -161,11 +178,17 @@ namespace PokeGo
             }
         }
 
+        /// <summary>
+        /// Evento del botón atacar de un pokemon
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAtacar_Click(object sender, RoutedEventArgs e)
         {
             switch (pokemonSeleccionado)
             {
                 case "Charmander":
+                    
                     break;
                 case "Zapdos":
                     

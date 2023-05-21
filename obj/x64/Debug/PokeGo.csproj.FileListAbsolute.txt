@@ -191,4 +191,8 @@ C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\resources.en-us.resfiles.intermediate
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ProjectArchitectures.txt
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_637920505780000000.json
-C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\PokeGo.csproj.AssemblyReference.cache
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorJigglypuff.g.i.cs
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorJigglypuff.g.cs
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorJigglypuff.xaml
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorJigglypuff.xbf
+C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorJigglypuff.xbf

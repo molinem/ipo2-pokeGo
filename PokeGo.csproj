@@ -128,6 +128,9 @@
     <Compile Include="ucVisorDragonite.xaml.cs">
       <DependentUpon>ucVisorDragonite.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ucVisorJigglypuff.xaml.cs">
+      <DependentUpon>ucVisorJigglypuff.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ucVisorZapdos.xaml.cs">
       <DependentUpon>ucVisorZapdos.xaml</DependentUpon>
     </Compile>
@@ -216,6 +219,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="ucVisorDragonite.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ucVisorJigglypuff.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

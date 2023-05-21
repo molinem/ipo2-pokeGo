@@ -18,33 +18,17 @@ using Windows.UI.Xaml.Navigation;
 
 namespace PokeGo
 {
-    public sealed partial class ucVisorZapdos : UserControl
+    public sealed partial class ucVisorJigglypuff : UserControl
     {
-        Storyboard sbOjoDer;
-        Storyboard sbVolar;
-        Storyboard sbOjoIzq;
 
         private double salud_pk = 100.0;
         private double energia_pk = 100.0;
 
-        public ucVisorZapdos()
+        public ucVisorJigglypuff()
         {
             this.InitializeComponent();
             salud = salud_pk;
             energia = energia_pk;
-        }
-
-        /// <summary>
-        /// Animación inicial
-        /// </summary>
-        public async void animacion()
-        {
-            sbOjoDer = (Storyboard)this.ePupilaDer.Resources["sbColorOjoDerKey"];
-            sbOjoIzq = (Storyboard)this.ePupilaIzq.Resources["sbColorOjoIzqKey"];
-            sbVolar = (Storyboard)this.Resources["Vuelo"];
-            sbVolar.Begin();
-            sbOjoDer.Begin();
-            sbOjoIzq.Begin();
         }
 
         //----------------------------------------
@@ -91,5 +75,40 @@ namespace PokeGo
             set { this.AnimacionPgEnergia = value; }
         }
 
+        /// <summary>
+        /// El pokemon realiza la animación de saludar
+        /// </summary>
+        public void saludar()
+        {
+            Storyboard sbSaludar = (Storyboard)this.Resources["Saludar"];
+            sbSaludar.Begin();
+        }
+
+        /// <summary>
+        /// El pokemon realiza la animación de cantar
+        /// </summary>
+        public void Cantar()
+        {
+            Storyboard sbCantar = (Storyboard)this.Resources["Cantar"];
+            sbCantar.Begin();
+        }
+
+        /// <summary>
+        /// El pokemon realiza la función de morir
+        /// </summary>
+        public void morir()
+        {
+            Storyboard sbmuerte = (Storyboard)this.Resources["muerte"];
+            sbmuerte.Begin();
+        }
+
+        /// <summary>
+        /// El pokemon realiza la función de recuperar
+        /// </summary>
+        public void recuperar()
+        {
+            Storyboard sbRecuperar = (Storyboard)this.Resources["Recuperar"];
+            sbRecuperar.Begin();
+        }
     }
 }

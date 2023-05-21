@@ -205,6 +205,9 @@
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorDragonite.xbf">
       <PackagePath>ucVisorDragonite.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorJigglypuff.xbf">
+      <PackagePath>ucVisorJigglypuff.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorZapdos.xbf">
       <PackagePath>ucVisorZapdos.xbf</PackagePath>
     </AppxPackagedFile>

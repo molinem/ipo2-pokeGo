@@ -21,9 +21,14 @@ namespace PokeGo
     public sealed partial class ucVisorDragonite : UserControl
     {
 
+        private double salud_pk = 100.0;
+        private double energia_pk = 100.0;
+
         public ucVisorDragonite()
         {
             this.InitializeComponent();
+            salud = salud_pk;
+            energia = energia_pk;
         }
 
 
@@ -71,5 +76,40 @@ namespace PokeGo
             set { this.AnimacionPgEnergia = value; }
         }
 
+        /// <summary>
+        /// Animación enfado
+        /// </summary>
+        public void enfadarse()
+        {
+            Storyboard sb = (Storyboard)FindName("enfado");
+            sb.Begin();
+        }
+
+        /// <summary>
+        /// Animación moverse
+        /// </summary>
+        public void desaparecer()
+        {
+            Storyboard sb = (Storyboard)FindName("Moverse");
+            sb.Begin();
+        }
+
+        /// <summary>
+        /// Animación lucha
+        /// </summary>
+        public void luchar()
+        {
+            Storyboard sb = (Storyboard)FindName("lucha");
+            sb.Begin();
+        }
+
+        /// <summary>
+        /// Animación mover alas
+        /// </summary>
+        public void moverAlas()
+        {
+            Storyboard sb = (Storyboard)FindName("MoverAlas");
+            sb.Begin();
+        }
     }
 }

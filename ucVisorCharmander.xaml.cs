@@ -21,12 +21,14 @@ namespace PokeGo
     public sealed partial class ucVisorCharmander : UserControl
     {
         DispatcherTimer dtRj;
+        private double salud_pk = 100.0;
+        private double energia_pk = 100.0;
 
         public ucVisorCharmander()
         {
             this.InitializeComponent();
-            salud = 100;
-            energia = 120;
+            salud = salud_pk;
+            energia = energia_pk;
         }
 
         /// <summary>
