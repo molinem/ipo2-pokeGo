@@ -86,6 +86,10 @@ C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Captura.g.i.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Captura.g.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\CombatePokemon1Player.g.i.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\CombatePokemon1Player.g.cs
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorDragonite.g.i.cs
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorDragonite.g.cs
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorZapdos.g.i.cs
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorZapdos.g.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorCharmander.g.i.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorCharmander.g.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\SeleccionPokemon2Players.g.i.cs
@@ -104,6 +108,8 @@ C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\XamlTypeInfo.g.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\App.xaml
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Captura.xaml
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\CombatePokemon1Player.xaml
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorDragonite.xaml
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorZapdos.xaml
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorCharmander.xaml
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\SeleccionPokemon2Players.xaml
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\SeleccionPokemon1Player.xaml
@@ -114,6 +120,8 @@ C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\PokeDex.xaml
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\App.xbf
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Captura.xbf
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\CombatePokemon1Player.xbf
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorDragonite.xbf
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorZapdos.xbf
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorCharmander.xbf
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\SeleccionPokemon2Players.xbf
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\SeleccionPokemon1Player.xbf
@@ -122,9 +130,12 @@ C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Inicio.xbf
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\MainPage.xbf
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\PokeDex.xbf
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\PokeGo.csproj.CoreCompileInputs.cache
 C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\App.xbf
 C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Captura.xbf
 C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\CombatePokemon1Player.xbf
+C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorDragonite.xbf
+C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorZapdos.xbf
 C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorCharmander.xbf
 C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\SeleccionPokemon2Players.xbf
 C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\SeleccionPokemon1Player.xbf
@@ -153,7 +164,6 @@ C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
 C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Microsoft.Web.WebView2.Core.winmd
-C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\PokeGo.csproj.CoreCompileInputs.cache
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\PokeGo.csproj.CopyComplete
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Microsoft.Toolkit.Uwp.Notifications.pri.xml
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml

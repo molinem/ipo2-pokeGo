@@ -125,6 +125,12 @@
     <Compile Include="CombatePokemon1Player.xaml.cs">
       <DependentUpon>CombatePokemon1Player.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ucVisorDragonite.xaml.cs">
+      <DependentUpon>ucVisorDragonite.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ucVisorZapdos.xaml.cs">
+      <DependentUpon>ucVisorZapdos.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ucVisorCharmander.xaml.cs">
       <DependentUpon>ucVisorCharmander.xaml</DependentUpon>
     </Compile>
@@ -168,6 +174,7 @@
     <Content Include="Assets\Combate\energy.png" />
     <Content Include="Assets\Combate\fondo.jpg" />
     <Content Include="Assets\Combate\fondo.png" />
+    <Content Include="Assets\Combate\fondo_batalla.png" />
     <Content Include="Assets\Combate\health.png" />
     <Content Include="Assets\Combate\jigglypuff.png" />
     <Content Include="Assets\Combate\volto1.png" />
@@ -205,6 +212,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CombatePokemon1Player.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ucVisorDragonite.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ucVisorZapdos.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

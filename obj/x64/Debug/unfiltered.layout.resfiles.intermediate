@@ -12,6 +12,7 @@ Assets\Combate\dragonite.png
 Assets\Combate\energy.png
 Assets\Combate\fondo.jpg
 Assets\Combate\fondo.png
+Assets\Combate\fondo_batalla.png
 Assets\Combate\health.png
 Assets\Combate\jigglypuff.png
 Assets\Combate\volto1.png
@@ -48,4 +49,6 @@ PokeGo.xr.xml
 SeleccionPokemon1Player.xbf
 SeleccionPokemon2Players.xbf
 ucVisorCharmander.xbf
+ucVisorDragonite.xbf
+ucVisorZapdos.xbf
 Properties\Default.rd.xml

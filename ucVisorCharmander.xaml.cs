@@ -20,9 +20,13 @@ namespace PokeGo
 {
     public sealed partial class ucVisorCharmander : UserControl
     {
+        DispatcherTimer dtRj;
+
         public ucVisorCharmander()
         {
             this.InitializeComponent();
+            salud = 100;
+            energia = 120;
         }
 
         /// <summary>
@@ -177,6 +181,60 @@ namespace PokeGo
             get { return this.AnimacionPgMana; }
             set { this.AnimacionPgMana = value; }
         }
+
+        /// <summary>
+        /// Decrementa la vida en la 
+        /// progressBar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        void pgMenos(object sender, object e)
+        {
+            salud -= 0.5;
+            if (salud == 0)
+            {
+                dtRj.Stop();
+            }
+        }
+
+        /// <summary>
+        /// Aumenta la vida en la progressBar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        void pgMayor(object sender, object e)
+        {
+            salud += 0.5;
+        }
+
+        /// <summary>
+        /// Evento de subir vida
+        /// </summary>
+        /// <param name="cantidad"></param>
+        public void subirVida(double cantidad)
+        {
+            salud -= cantidad;
+            dtRj = new DispatcherTimer();
+            dtRj.Interval = TimeSpan.FromMilliseconds(30);
+            dtRj.Tick += pgMayor;
+            dtRj.Start();
+        }
+
+        /// <summary>
+        /// Evento de bajar vida
+        /// </summary>
+        /// <param name="cantidad"></param>
+        public void bajarVida(double cantidad)
+        {
+            salud -= cantidad;
+
+            dtRj = new DispatcherTimer();
+            dtRj.Interval = TimeSpan.FromMilliseconds(30);
+            dtRj.Tick += pgMenos;
+            dtRj.Start();
+        }
+
+
 
     }
 }

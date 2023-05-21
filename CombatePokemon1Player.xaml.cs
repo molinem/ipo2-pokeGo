@@ -26,21 +26,22 @@ namespace PokeGo
     public sealed partial class CombatePokemon1Player : Page
     {
         public static String pokemonSeleccionado;
+        public static String pokemonDerecha;
 
         private UserControl poke_1;
         private UserControl poke_2;
 
         ucVisorCharmander charmander;
+        ucVisorZapdos zapdos;
+        ucVisorDragonite dragonite;
 
         public CombatePokemon1Player()
         {
             this.InitializeComponent();
             poke_1 = null;
             poke_2 = null;
-            charmander = new ucVisorCharmander();
-
-            setUserUserControl(poke_1, charmander, relative_poke_izquierda);
-            animacPermanentes(charmander.animFuegos);
+            loadRelativePanel();
+            loadRelativePanelDerecha();
         }
 
         /// <summary>
@@ -61,7 +62,6 @@ namespace PokeGo
             }
         }
 
-
         /// <summary>
         /// Establecer el pokemon 
         /// seleccionado de otra ventana
@@ -71,6 +71,70 @@ namespace PokeGo
         {
             pokemonSeleccionado = pk;
         }
+        
+        /// <summary>
+        /// Carga con el pokemon seleccionado
+        /// previamente el Relative panel que
+        /// contendrá el UserControl
+        /// </summary>
+        private void loadRelativePanel()
+        {
+            switch (pokemonSeleccionado)
+            {
+                case "Charmander":
+                    charmander = new ucVisorCharmander();
+                    setUserUserControl(poke_1, charmander, relative_poke_izquierda);
+                    animacPermanentes(charmander.animFuegos);
+                    txtQueDebemosHacer.Text = txtQueDebemosHacer.Text + "Charmander?";
+                    break;
+                case "Zapdos":
+                    zapdos = new ucVisorZapdos();
+                    setUserUserControl(poke_1, zapdos, relative_poke_izquierda);
+                    zapdos.animacion();
+                    txtQueDebemosHacer.Text = txtQueDebemosHacer.Text + "Zapdos?";
+                    break;
+                case "Dragonite":
+                    dragonite = new ucVisorDragonite();
+                    setUserUserControl(poke_1, dragonite, relative_poke_izquierda);
+                    txtQueDebemosHacer.Text = txtQueDebemosHacer.Text + "Dragonite?";
+                    break;
+                case "Jigglypuff":
+                    
+                    txtQueDebemosHacer.Text = txtQueDebemosHacer.Text + "Jigglypuff?";
+                    break;
+            }
+        }
+
+        private void loadRelativePanelDerecha()
+        {
+            Random r = new Random();
+            int rand = r.Next(1, 4);
+            switch (rand)
+            {
+                case 1:
+                    charmander = new ucVisorCharmander();
+                    setUserUserControl(poke_2, charmander, relative_poke_derecha);
+                    animacPermanentes(charmander.animFuegos);
+                    pokemonDerecha = "charmander";
+                    break;
+                case 2:
+                    zapdos = new ucVisorZapdos();
+                    setUserUserControl(poke_2, zapdos, relative_poke_derecha);
+                    zapdos.animacion();
+                    pokemonDerecha = "zapdos";
+                    break;
+                case 3:
+                    dragonite = new ucVisorDragonite();
+                    setUserUserControl(poke_2, dragonite, relative_poke_derecha);
+                    pokemonDerecha = "dragonite";
+                    break;
+                case 4:
+                    pokemonDerecha = "jigglypuff";
+                    break;
+            }
+
+        }
+
 
         /// <summary>
         /// Evento ejecutado al pulsar
@@ -94,6 +158,23 @@ namespace PokeGo
             {
                 sbA.RepeatBehavior = RepeatBehavior.Forever;
                 sbA.Begin();
+            }
+        }
+
+        private void btnAtacar_Click(object sender, RoutedEventArgs e)
+        {
+            switch (pokemonSeleccionado)
+            {
+                case "Charmander":
+                    break;
+                case "Zapdos":
+                    
+                    break;
+                case "Dragonite":
+                    
+                    break;
+                case "Jigglypuff":
+                    break;
             }
         }
     }
