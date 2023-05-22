@@ -455,7 +455,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <Path x:Name="brazo_izq" Height="29" Stroke="Black" Data="M35,0.5 C44.526913,0.50000045 53.151913,2.0110395 59.395184,4.4540586 L59.781693,4.6089515 59.759037,4.6357598 C58.076797,6.7522235 57.70517,10.326043 59.051216,13.802473 60.397263,17.278903 63.078686,19.670603 65.747574,20.102345 L65.776253,20.106104 65.725723,20.145897 C60.010876,24.511862 57.661794,27.681662 44.264574,27.681662 25.21075,27.681662 -1.3612347,22.85977 -1.3612347,15.403925 -1.3612347,9.7401448 8.1938591,2.7551419 20.831014,0.75129041 24.829507,0.11725627 30.420281,0.50000011 35,0.5 z" RenderTransformOrigin="0.528092620652953,0.500000007982765" Stretch="Fill" Width="68" Canvas.Left="37.866" Canvas.Top="169.274" PointerReleased="saludar" UseLayoutRounding="False">
+            <Path x:Name="brazo_izq" Height="29" Stroke="Black" Data="M35,0.5 C44.526913,0.50000045 53.151913,2.0110395 59.395184,4.4540586 L59.781693,4.6089515 59.759037,4.6357598 C58.076797,6.7522235 57.70517,10.326043 59.051216,13.802473 60.397263,17.278903 63.078686,19.670603 65.747574,20.102345 L65.776253,20.106104 65.725723,20.145897 C60.010876,24.511862 57.661794,27.681662 44.264574,27.681662 25.21075,27.681662 -1.3612347,22.85977 -1.3612347,15.403925 -1.3612347,9.7401448 8.1938591,2.7551419 20.831014,0.75129041 24.829507,0.11725627 30.420281,0.50000011 35,0.5 z" RenderTransformOrigin="0.528092620652953,0.500000007982765" Stretch="Fill" Width="68" Canvas.Left="37.866" Canvas.Top="169.274" UseLayoutRounding="False">
                 <Path.Fill>
                     <LinearGradientBrush>
                         <GradientStop Color="#FFD1BABA" Offset="1"/>
@@ -563,7 +563,7 @@
                     </TransformGroup>
                 </Ellipse.RenderTransform>
             </Ellipse>
-            <Path x:Name="Boca" Data="M77.4,139.03289 C77.4,139.03289 91.900002,160.53279 111.3,148.53279" Height="14" Canvas.Left="138.6" Stretch="Fill" Stroke="Black" Canvas.Top="173.833" Width="35" PointerReleased="Cantar" UseLayoutRounding="False"/>
+            <Path x:Name="Boca" Data="M77.4,139.03289 C77.4,139.03289 91.900002,160.53279 111.3,148.53279" Height="14" Canvas.Left="138.6" Stretch="Fill" Stroke="Black" Canvas.Top="173.833" Width="35" UseLayoutRounding="False"/>
             <Ellipse x:Name="Boca2" Height="32" Canvas.Left="139.838" Stroke="Black" Canvas.Top="167.663" Width="29" Opacity="0" Visibility="Collapsed">
                 <Ellipse.Fill>
                     <LinearGradientBrush>

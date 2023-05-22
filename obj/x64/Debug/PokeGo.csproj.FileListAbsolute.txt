@@ -196,3 +196,4 @@ C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorJigglypuff.g.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorJigglypuff.xaml
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\ucVisorJigglypuff.xbf
 C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorJigglypuff.xbf
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\PokeGo.csproj.AssemblyReference.cache

@@ -24,6 +24,7 @@ namespace PokeGo
         Storyboard sbVolar;
         Storyboard sbOjoIzq;
 
+        DispatcherTimer dtRj;
         private double salud_pk = 100.0;
         private double energia_pk = 100.0;
 
@@ -91,5 +92,55 @@ namespace PokeGo
             set { this.AnimacionPgEnergia = value; }
         }
 
+        /// <summary>
+        /// Decrementa la vida en la 
+        /// progressBar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public void pgMenos(object sender, object e)
+        {
+            salud -= 0.5;
+            if (salud <= salud_pk || salud == 0)
+            {
+                dtRj.Stop();
+            }
+        }
+
+        /// <summary>
+        /// Aumenta la vida en la progressBar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public void pgMayor(object sender, object e)
+        {
+            salud += 0.5;
+        }
+
+        /// <summary>
+        /// Evento de subir vida
+        /// </summary>
+        /// <param name="cantidad"></param>
+        public void subirVida(double cantidad)
+        {
+            salud -= cantidad;
+            dtRj = new DispatcherTimer();
+            dtRj.Interval = TimeSpan.FromMilliseconds(10);
+            dtRj.Tick += pgMayor;
+            dtRj.Start();
+        }
+
+        /// <summary>
+        /// Evento de bajar vida
+        /// </summary>
+        /// <param name="cantidad"></param>
+        public void bajarVida(double cantidad)
+        {
+            salud -= cantidad;
+            dtRj = new DispatcherTimer();
+            dtRj.Interval = TimeSpan.FromMilliseconds(30);
+            dtRj.Tick += pgMenos;
+            dtRj.Start();
+        }
     }
 }

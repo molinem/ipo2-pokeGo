@@ -47,6 +47,18 @@ namespace PokeGo
             this.InitializeComponent();
             poke_1 = null;
             poke_2 = null;
+
+            //Inicialización pokemons
+            charmander_1 = new ucVisorCharmander();
+            zapdos_1 = new ucVisorZapdos();
+            dragonite_1 = new ucVisorDragonite();
+            jigglypuff_1 = new ucVisorJigglypuff();
+
+            charmander_2 = new ucVisorCharmander();
+            zapdos_2 = new ucVisorZapdos();
+            dragonite_2 = new ucVisorDragonite();
+            jigglypuff_2 = new ucVisorJigglypuff();
+
             loadRelativePanel();
             loadRelativePanelDerecha();
         }
@@ -80,78 +92,89 @@ namespace PokeGo
         }
         
         /// <summary>
+        /// Genera un número aleatorio dado
+        /// el límite inferior y superior
+        /// </summary>
+        /// <param name="limiteInferior"></param>
+        /// <param name="limiteSuperior"></param>
+        /// <returns></returns>
+        private int generarAleatorio(int limiteInferior, int limiteSuperior)
+        {
+            Random r = new Random();
+            int rand = r.Next(limiteInferior, limiteSuperior);
+            return rand;
+        }
+
+        /// <summary>
         /// Carga con el pokemon seleccionado
         /// previamente el Relative panel que
         /// contendrá el UserControl
         /// </summary>
         private void loadRelativePanel()
         {
+            //panel izquierda
             switch (pokemonSeleccionado)
             {
                 case "Charmander":
-                    charmander_1 = new ucVisorCharmander();
-                    setUserUserControl(poke_1, charmander_1, relative_poke_izquierda);
-                    animacPermanentes(charmander_1.animFuegos);
                     txtQueDebemosHacer.Text += "Charmander?";
+                    setUserUserControl(poke_1, charmander_1, relative_poke_izquierda);
+                    lanzarAnimacion(charmander_1.animFuegos);
                     break;
                 case "Zapdos":
-                    zapdos_1 = new ucVisorZapdos();
+                    txtQueDebemosHacer.Text += "Zapdos?";
                     setUserUserControl(poke_1, zapdos_1, relative_poke_izquierda);
                     zapdos_1.animacion();
-                    txtQueDebemosHacer.Text += "Zapdos?";
                     break;
                 case "Dragonite":
-                    dragonite_1 = new ucVisorDragonite();
+                    txtQueDebemosHacer.Text += "Dragonite?";
                     setUserUserControl(poke_1, dragonite_1, relative_poke_izquierda);
                     dragonite_2.moverAlas();
-                    txtQueDebemosHacer.Text += "Dragonite?";
                     break;
                 case "Jigglypuff":
-                    jigglypuff_1 = new ucVisorJigglypuff();
-                    setUserUserControl(poke_1, jigglypuff_1, relative_poke_izquierda);
                     txtQueDebemosHacer.Text += "Jigglypuff?";
+                    setUserUserControl(poke_1, jigglypuff_1, relative_poke_izquierda);
+                    jigglypuff_1.saludar();
                     break;
             }
         }
 
         /// <summary>
-        /// Cargamos un pokemon aleatorio 
-        /// en el relative panel situado
-        /// a la derecha de la ventana
+        /// Carga el relative Panel de la
+        /// derecha con un pokemon aleatorio
         /// </summary>
         private void loadRelativePanelDerecha()
         {
-            Random r = new Random();
-            int rand = r.Next(1, 4);
+            int rand = generarAleatorio(1, 4);
             switch (rand)
             {
                 case 1:
-                    charmander_2 = new ucVisorCharmander();
                     setUserUserControl(poke_2, charmander_2, relative_poke_derecha);
                     animacPermanentes(charmander_2.animFuegos);
-                    pokemonDerecha = "charmander";
+                    pokemonDerecha = "Charmander";
                     break;
                 case 2:
-                    zapdos_2 = new ucVisorZapdos();
                     setUserUserControl(poke_2, zapdos_2, relative_poke_derecha);
                     zapdos_2.animacion();
-                    pokemonDerecha = "zapdos";
+                    pokemonDerecha = "Zapdos";
                     break;
                 case 3:
-                    dragonite_2 = new ucVisorDragonite();
                     setUserUserControl(poke_2, dragonite_2, relative_poke_derecha);
                     dragonite_2.moverAlas();
-                    pokemonDerecha = "dragonite";
+                    pokemonDerecha = "Dragonite";
                     break;
                 case 4:
-                    pokemonDerecha = "jigglypuff";
-                    jigglypuff_2 = new ucVisorJigglypuff();
                     jigglypuff_2.saludar();
                     setUserUserControl(poke_2, jigglypuff_2, relative_poke_izquierda);
+                    pokemonDerecha = "Jigglypuff";
                     break;
             }
-        }
 
+            if (pokemonSeleccionado.Equals(pokemonDerecha))
+            {
+                relative_poke_derecha.Children.Clear();
+                loadRelativePanelDerecha();
+            }
+        }
 
         /// <summary>
         /// Evento ejecutado al pulsar
@@ -179,24 +202,58 @@ namespace PokeGo
         }
 
         /// <summary>
+        /// Bloquea al jugador 1
+        /// </summary>
+        private void blockPlayer1()
+        {
+
+        }
+
+        /// <summary>
+        /// Método para lanzar animaciones
+        /// </summary>
+        /// <param name="sb"></param>
+        private void lanzarAnimacion(Storyboard sb)
+        {
+            sb.Begin();
+        }
+
+        /// <summary>
         /// Evento del botón atacar de un pokemon
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnAtacar_Click(object sender, RoutedEventArgs e)
+        private async void btnAtacar_Click(object sender, RoutedEventArgs e)
         {
+            blockPlayer1();
+
+            //Animaciones ataques
+            lanzarAnimacion(charmander_1.animAtaque);
+            dragonite_1.luchar();
+            jigglypuff_1.Cantar();
+            zapdos_1.animacion();
+            double danio = (double) generarAleatorio(5, 15);
             switch (pokemonSeleccionado)
             {
                 case "Charmander":
-                    
+                    dragonite_2.bajarVida(danio);
+                    jigglypuff_2.bajarVida(danio);
+                    zapdos_2.bajarVida(danio);
                     break;
                 case "Zapdos":
-                    
+                    dragonite_2.bajarVida(danio);
+                    jigglypuff_2.bajarVida(danio);
+                    charmander_2.bajarVida(danio);
                     break;
                 case "Dragonite":
-                    
+                    jigglypuff_2.bajarVida(danio);
+                    charmander_2.bajarVida(danio);
+                    zapdos_2.bajarVida(danio);
                     break;
                 case "Jigglypuff":
+                    dragonite_2.bajarVida(danio);
+                    charmander_2.bajarVida(danio);
+                    zapdos_2.bajarVida(danio);
                     break;
             }
         }

@@ -14,8 +14,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// La plantilla de elemento Control de usuario está documentada en https://go.microsoft.com/fwlink/?LinkId=234236
-
 namespace PokeGo
 {
     public sealed partial class ucVisorCharmander : UserControl
@@ -149,12 +147,12 @@ namespace PokeGo
         }
 
         /// <summary>
-        /// Getter/Setter Storyboard AnimacionMana
+        /// Getter/Setter Storyboard AnimacionAtaque
         /// </summary>
-        public Storyboard animMana
+        public Storyboard animAtaque
         {
             get { return this.AnimacionMana; }
-            set { this.animMana = value; }
+            set { this.animAtaque = value; }
         }
 
         /// <summary>
@@ -190,10 +188,10 @@ namespace PokeGo
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        void pgMenos(object sender, object e)
+        public void pgMenos(object sender, object e)
         {
             salud -= 0.5;
-            if (salud == 0)
+            if (salud <= salud_pk || salud == 0)
             {
                 dtRj.Stop();
             }
@@ -204,7 +202,7 @@ namespace PokeGo
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        void pgMayor(object sender, object e)
+        public void pgMayor(object sender, object e)
         {
             salud += 0.5;
         }
@@ -217,7 +215,7 @@ namespace PokeGo
         {
             salud -= cantidad;
             dtRj = new DispatcherTimer();
-            dtRj.Interval = TimeSpan.FromMilliseconds(30);
+            dtRj.Interval = TimeSpan.FromMilliseconds(10);
             dtRj.Tick += pgMayor;
             dtRj.Start();
         }
@@ -229,7 +227,6 @@ namespace PokeGo
         public void bajarVida(double cantidad)
         {
             salud -= cantidad;
-
             dtRj = new DispatcherTimer();
             dtRj.Interval = TimeSpan.FromMilliseconds(30);
             dtRj.Tick += pgMenos;
