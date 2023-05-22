@@ -59,6 +59,9 @@ namespace PokeGo
             dragonite_2 = new ucVisorDragonite();
             jigglypuff_2 = new ucVisorJigglypuff();
 
+            recTurnoJugador2.Visibility = Visibility.Collapsed;
+            txtTurnoJugador2.Visibility = Visibility.Collapsed;
+
             loadRelativePanel();
             loadRelativePanelDerecha();
         }
@@ -206,7 +209,39 @@ namespace PokeGo
         /// </summary>
         private void blockPlayer1()
         {
+            txtQueDebemosHacer.Visibility = Visibility.Collapsed;
+            btnAtacar.Visibility = Visibility.Collapsed;
+            btnCurar.Visibility = Visibility.Collapsed;
+            btnSubirAtaque.Visibility = Visibility.Collapsed;
+            btnRendirseCombate.Visibility = Visibility.Collapsed;
 
+            recTurnoJugador2.Visibility = Visibility.Visible;
+            txtTurnoJugador2.Visibility = Visibility.Visible;
+
+        }
+
+        /// <summary>
+        /// Desbloquear al jugador 1
+        /// </summary>
+        private void unblockPlayer1()
+        {
+            txtQueDebemosHacer.Visibility = Visibility.Visible;
+            btnAtacar.Visibility = Visibility.Visible;
+            btnCurar.Visibility = Visibility.Visible;
+            btnSubirAtaque.Visibility = Visibility.Visible;
+            btnRendirseCombate.Visibility = Visibility.Visible;
+
+            recTurnoJugador2.Visibility = Visibility.Collapsed;
+            txtTurnoJugador2.Visibility = Visibility.Collapsed;
+        }
+
+        /// <summary>
+        /// Cuando le toca al jugador 2
+        /// en este caso es la máquina
+        /// </summary>
+        private void turnoPlayer2()
+        {
+            int g = generarAleatorio(1, 4);
         }
 
         /// <summary>
@@ -216,6 +251,20 @@ namespace PokeGo
         private void lanzarAnimacion(Storyboard sb)
         {
             sb.Begin();
+        }
+
+        /// <summary>
+        /// Comprueba la vida de los pokemons
+        /// </summary>
+        private Boolean checkEstadoPokemons()
+        {
+            Boolean tienenVida = true;
+            if (charmander_2.salud <= 0 || dragonite_2.salud <= 0 || jigglypuff_2.salud <= 0 || zapdos_2.salud <= 0)
+            {
+                //Ganas el combate
+                tienenVida = false;
+            }
+            return tienenVida;
         }
 
         /// <summary>
@@ -255,6 +304,15 @@ namespace PokeGo
                     charmander_2.bajarVida(danio);
                     zapdos_2.bajarVida(danio);
                     break;
+            }
+
+            if (checkEstadoPokemons())
+            {
+                turnoPlayer2();
+            }
+            else
+            {
+                //Mensaje hemos ganado   
             }
         }
     }

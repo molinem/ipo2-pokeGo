@@ -35,6 +35,8 @@
 
             <RelativePanel x:Name="relative_poke_izquierda" Margin="121,136,901,306" Grid.RowSpan="2"/>
             <RelativePanel x:Name="relative_poke_derecha" Margin="884,136,138,309" Grid.RowSpan="2"/>
+            <Rectangle x:Name="recTurnoJugador2" HorizontalAlignment="Left" Height="100" Margin="137,639,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="447" Fill="White" Opacity="0.3" RadiusX="0" StrokeThickness="6"/>
+            <TextBlock x:Name="txtTurnoJugador2" HorizontalAlignment="Left" Margin="151,672,0,0" Grid.Row="1" Text="Es el turno del Jugador 2" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="White" Foreground="#FF0F0F0F" FontSize="36" FontWeight="Bold" FontFamily="Arial Black" Height="40" Width="428"/>
 
 
 

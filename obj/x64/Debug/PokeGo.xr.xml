@@ -83,10 +83,11 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Fill" />
       <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="RadiusX" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="UseLayoutRounding" />
       <RootProperty Name="RenderTransform" />
-      <RootProperty Name="Opacity" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />

@@ -140,6 +140,7 @@ namespace PokeGo
             dtRj = new DispatcherTimer();
             dtRj.Interval = TimeSpan.FromMilliseconds(30);
             dtRj.Tick += pgMenos;
+            animacion();
             dtRj.Start();
         }
     }
