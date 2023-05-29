@@ -5,6 +5,7 @@ Assets\Combate\2_Jugadores.png
 Assets\Combate\aceptar.png
 Assets\Combate\atras.png
 Assets\Combate\batalla_1_jugador.png
+Assets\Combate\batalla_2_jugador.png
 Assets\Combate\charmander.png
 Assets\Combate\combate.png
 Assets\Combate\combate1Player.jpg
@@ -39,13 +40,14 @@ Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
-Captura.xbf
 Combate.xbf
 CombatePokemon1Player.xbf
+CombatePokemon2Player.xbf
 Inicio.xbf
 MainPage.xbf
 PokeDex.xbf
 PokeGo.xr.xml
+Rendirse.xbf
 SeleccionPokemon1Player.xbf
 SeleccionPokemon2Players.xbf
 ucVisorCharmander.xbf

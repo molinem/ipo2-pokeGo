@@ -223,17 +223,7 @@ namespace PokeGo
             checkBackStack();
         }
 
-        /// <summary>
-        /// Evento al pulsar el botón captura
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnCaptura_Click(object sender, RoutedEventArgs e)
-        {
-            fmMain.Navigate(typeof(Captura));
-            checkBackStack();
-        }
-
+        
         /// <summary>
         /// Evento click en el botón
         /// del menú

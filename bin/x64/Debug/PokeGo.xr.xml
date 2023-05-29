@@ -13,13 +13,17 @@
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
-      <RootProperty Name="Background" />
-      <RootProperty Name="Content" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Background" />
       <RootProperty Name="RequestedTheme" />
       <RootEvent Name="Loaded" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="Margin" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
@@ -38,12 +42,6 @@
       <RootMethod Name="SetColumn" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
-    </RootType>
-    <RootType FullName="PokeGo.Captura" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
-      <RootProperty Name="Stretch" />
-      <RootProperty Name="Child" />
-      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
@@ -138,7 +136,11 @@
       <RootProperty Name="ScaleX" />
       <RootProperty Name="TranslateY" />
     </RootType>
+    <RootType FullName="PokeGo.CombatePokemon2Player" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="PokeGo.Rendirse" />
     <RootType FullName="PokeGo.CombatePokemon1Player" />
+    <RootType FullName="PokeGo.SeleccionPokemon2Player" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
@@ -371,7 +373,6 @@
     <RootType FullName="Windows.UI.Xaml.Media.Stretch" />
     <RootType FullName="PokeGo.ucVisorZapdos" />
     <RootType FullName="PokeGo.ucVisorCharmander" />
-    <RootType FullName="PokeGo.SeleccionPokemon2Players" />
     <RootType FullName="PokeGo.SeleccionPokemon1Player" />
     <RootType FullName="PokeGo.Combate" />
     <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
@@ -393,6 +394,8 @@
       <RootProperty Name="IsPaneOpen" />
       <RootProperty Name="DisplayMode" />
       <RootProperty Name="CompactPaneLength" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Pane" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">

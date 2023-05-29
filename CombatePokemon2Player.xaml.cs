@@ -22,7 +22,7 @@ namespace PokeGo
     /// <summary>
     /// Clase encargada de realizar el combate pokemon
     /// </summary>
-    public sealed partial class CombatePokemon1Player : Page
+    public sealed partial class CombatePokemon2Player : Page
     {
         /// <summary>
         /// Variables donde almacenamos el nombre de los pokemons
@@ -43,7 +43,7 @@ namespace PokeGo
         ucVisorDragonite dragonite_2;
         ucVisorJigglypuff jigglypuff_2;
 
-        public CombatePokemon1Player()
+        public CombatePokemon2Player()
         {
             this.InitializeComponent();
             poke_1 = null;
@@ -62,6 +62,9 @@ namespace PokeGo
 
             recTurnoJugador2.Visibility = Visibility.Collapsed;
             txtTurnoJugador2.Visibility = Visibility.Collapsed;
+            txtQueDebemosHacer2.Text += pokemonDerecha+"?";
+
+            invisiblePlayer2();
 
             loadRelativePanel();
             loadRelativePanelDerecha();
@@ -86,13 +89,14 @@ namespace PokeGo
         }
 
         /// <summary>
-        /// Establecer el pokemon 
-        /// seleccionado de otra ventana
+        /// Establecer los pokemons
+        /// seleccionados de otra ventana
         /// </summary>
         /// <param name="pk"></param>
-        public static void setPokemonSeleccionado(String pk)
+        public static void setPokemonSeleccionado(String pk, String pk2)
         {
             pokemonSeleccionado = pk;
+            pokemonDerecha = pk2;
         }
         
         /// <summary>
@@ -148,35 +152,24 @@ namespace PokeGo
         /// </summary>
         private void loadRelativePanelDerecha()
         {
-            int rand = generarAleatorio(1, 4);
-            switch (rand)
+            switch (pokemonDerecha)
             {
-                case 1:
+                case "Charmander":
                     setUserUserControl(poke_2, charmander_2, relative_poke_derecha);
-                    animacPermanentes(charmander_2.animFuegos);
-                    pokemonDerecha = "Charmander";
+                    lanzarAnimacion(charmander_2.animFuegos);
                     break;
-                case 2:
+                case "Zapdos":
                     setUserUserControl(poke_2, zapdos_2, relative_poke_derecha);
                     zapdos_2.animacion();
-                    pokemonDerecha = "Zapdos";
                     break;
-                case 3:
+                case "Dragonite":
                     setUserUserControl(poke_2, dragonite_2, relative_poke_derecha);
                     dragonite_2.moverAlas();
-                    pokemonDerecha = "Dragonite";
                     break;
-                case 4:
+                case "Jigglypuff":                    
+                    setUserUserControl(poke_2, jigglypuff_2, relative_poke_derecha);
                     jigglypuff_2.saludar();
-                    setUserUserControl(poke_2, jigglypuff_2, relative_poke_izquierda);
-                    pokemonDerecha = "Jigglypuff";
                     break;
-            }
-
-            if (pokemonSeleccionado.Equals(pokemonDerecha))
-            {
-                relative_poke_derecha.Children.Clear();
-                loadRelativePanelDerecha();
             }
         }
 
@@ -188,7 +181,7 @@ namespace PokeGo
         /// <param name="e"></param>
         private void imgAtras_PointerReleased(object sender, PointerRoutedEventArgs e)
         {
-            Combate.frInicio.Navigate(typeof(SeleccionPokemon1Player));
+            Combate.frInicio.Navigate(typeof(SeleccionPokemon2Player));
         }
 
 
@@ -218,7 +211,6 @@ namespace PokeGo
 
             recTurnoJugador2.Visibility = Visibility.Visible;
             txtTurnoJugador2.Visibility = Visibility.Visible;
-
         }
 
         /// <summary>
@@ -237,130 +229,44 @@ namespace PokeGo
         }
 
         /// <summary>
+        /// Invisible Jugador2
+        /// </summary>
+        private void invisiblePlayer2()
+        {
+            txtQueDebemosHacer2.Visibility = Visibility.Collapsed;
+            btnAtacar2.Visibility = Visibility.Collapsed;
+            btnCurar2.Visibility = Visibility.Collapsed;
+            btnSubirAtaque2.Visibility = Visibility.Collapsed;
+            btnRendirseCombate2.Visibility = Visibility.Collapsed;
+        }
+
+        /// <summary>
+        /// Invisible Jugador2
+        /// </summary>
+        private void visiblePlayer2()
+        {
+            txtQueDebemosHacer2.Visibility = Visibility.Visible;
+            btnAtacar2.Visibility = Visibility.Visible;
+            btnCurar2.Visibility = Visibility.Visible;
+            btnSubirAtaque2.Visibility = Visibility.Visible;
+            btnRendirseCombate2.Visibility = Visibility.Visible;
+
+            recTurnoJugador2.Visibility = Visibility.Collapsed;
+            txtTurnoJugador2.Visibility = Visibility.Collapsed;
+        }
+
+        /// <summary>
         /// Cuando le toca al jugador 2
         /// en este caso es la máquina
         /// </summary>
         private async void turnoPlayer2()
         {
             await Task.Delay(3000);
-            int g = generarAleatorio(1, 4);
-            switch (g)
-            {
-                case 1:
-                    curarPlayer2();
-                    break;
-                case 2:
-                    subirAtaquePlayer2();
-                    break;
-                case 3:
-                    atacarPlayer2();
-                    break;
-            }
+            visiblePlayer2();
+            recTurnoJugador1.Visibility = Visibility.Collapsed;
+            txtTurnoJugador1.Visibility = Visibility.Collapsed;
+            blockPlayer1();
         }
-
-        /// <summary>
-        /// Curamos al pokemon de la derecha
-        /// </summary>
-        private async void curarPlayer2()
-        {
-            txtTurnoJugador1.Text = pokemonDerecha + " usó curación";
-            await Task.Delay(3000);
-            double vidaMax = (double)generarAleatorio(5, 14);
-            switch (pokemonDerecha)
-            {
-                case "Charmander":
-                    charmander_2.subirVida(vidaMax);
-                    break;
-                case "Zapdos":
-                    zapdos_2.subirVida(vidaMax);
-                    break;
-                case "Dragonite":
-                    dragonite_2.subirVida(vidaMax);
-                    break;
-                case "Jigglypuff":
-                    jigglypuff_2.subirVida(vidaMax);
-                    break;
-            }
-            txtTurnoJugador1.Text = "Es el turno del Jugador 1";
-            unblockPlayer1();
-        }
-
-        /// <summary>
-        /// Subir ataque al pokemon de la derecha
-        /// </summary>
-        private async void subirAtaquePlayer2()
-        {
-            txtTurnoJugador1.Text = pokemonDerecha + " usó subir ataque";
-            await Task.Delay(3000);
-            switch (pokemonDerecha)
-            {
-                case "Charmander":
-                    charmander_2.subirDanio();
-                    break;
-                case "Zapdos":
-                    zapdos_2.subirDanio();
-                    break;
-                case "Dragonite":
-                    dragonite_2.subirDanio();
-                    break;
-                case "Jigglypuff":
-                    jigglypuff_2.subirDanio();
-                    break;
-            }
-            txtTurnoJugador1.Text = "Es el turno del Jugador 1";
-            unblockPlayer1();
-        }
-
-
-        /// <summary>
-        /// El pokemon de la derecha realiza un ataque
-        /// </summary>
-        private async void atacarPlayer2()
-        {
-            txtTurnoJugador1.Text = pokemonDerecha + " usó atacar";
-            await Task.Delay(3000);
-            //Animaciones ataques
-            lanzarAnimacion(charmander_2.animAtaque);
-            dragonite_2.luchar();
-            jigglypuff_2.Cantar();
-            zapdos_2.animacion();
-            double danio = (double)generarAleatorio(5, 15);
-            switch (pokemonSeleccionado)
-            {
-                case "Charmander":
-                    dragonite_1.bajarVida(zapdos_1.danio_pk);
-                    jigglypuff_1.bajarVida(dragonite_1.danio_pk);
-                    zapdos_1.bajarVida(jigglypuff_1.danio_pk);
-                    break;
-                case "Zapdos":
-                    dragonite_1.bajarVida(jigglypuff_1.danio_pk);
-                    jigglypuff_1.bajarVida(zapdos_1.danio_pk);
-                    charmander_1.bajarVida(jigglypuff_1.danio_pk);
-                    break;
-                case "Dragonite":
-                    jigglypuff_1.bajarVida(zapdos_1.danio_pk);
-                    charmander_1.bajarVida(dragonite_1.danio_pk);
-                    zapdos_1.bajarVida(jigglypuff_1.danio_pk);
-                    break;
-                case "Jigglypuff":
-                    dragonite_1.bajarVida(charmander_1.danio_pk);
-                    charmander_1.bajarVida(jigglypuff_1.danio_pk);
-                    zapdos_1.bajarVida(dragonite_1.danio_pk);
-                    break;
-            }
-
-            if (!checkEstadoPokemons2())//No tiene vida el pokemon 1
-            {
-                /// Gana la IA
-            }
-            else
-            {
-                txtTurnoJugador1.Text = "Es el turno del Jugador 1";
-                unblockPlayer1();
-            }
-        }
-
-
 
         /// <summary>
         /// Método para lanzar animaciones
@@ -515,6 +421,126 @@ namespace PokeGo
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void btnRendirseCombate_Click(object sender, RoutedEventArgs e)
+        {
+            Combate.frInicio.Navigate(typeof(Rendirse));
+        }
+
+        /// <summary>
+        /// Cura al pokemon 2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private async void btnCurar2_Click(object sender, RoutedEventArgs e)
+        {
+            double vidaMax = (double)generarAleatorio(5, 14);
+            switch (pokemonDerecha)
+            {
+                case "Charmander":
+                    charmander_2.subirVida(vidaMax);
+                    break;
+                case "Zapdos":
+                    zapdos_2.subirVida(vidaMax);
+                    break;
+                case "Dragonite":
+                    dragonite_2.subirVida(vidaMax);
+                    break;
+                case "Jigglypuff":
+                    jigglypuff_2.subirVida(vidaMax);
+                    break;
+            }
+            invisiblePlayer2();
+            recTurnoJugador1.Visibility = Visibility.Visible;
+            txtTurnoJugador1.Visibility = Visibility.Visible;
+            txtTurnoJugador1.Text = "Es el turno del Jugador 1";
+            unblockPlayer1();
+        }
+
+        /// <summary>
+        /// Pokemon 2 ataca
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnAtacar2_Click(object sender, RoutedEventArgs e)
+        {
+            //Animaciones ataques
+            lanzarAnimacion(charmander_2.animAtaque);
+            dragonite_2.luchar();
+            jigglypuff_2.Cantar();
+            zapdos_2.animacion();
+            double danio = (double)generarAleatorio(5, 15);
+            switch (pokemonDerecha)
+            {
+                case "Charmander":
+                    dragonite_1.bajarVida(zapdos_1.danio_pk);
+                    jigglypuff_1.bajarVida(dragonite_1.danio_pk);
+                    zapdos_1.bajarVida(jigglypuff_1.danio_pk);
+                    break;
+                case "Zapdos":
+                    dragonite_1.bajarVida(jigglypuff_1.danio_pk);
+                    jigglypuff_1.bajarVida(zapdos_1.danio_pk);
+                    charmander_1.bajarVida(jigglypuff_1.danio_pk);
+                    break;
+                case "Dragonite":
+                    jigglypuff_1.bajarVida(zapdos_1.danio_pk);
+                    charmander_1.bajarVida(dragonite_1.danio_pk);
+                    zapdos_1.bajarVida(jigglypuff_1.danio_pk);
+                    break;
+                case "Jigglypuff":
+                    dragonite_1.bajarVida(charmander_1.danio_pk);
+                    charmander_1.bajarVida(jigglypuff_1.danio_pk);
+                    zapdos_1.bajarVida(dragonite_1.danio_pk);
+                    break;
+            }
+
+            if (!checkEstadoPokemons2())//No tiene vida el pokemon 1
+            {
+                /// Gana la IA
+            }
+            else
+            {
+                invisiblePlayer2();
+                recTurnoJugador1.Visibility = Visibility.Visible;
+                txtTurnoJugador1.Visibility = Visibility.Visible;
+                txtTurnoJugador1.Text = "Es el turno del Jugador 1";
+                unblockPlayer1();
+            }
+        }
+
+        /// <summary>
+        /// Subir ataque pokemon 2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnSubirAtaque2_Click(object sender, RoutedEventArgs e)
+        {
+            switch (pokemonDerecha)
+            {
+                case "Charmander":
+                    charmander_2.subirDanio();
+                    break;
+                case "Zapdos":
+                    zapdos_2.subirDanio();
+                    break;
+                case "Dragonite":
+                    dragonite_2.subirDanio();
+                    break;
+                case "Jigglypuff":
+                    jigglypuff_2.subirDanio();
+                    break;
+            }
+            invisiblePlayer2();
+            recTurnoJugador1.Visibility = Visibility.Visible;
+            txtTurnoJugador1.Visibility = Visibility.Visible;
+            txtTurnoJugador1.Text = "Es el turno del Jugador 1";
+            unblockPlayer1();
+        }
+
+        /// <summary>
+        /// El entrenador se rinde
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnRendirseCombate2_Click(object sender, RoutedEventArgs e)
         {
             Combate.frInicio.Navigate(typeof(Rendirse));
         }

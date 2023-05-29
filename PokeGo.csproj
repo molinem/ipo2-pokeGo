@@ -119,11 +119,17 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Captura.xaml.cs">
-      <DependentUpon>Captura.xaml</DependentUpon>
+    <Compile Include="CombatePokemon2Player.xaml.cs">
+      <DependentUpon>CombatePokemon2Player.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rendirse.xaml.cs">
+      <DependentUpon>Rendirse.xaml</DependentUpon>
     </Compile>
     <Compile Include="CombatePokemon1Player.xaml.cs">
       <DependentUpon>CombatePokemon1Player.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SeleccionPokemon2Players.xaml.cs">
+      <DependentUpon>SeleccionPokemon2Players.xaml</DependentUpon>
     </Compile>
     <Compile Include="ucVisorDragonite.xaml.cs">
       <DependentUpon>ucVisorDragonite.xaml</DependentUpon>
@@ -136,9 +142,6 @@
     </Compile>
     <Compile Include="ucVisorCharmander.xaml.cs">
       <DependentUpon>ucVisorCharmander.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SeleccionPokemon2Players.xaml.cs">
-      <DependentUpon>SeleccionPokemon2Players.xaml</DependentUpon>
     </Compile>
     <Compile Include="SeleccionPokemon1Player.xaml.cs">
       <DependentUpon>SeleccionPokemon1Player.xaml</DependentUpon>
@@ -170,6 +173,7 @@
     <Content Include="Assets\Combate\aceptar.png" />
     <Content Include="Assets\Combate\atras.png" />
     <Content Include="Assets\Combate\batalla_1_jugador.png" />
+    <Content Include="Assets\Combate\batalla_2_jugador.png" />
     <Content Include="Assets\Combate\charmander.png" />
     <Content Include="Assets\Combate\combate.png" />
     <Content Include="Assets\Combate\combate1Player.jpg" />
@@ -210,11 +214,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Captura.xaml">
+    <Page Include="CombatePokemon2Player.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Rendirse.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CombatePokemon1Player.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SeleccionPokemon2Players.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -233,10 +245,6 @@
     <Page Include="ucVisorCharmander.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SeleccionPokemon2Players.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Page Include="SeleccionPokemon1Player.xaml">
       <Generator>MSBuild:Compile</Generator>

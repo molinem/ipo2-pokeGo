@@ -23,12 +23,14 @@ namespace PokeGo
         DispatcherTimer dtRj;
         private double salud_pk = 100.0;
         private double energia_pk = 100.0;
+        public double danio_pk = 12.0;
+        public double danio_rival_pk;
 
         public ucVisorDragonite()
         {
             this.InitializeComponent();
-            salud = salud_pk;
-            energia = energia_pk;
+            salud = 50;
+            energia = 50;
         }
 
 
@@ -52,6 +54,15 @@ namespace PokeGo
         {
             get { return this.pgEnergia.Value; }
             set { this.pgEnergia.Value = value; }
+        }
+
+        /// <summary>
+        /// Daño que hace el pokemon
+        /// </summary>
+        public double danio_rival_pk_set
+        {
+            get { return this.danio_rival_pk; }
+            set { this.danio_rival_pk = value; }
         }
 
         //----------------------------------------
@@ -134,7 +145,15 @@ namespace PokeGo
         /// <param name="e"></param>
         public void pgMayor(object sender, object e)
         {
-            salud += 0.5;
+            if (salud == 100)
+            {
+                dtRj.Stop();
+            }
+            else
+            {
+                salud += 0.5;
+                dtRj.Stop();
+            }
         }
 
         /// <summary>
@@ -143,7 +162,7 @@ namespace PokeGo
         /// <param name="cantidad"></param>
         public void subirVida(double cantidad)
         {
-            salud -= cantidad;
+            salud += cantidad;
             dtRj = new DispatcherTimer();
             dtRj.Interval = TimeSpan.FromMilliseconds(10);
             dtRj.Tick += pgMayor;
@@ -157,10 +176,42 @@ namespace PokeGo
         public void bajarVida(double cantidad)
         {
             salud -= cantidad;
+            salud -= danio_rival_pk;
             enfadarse();
             dtRj = new DispatcherTimer();
             dtRj.Interval = TimeSpan.FromMilliseconds(30);
             dtRj.Tick += pgMenos;
+            dtRj.Start();
+        }
+
+        /// <summary>
+        /// Decrementa la vida en la 
+        /// progressBar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public void subirEnergia(object sender, object e)
+        {
+            energia += 4;
+            if (energia <= energia_pk || energia == 0)
+            {
+                dtRj.Stop();
+            }
+        }
+
+        /// <summary>
+        /// Sube el daño que hace el pokemon
+        /// </summary>
+        public void subirDanio()
+        {
+            if (danio_pk < 100)
+            {
+                int danio_generado = new Random().Next(5, 20);
+                danio_pk = danio_pk + danio_generado;
+            }
+            dtRj = new DispatcherTimer();
+            dtRj.Interval = TimeSpan.FromMilliseconds(20);
+            dtRj.Tick += subirEnergia;
             dtRj.Start();
         }
     }

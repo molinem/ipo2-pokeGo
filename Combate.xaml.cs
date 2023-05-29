@@ -58,7 +58,7 @@ namespace PokeGo
         /// <param name="e"></param>
         private void btnDosJugador_Click(object sender, RoutedEventArgs e)
         {
-            frInicio.Navigate(typeof(SeleccionPokemon2Players));
+            frInicio.Navigate(typeof(SeleccionPokemon2Player));
         }
 
 

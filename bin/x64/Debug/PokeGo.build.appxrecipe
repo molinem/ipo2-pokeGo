@@ -82,6 +82,9 @@
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\batalla_1_jugador.png">
       <PackagePath>Assets\Combate\batalla_1_jugador.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\batalla_2_jugador.png">
+      <PackagePath>Assets\Combate\batalla_2_jugador.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\charmander.png">
       <PackagePath>Assets\Combate\charmander.png</PackagePath>
     </AppxPackagedFile>
@@ -196,11 +199,17 @@
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Captura.xbf">
-      <PackagePath>Captura.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\CombatePokemon2Player.xbf">
+      <PackagePath>CombatePokemon2Player.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Rendirse.xbf">
+      <PackagePath>Rendirse.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\CombatePokemon1Player.xbf">
       <PackagePath>CombatePokemon1Player.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\SeleccionPokemon2Players.xbf">
+      <PackagePath>SeleccionPokemon2Players.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorDragonite.xbf">
       <PackagePath>ucVisorDragonite.xbf</PackagePath>
@@ -213,9 +222,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\ucVisorCharmander.xbf">
       <PackagePath>ucVisorCharmander.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\SeleccionPokemon2Players.xbf">
-      <PackagePath>SeleccionPokemon2Players.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\SeleccionPokemon1Player.xbf">
       <PackagePath>SeleccionPokemon1Player.xbf</PackagePath>
