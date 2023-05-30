@@ -320,27 +320,32 @@ namespace PokeGo
             jigglypuff_1.Cantar();
             zapdos_1.animacion();
             double danio = (double) generarAleatorio(5, 15);
+            //Hay que tener en cuenta que el usuario puede seleccionar por ejemplo: Charmander vs Charmander
             switch (pokemonSeleccionado)
             {
                 case "Charmander":
                     dragonite_2.bajarVida(zapdos_2.danio_pk);
                     jigglypuff_2.bajarVida(dragonite_2.danio_pk);
                     zapdos_2.bajarVida(jigglypuff_2.danio_pk);
+                    charmander_2.bajarVida(jigglypuff_2.danio_pk);
                     break;
                 case "Zapdos":
                     dragonite_2.bajarVida(jigglypuff_2.danio_pk);
                     jigglypuff_2.bajarVida(zapdos_2.danio_pk);
                     charmander_2.bajarVida(jigglypuff_2.danio_pk);
+                    zapdos_2.bajarVida(jigglypuff_2.danio_pk);
                     break;
                 case "Dragonite":
                     jigglypuff_2.bajarVida(zapdos_2.danio_pk);
                     charmander_2.bajarVida(dragonite_2.danio_pk);
                     zapdos_2.bajarVida(jigglypuff_2.danio_pk);
+                    dragonite_2.bajarVida(jigglypuff_2.danio_pk);
                     break;
                 case "Jigglypuff":
                     dragonite_2.bajarVida(charmander_2.danio_pk);
                     charmander_2.bajarVida(jigglypuff_2.danio_pk);
                     zapdos_2.bajarVida(dragonite_2.danio_pk);
+                    jigglypuff_2.bajarVida(zapdos_2.danio_pk);
                     break;
             }
 
@@ -350,7 +355,8 @@ namespace PokeGo
             }
             else
             {
-                //Mensaje hemos ganado   
+                //Hemos ganado
+                Combate.frInicio.Navigate(typeof(Ganar));
             }
         }
 
@@ -382,6 +388,11 @@ namespace PokeGo
             {
                 turnoPlayer2();
             }
+            else
+            {
+                //Hemos ganado
+                Combate.frInicio.Navigate(typeof(Ganar));
+            }
         }
 
         /// <summary>
@@ -412,6 +423,11 @@ namespace PokeGo
             if (checkEstadoPokemons())
             {
                 turnoPlayer2();
+            }
+            else
+            {
+                //Hemos ganado
+                Combate.frInicio.Navigate(typeof(Ganar));
             }
         }
 
@@ -453,6 +469,11 @@ namespace PokeGo
             txtTurnoJugador1.Visibility = Visibility.Visible;
             txtTurnoJugador1.Text = "Es el turno del Jugador 1";
             unblockPlayer1();
+            if (!checkEstadoPokemons2())//No tiene vida el pokemon 1
+            {
+                /// Gana la IA
+                Combate.frInicio.Navigate(typeof(Ganar));
+            }
         }
 
         /// <summary>
@@ -467,27 +488,30 @@ namespace PokeGo
             dragonite_2.luchar();
             jigglypuff_2.Cantar();
             zapdos_2.animacion();
-            double danio = (double)generarAleatorio(5, 15);
             switch (pokemonDerecha)
             {
                 case "Charmander":
                     dragonite_1.bajarVida(zapdos_1.danio_pk);
                     jigglypuff_1.bajarVida(dragonite_1.danio_pk);
                     zapdos_1.bajarVida(jigglypuff_1.danio_pk);
+                    charmander_1.bajarVida(jigglypuff_1.danio_pk);
                     break;
                 case "Zapdos":
                     dragonite_1.bajarVida(jigglypuff_1.danio_pk);
                     jigglypuff_1.bajarVida(zapdos_1.danio_pk);
                     charmander_1.bajarVida(jigglypuff_1.danio_pk);
+                    zapdos_1.bajarVida(jigglypuff_1.danio_pk);
                     break;
                 case "Dragonite":
                     jigglypuff_1.bajarVida(zapdos_1.danio_pk);
                     charmander_1.bajarVida(dragonite_1.danio_pk);
                     zapdos_1.bajarVida(jigglypuff_1.danio_pk);
+                    dragonite_1.bajarVida(jigglypuff_1.danio_pk);
                     break;
                 case "Jigglypuff":
                     dragonite_1.bajarVida(charmander_1.danio_pk);
                     charmander_1.bajarVida(jigglypuff_1.danio_pk);
+                    jigglypuff_1.bajarVida(zapdos_1.danio_pk);
                     zapdos_1.bajarVida(dragonite_1.danio_pk);
                     break;
             }
@@ -495,6 +519,7 @@ namespace PokeGo
             if (!checkEstadoPokemons2())//No tiene vida el pokemon 1
             {
                 /// Gana la IA
+                Combate.frInicio.Navigate(typeof(Ganar));
             }
             else
             {
@@ -533,6 +558,11 @@ namespace PokeGo
             txtTurnoJugador1.Visibility = Visibility.Visible;
             txtTurnoJugador1.Text = "Es el turno del Jugador 1";
             unblockPlayer1();
+            if (!checkEstadoPokemons2())//No tiene vida el pokemon 1
+            {
+                /// Gana la IA
+                Combate.frInicio.Navigate(typeof(Ganar));
+            }
         }
 
         /// <summary>

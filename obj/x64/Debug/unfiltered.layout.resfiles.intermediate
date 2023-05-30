@@ -6,6 +6,7 @@ Assets\Combate\aceptar.png
 Assets\Combate\atras.png
 Assets\Combate\batalla_1_jugador.png
 Assets\Combate\batalla_2_jugador.png
+Assets\Combate\batalla_ganada.png
 Assets\Combate\charmander.png
 Assets\Combate\combate.png
 Assets\Combate\combate1Player.jpg
@@ -16,6 +17,7 @@ Assets\Combate\fondo.png
 Assets\Combate\fondo_batalla.png
 Assets\Combate\health.png
 Assets\Combate\jigglypuff.png
+Assets\Combate\rendirse.png
 Assets\Combate\volto1.png
 Assets\Combate\volto2.png
 Assets\Combate\zapdos.png
@@ -43,6 +45,7 @@ App.xbf
 Combate.xbf
 CombatePokemon1Player.xbf
 CombatePokemon2Player.xbf
+Ganar.xbf
 Inicio.xbf
 MainPage.xbf
 PokeDex.xbf

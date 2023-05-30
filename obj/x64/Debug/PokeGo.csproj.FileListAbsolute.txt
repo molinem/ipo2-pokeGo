@@ -201,3 +201,9 @@ C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\CombatePokemon2Player.g.i.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\CombatePokemon2Player.g.cs
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\CombatePokemon2Player.xaml
 C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\CombatePokemon2Player.xbf
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\PokeGo.csproj.AssemblyReference.cache
+C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Ganar.xbf
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Ganar.g.i.cs
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Ganar.g.cs
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Ganar.xaml
+C:\Repositorios\ipo2-pokeGo\obj\x64\Debug\Ganar.xbf

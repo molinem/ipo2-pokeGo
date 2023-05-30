@@ -83,6 +83,7 @@
       <RootProperty Name="StrokeThickness" />
       <RootProperty Name="Opacity" />
       <RootProperty Name="RadiusX" />
+      <RootProperty Name="RadiusY" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="UseLayoutRounding" />
       <RootProperty Name="RenderTransform" />
@@ -138,6 +139,11 @@
     </RootType>
     <RootType FullName="PokeGo.CombatePokemon2Player" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
+      <RootProperty Name="Stretch" />
+      <RootEvent Name="MediaEnded" />
+    </RootType>
+    <RootType FullName="PokeGo.Ganar" />
     <RootType FullName="PokeGo.Rendirse" />
     <RootType FullName="PokeGo.CombatePokemon1Player" />
     <RootType FullName="PokeGo.SeleccionPokemon2Player" />
@@ -375,10 +381,6 @@
     <RootType FullName="PokeGo.ucVisorCharmander" />
     <RootType FullName="PokeGo.SeleccionPokemon1Player" />
     <RootType FullName="PokeGo.Combate" />
-    <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
-      <RootProperty Name="Stretch" />
-      <RootEvent Name="MediaEnded" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="Text" />
       <RootProperty Name="Foreground" />

@@ -85,6 +85,9 @@
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\batalla_2_jugador.png">
       <PackagePath>Assets\Combate\batalla_2_jugador.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\batalla_ganada.png">
+      <PackagePath>Assets\Combate\batalla_ganada.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\charmander.png">
       <PackagePath>Assets\Combate\charmander.png</PackagePath>
     </AppxPackagedFile>
@@ -108,6 +111,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\jigglypuff.png">
       <PackagePath>Assets\Combate\jigglypuff.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\rendirse.png">
+      <PackagePath>Assets\Combate\rendirse.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\volto1.png">
       <PackagePath>Assets\Combate\volto1.png</PackagePath>
@@ -201,6 +207,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\CombatePokemon2Player.xbf">
       <PackagePath>CombatePokemon2Player.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Ganar.xbf">
+      <PackagePath>Ganar.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Debug\Rendirse.xbf">
       <PackagePath>Rendirse.xbf</PackagePath>

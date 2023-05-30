@@ -24,5 +24,39 @@ namespace PokeGo
         {
             this.InitializeComponent();
         }
+
+        private void imgAtras_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            Combate.frInicio.Navigate(typeof(Combate));
+        }
+
+        /// <summary>
+        /// Se carga una vez el Page es cargado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            string nombreArchivo = "perder.mp4"; // Nombre del archivo
+            string rutaCarpeta = "VIDEOS"; // Ruta relativa de la carpeta dentro del proyecto
+            string videoFilePath = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), rutaCarpeta, nombreArchivo);
+
+            // Establece la fuente del MediaElement como el archivo de video
+            mediaElement.Source = new Uri(videoFilePath);
+            mediaElement.IsMuted = true;
+            mediaElement.Play();
+        }
+
+        /// <summary>
+        /// Evento cuando acaba el vídeo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void MediaElement_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            // Reinicia el video en bucle cuando se completa la reproducción
+            mediaElement.Position = TimeSpan.Zero;
+            mediaElement.Play();
+        }
     }
 }

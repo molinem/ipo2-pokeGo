@@ -352,6 +352,7 @@ namespace PokeGo
             if (!checkEstadoPokemons2())//No tiene vida el pokemon 1
             {
                 /// Gana la IA
+                Combate.frInicio.Navigate(typeof(Ganar));
             }
             else
             {
@@ -444,7 +445,8 @@ namespace PokeGo
             }
             else
             {
-                //Mensaje hemos ganado   
+                //Hemos ganado
+                Combate.frInicio.Navigate(typeof(Ganar));
             }
         }
 
@@ -506,6 +508,10 @@ namespace PokeGo
             if (checkEstadoPokemons())
             {
                 turnoPlayer2();
+            }
+            else
+            {
+                Combate.frInicio.Navigate(typeof(Ganar));
             }
         }
 

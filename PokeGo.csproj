@@ -122,6 +122,9 @@
     <Compile Include="CombatePokemon2Player.xaml.cs">
       <DependentUpon>CombatePokemon2Player.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Ganar.xaml.cs">
+      <DependentUpon>Ganar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Rendirse.xaml.cs">
       <DependentUpon>Rendirse.xaml</DependentUpon>
     </Compile>
@@ -174,6 +177,7 @@
     <Content Include="Assets\Combate\atras.png" />
     <Content Include="Assets\Combate\batalla_1_jugador.png" />
     <Content Include="Assets\Combate\batalla_2_jugador.png" />
+    <Content Include="Assets\Combate\batalla_ganada.png" />
     <Content Include="Assets\Combate\charmander.png" />
     <Content Include="Assets\Combate\combate.png" />
     <Content Include="Assets\Combate\combate1Player.jpg" />
@@ -184,6 +188,7 @@
     <Content Include="Assets\Combate\fondo_batalla.png" />
     <Content Include="Assets\Combate\health.png" />
     <Content Include="Assets\Combate\jigglypuff.png" />
+    <Content Include="Assets\Combate\rendirse.png" />
     <Content Include="Assets\Combate\volto1.png" />
     <Content Include="Assets\Combate\volto2.png" />
     <Content Include="Assets\Combate\zapdos.png" />
@@ -215,6 +220,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="CombatePokemon2Player.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ganar.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="PokeGo.Ganar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PokeGo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <Viewbox Stretch="Fill">
+
+        <Grid Height="1000" Width="1500">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <MediaElement x:Name="mediaElement" Stretch="UniformToFill" MediaEnded="MediaElement_MediaEnded"  Grid.RowSpan="2"/>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="73,20,0,20" HorizontalAlignment="Left" Width="1286">
+                <Image x:Name="imgAtras" Source="/Assets/Combate/atras.png" Height="80" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center" PointerReleased="imgAtras_PointerReleased"/>
+                <Image x:Name="imgCombate" Source="/Assets/Combate/batalla_ganada.png" Height="170" Width="550" VerticalAlignment="Center" Margin="337,0,0,0" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <Rectangle Fill="#FF475568" Margin="74,40,784,601" Grid.Row="1" Opacity="0.46" RadiusY="45" RadiusX="50"/>
+            <TextBlock HorizontalAlignment="Left" Margin="137,88,0,0" Grid.Row="1" Text="El jugador/a gana la batalla" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" FontWeight="Bold"/>
+
+        </Grid>
+    </Viewbox>
+</Page>
