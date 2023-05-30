@@ -64,7 +64,6 @@ namespace PokeGo
             
         }
         
-
         /// <summary>
         /// Conecta con la base de dato SQLite
         /// y obtiene todos los datos para la
@@ -72,9 +71,11 @@ namespace PokeGo
         /// </summary>
         private void conectarDB()
         {
+            string rutaCarpeta = "Assets"; // Ruta relativa de la carpeta dentro del proyecto
             string nombreArchivo = "pokemons.db"; // Nombre del archivo
-            string rutaCarpeta = "DB"; // Ruta relativa de la carpeta dentro del proyecto
-            string rutaArchivo = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), rutaCarpeta, nombreArchivo);
+            string directorioBase = AppDomain.CurrentDomain.BaseDirectory;
+            string rutaArchivo = Path.Combine(directorioBase, rutaCarpeta, nombreArchivo);
+
 
             string cadenaConexion = "Data Source=" + rutaArchivo;
             listaPokemon = new List<Pokemon>();
@@ -90,7 +91,6 @@ namespace PokeGo
                     {
                         while (read.Read())
                         {
-                            //System.Diagnostics.Debug.WriteLine(lector.GetInt32(1));
                             listaPokemon.Add(new Pokemon(read.GetInt32(1), read.GetString(2), read.GetString(3), read.GetString(4), read.GetFloat(5), read.GetFloat(6), read.GetString(7), read.GetString(8)));
                         }
                     }
@@ -125,9 +125,13 @@ namespace PokeGo
                 Pokemon pk = (Pokemon)lstPokemon.SelectedItem;
 
                 //Imagen
-                string nombreArchivo = pk.Nombre.ToLower()+".png";
-                string rutaCarpeta = "PoKeDex";
-                string rutaArchivo = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), rutaCarpeta, nombreArchivo.Replace(" ", "").Trim());
+                
+                string rutaCarpeta1 = "Assets";
+                string rutaCarpeta2 = "PoKeDex";
+                string nombreArchivo = pk.Nombre.ToLower() + ".png";
+
+                string directorioBase = AppDomain.CurrentDomain.BaseDirectory;
+                string rutaArchivo = Path.Combine(directorioBase, rutaCarpeta1, rutaCarpeta2, nombreArchivo.Replace(" ", "").Trim());
 
                 ImagenSource = new BitmapImage(new Uri(rutaArchivo));
                 imgPokemon.Source = ImagenSource;
@@ -155,13 +159,19 @@ namespace PokeGo
         /// <param name="e"></param>
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
+            string rutaCarpeta = "Assets"; // Ruta relativa de la carpeta dentro del proyecto
             string nombreArchivo = "fondo.mp4"; // Nombre del archivo
-            string rutaCarpeta = "VIDEOS"; // Ruta relativa de la carpeta dentro del proyecto
-            string videoFilePath = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), rutaCarpeta, nombreArchivo);
 
-            // Establece la fuente del MediaElement como el archivo de video
-            mediaElement.Source = new Uri(videoFilePath);
-            mediaElement.Play();
+            string directorioBase = AppDomain.CurrentDomain.BaseDirectory;
+            string videoFilePath = Path.Combine(directorioBase, rutaCarpeta, nombreArchivo);
+
+            if (videoFilePath != null)
+            {
+                // Establece la fuente del MediaElement como el archivo de video
+                mediaElement.Source = new Uri(videoFilePath);
+                mediaElement.Play();
+            }
+            
         }
 
         /// <summary>

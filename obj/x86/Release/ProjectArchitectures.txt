@@ -1,0 +1,1 @@
+C:\Repositorios\ipo2-pokeGo\PokeGo.csproj;x86

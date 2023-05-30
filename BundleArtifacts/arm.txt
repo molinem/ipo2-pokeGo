@@ -1,0 +1,2 @@
+MainPackage=C:\Repositorios\ipo2-pokeGo\bin\ARM\Release\PokeGo_1.0.1.0_ARM.msix
+SymbolPackage=C:\Repositorios\ipo2-pokeGo\obj\ARM\Release\Symbols\PokeGo_1.0.1.0_ARM.appxsym

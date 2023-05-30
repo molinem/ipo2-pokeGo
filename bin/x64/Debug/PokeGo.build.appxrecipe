@@ -193,6 +193,18 @@
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\Combate\fondo.jpg">
       <PackagePath>Assets\Combate\fondo.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\fondo.mp4">
+      <PackagePath>Assets\fondo.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\ganar.mp4">
+      <PackagePath>Assets\ganar.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\inicio.mp4">
+      <PackagePath>Assets\inicio.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\perder.mp4">
+      <PackagePath>Assets\perder.mp4</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\Assets\PokeDex\pokemon_random.gif">
       <PackagePath>Assets\PokeDex\pokemon_random.gif</PackagePath>
     </AppxPackagedFile>

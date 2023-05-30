@@ -17,7 +17,15 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
-    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+    <PackageCertificateThumbprint>85309DF4B319D495DB45544E989D8B4DCC92CEEF</PackageCertificateThumbprint>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -192,8 +200,12 @@
     <Content Include="Assets\Combate\volto1.png" />
     <Content Include="Assets\Combate\volto2.png" />
     <Content Include="Assets\Combate\zapdos.png" />
+    <Content Include="Assets\fondo.mp4" />
     <Content Include="Assets\fondoInicial.png" />
+    <Content Include="Assets\ganar.mp4" />
+    <Content Include="Assets\inicio.mp4" />
     <Content Include="Assets\Inicio\inicial.png" />
+    <Content Include="Assets\perder.mp4" />
     <Content Include="Assets\PokeDex\actualizar.png" />
     <Content Include="Assets\PokeDex\ekans.png" />
     <Content Include="Assets\PokeDex\jigglypuff.png" />
@@ -292,6 +304,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\Captura\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\pokemons.db" />
+    <None Include="PokeGo_TemporaryKey.pfx" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

@@ -37,14 +37,20 @@ namespace PokeGo
         /// <param name="e"></param>
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
+            string rutaCarpeta = "Assets"; // Ruta relativa de la carpeta dentro del proyecto
             string nombreArchivo = "perder.mp4"; // Nombre del archivo
-            string rutaCarpeta = "VIDEOS"; // Ruta relativa de la carpeta dentro del proyecto
-            string videoFilePath = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), rutaCarpeta, nombreArchivo);
 
-            // Establece la fuente del MediaElement como el archivo de video
-            mediaElement.Source = new Uri(videoFilePath);
-            mediaElement.IsMuted = true;
-            mediaElement.Play();
+            string directorioBase = AppDomain.CurrentDomain.BaseDirectory;
+            string videoFilePath = Path.Combine(directorioBase, rutaCarpeta, nombreArchivo);
+
+            if (videoFilePath != null)
+            {
+                // Establece la fuente del MediaElement como el archivo de video
+                mediaElement.Source = new Uri(videoFilePath);
+                mediaElement.IsMuted = true;
+                mediaElement.Play();
+            }
+            
         }
 
         /// <summary>

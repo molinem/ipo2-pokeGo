@@ -1,0 +1,54 @@
+﻿<Page x:ConnectionId='1'
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PokeGo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.UI.Xaml.Controls" x:Name="pageCombatePokemon2Player"
+    x:Class="PokeGo.CombatePokemon2Player"
+    mc:Ignorable="d" FontSize="36">
+
+    <Viewbox Stretch="Fill">
+
+        <Grid Height="1000" Width="1500">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" MinHeight="210" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Image x:ConnectionId='2' x:Name="imgFondo" Source="/Assets/Combate/fondo_batalla.png" RequestedTheme="Light" Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Top" Stretch="UniformToFill" Width="1499" Height="558" RenderTransformOrigin="0.5,0.5" >
+                <Image.RenderTransform>
+                    <CompositeTransform Rotation="0" ScaleY="3.05" SkewY="0" TranslateX="0"/>
+                </Image.RenderTransform>
+            </Image>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="73,-24,0,64" HorizontalAlignment="Left" Width="1286">
+                <Image x:ConnectionId='21' x:Name="imgAtras" Source="/Assets/Combate/atras.png" Height="80" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center"                                           />
+                <Image x:ConnectionId='22' x:Name="imgCombate" Source="/Assets/Combate/batalla_2_jugador.png" Height="170" Width="550" VerticalAlignment="Center" Margin="337,0,0,0"/>
+            </StackPanel>
+            <Rectangle x:ConnectionId='3' x:Name="player1" HorizontalAlignment="Left" Height="232" Margin="0,558,0,0" Grid.Row="1" Stroke="White" VerticalAlignment="Top" Width="745" Fill="#FF74AC74" StrokeThickness="11"/>
+            <Rectangle x:ConnectionId='4' x:Name="player2" HorizontalAlignment="Left" Height="232" Margin="745,558,0,0" Grid.Row="1" Stroke="#FF2776A2" VerticalAlignment="Top" Width="755" Fill="#FF548754" StrokeThickness="11"/>
+            <TextBlock x:ConnectionId='5' x:Name="txtQueDebemosHacer" HorizontalAlignment="Left" Margin="22,579,0,0" Grid.Row="1" Text="¿Qué debería hacer " TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="White" Foreground="#FF0F0F0F" FontSize="22" FontWeight="Bold" FontFamily="Arial Black" Height="26" Width="485"/>
+            <Button x:ConnectionId='6' x:Name="btnAtacar" Content="ATACAR" Margin="73,649,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial Black" FontSize="36" Height="46" Width="271" Foreground="Black" FocusVisualSecondaryBrush="{x:Null}" BorderBrush="Black" FocusVisualPrimaryBrush="#FF53C55D"                        />
+            <Button x:ConnectionId='7' x:Name="btnCurar" Content="CURAR" Margin="73,716,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial Black" FontSize="36" Height="46" Width="271" Foreground="Black" BorderBrush="#FF080808"                       />
+            <Button x:ConnectionId='8' x:Name="btnSubirAtaque" Content="SUBIR ATAQUE" Margin="384,649,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial Black" FontSize="36" Height="46" Width="271" Foreground="Black" BorderBrush="#FF040404"                             />
+            <Button x:ConnectionId='9' x:Name="btnRendirseCombate" Content="RENDIRSE" Margin="384,716,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial Black" FontSize="36" Height="46" Width="271" Foreground="Black" BorderBrush="#FF040404"                                 />
+
+
+            <RelativePanel x:ConnectionId='10' x:Name="relative_poke_izquierda" Margin="121,136,901,306" Grid.RowSpan="2"/>
+            <RelativePanel x:ConnectionId='11' x:Name="relative_poke_derecha" Margin="884,136,138,309" Grid.RowSpan="2"/>
+            <Rectangle x:ConnectionId='12' x:Name="recTurnoJugador2" HorizontalAlignment="Left" Height="100" Margin="137,639,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="447" Fill="White" Opacity="0.3" RadiusX="0" StrokeThickness="6"/>
+            <TextBlock x:ConnectionId='13' x:Name="txtTurnoJugador2" HorizontalAlignment="Left" Margin="151,672,0,0" Grid.Row="1" Text="Es el turno del Jugador 2" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="White" Foreground="#FF0F0F0F" FontSize="36" FontWeight="Bold" FontFamily="Arial Black" Height="52" Width="428"/>
+
+            <Rectangle x:ConnectionId='14' x:Name="recTurnoJugador1" HorizontalAlignment="Left" Height="100" Margin="801,644,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="649" Fill="White" Opacity="0.3" RadiusX="0" StrokeThickness="6"/>
+            <TextBlock x:ConnectionId='15' x:Name="txtTurnoJugador1" HorizontalAlignment="Left" Margin="835,672,0,0" Grid.Row="1" Text="Es el turno del Jugador 1" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="White" Foreground="#FF0F0F0F" FontSize="36" FontWeight="Bold" FontFamily="Arial Black" Height="55" Width="590" TextAlignment="Center"/>
+            <Button x:ConnectionId='16' x:Name="btnAtacar2" Content="ATACAR" Margin="831,639,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial Black" FontSize="36" Height="46" Width="271" Foreground="Black" FocusVisualSecondaryBrush="{x:Null}" BorderBrush="Black" FocusVisualPrimaryBrush="#FF53C55D"                         />
+            <Button x:ConnectionId='17' x:Name="btnCurar2" Content="CURAR" Margin="831,706,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial Black" FontSize="36" Height="46" Width="271" Foreground="Black" BorderBrush="#FF080808"                        />
+            <Button x:ConnectionId='18' x:Name="btnSubirAtaque2" Content="SUBIR ATAQUE" Margin="1142,639,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial Black" FontSize="36" Height="46" Width="271" Foreground="Black" BorderBrush="#FF040404"                              />
+            <Button x:ConnectionId='19' x:Name="btnRendirseCombate2" Content="RENDIRSE" Margin="1142,706,0,0" Grid.Row="1" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial Black" FontSize="36" Height="46" Width="271" Foreground="Black" BorderBrush="#FF040404"                                  />
+            <TextBlock x:ConnectionId='20' x:Name="txtQueDebemosHacer2" HorizontalAlignment="Left" Margin="787,579,0,0" Grid.Row="1" Text="¿Qué debería hacer " TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="White" Foreground="#FF0F0F0F" FontSize="22" FontWeight="Bold" FontFamily="Arial Black" Height="26" Width="485"/>
+
+        </Grid>
+
+    </Viewbox>
+
+</Page>
+
