@@ -17,7 +17,7 @@
             </Grid.RowDefinitions>
             <MediaElement x:ConnectionId='2' x:Name="mediaElement" Stretch="UniformToFill"                                       Grid.RowSpan="2"/>
             <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="73,20,0,20" HorizontalAlignment="Left" Width="1286">
-                <Image x:ConnectionId='3' x:Name="imgAtras" Source="/Assets/Combate/atras.png" Height="80" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center"                                           />
+                <Image x:ConnectionId='3' x:Name="imgAtras" Source="/Assets/Combate/atras.png" Height="80" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center"                                            ToolTipService.ToolTip="Ir atrás"/>
                 <Image x:ConnectionId='4' x:Name="imgCombate" Source="/Assets/Combate/batalla_ganada.png" Height="170" Width="550" VerticalAlignment="Center" Margin="337,0,0,0" HorizontalAlignment="Center"/>
             </StackPanel>
             <Rectangle Fill="#FF475568" Margin="74,40,784,601" Grid.Row="1" Opacity="0.46" RadiusY="45" RadiusX="50"/>

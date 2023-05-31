@@ -21,7 +21,7 @@
                 </Image.RenderTransform>
             </Image>
             <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="73,-24,0,64" HorizontalAlignment="Left" Width="1286">
-                <Image x:ConnectionId='16' x:Name="imgAtras" Source="/Assets/Combate/atras.png" Height="80" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center"                                           />
+                <Image x:ConnectionId='16' x:Name="imgAtras" Source="/Assets/Combate/atras.png" Height="80" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center"                                            ToolTipService.ToolTip="Ir atrás"/>
                 <Image x:ConnectionId='17' x:Name="imgCombate" Source="/Assets/Combate/batalla_1_jugador.png" Height="170" Width="550" VerticalAlignment="Center" Margin="337,0,0,0"/>
             </StackPanel>
             <Rectangle x:ConnectionId='3' x:Name="player1" HorizontalAlignment="Left" Height="232" Margin="0,558,0,0" Grid.Row="1" Stroke="White" VerticalAlignment="Top" Width="745" Fill="#FF74AC74" StrokeThickness="11"/>

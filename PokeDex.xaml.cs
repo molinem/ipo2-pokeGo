@@ -61,7 +61,6 @@ namespace PokeGo
 
             // Actualizar la lista
             lstPokemon.ItemsSource = listaFiltrada;
-            
         }
         
         /// <summary>

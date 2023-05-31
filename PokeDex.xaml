@@ -18,7 +18,7 @@
         <Viewbox Margin="0,20,0,0" Grid.RowSpan="2" Stretch="Fill">
             <Grid Height="980" Width="1500">
                 <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="20,0,20,872">
-                    <Image Source="/Assets/PokeDex/nombrePokedex.png" Height="108" Width="370"/>
+                    <Image Source="/Assets/PokeDex/nombrePokedex.png" Height="108" Width="370" ToolTipService.ToolTip="Logo Pokedex"/>
                     <TextBox x:Name="txtFiltroNombre" PlaceholderText="Nombre" Width="411" Height="47" Margin="10,10,0,0" FontSize="24" ToolTipService.ToolTip="Escribe el nombre del pokemon"/>
                     <Button x:Name="btnLupa" Margin="50,10,5,0"  Height="47" Width="55" Click="Filtrar_Click" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
                         <Image x:Name="imgLupa" Source="/Assets/PokeDex/lupa.png" Margin="-22,-12,-20,-11" RequestedTheme="Light" FocusVisualPrimaryBrush="{x:Null}" ToolTipService.ToolTip="Permite realizar una búsqueda"/>
