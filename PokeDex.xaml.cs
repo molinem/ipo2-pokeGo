@@ -75,7 +75,6 @@ namespace PokeGo
             string directorioBase = AppDomain.CurrentDomain.BaseDirectory;
             string rutaArchivo = Path.Combine(directorioBase, rutaCarpeta, nombreArchivo);
 
-
             string cadenaConexion = "Data Source=" + rutaArchivo;
             listaPokemon = new List<Pokemon>();
 

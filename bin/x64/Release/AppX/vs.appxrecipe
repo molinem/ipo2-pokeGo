@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T12:06:46.399</Modified>
+      <Modified>2023-05-31T12:15:56.929</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -470,19 +470,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\PokeGo.dll">
       <PackagePath>PokeGo.dll</PackagePath>
-      <Modified>2023-05-31T12:06:45.541</Modified>
+      <Modified>2023-05-31T12:15:56.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\PokeGo.exe">
       <PackagePath>PokeGo.exe</PackagePath>
-      <Modified>2023-05-31T12:06:46.386</Modified>
+      <Modified>2023-05-31T12:15:56.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\PokeGo.pdb">
       <PackagePath>PokeGo.pdb</PackagePath>
-      <Modified>2023-05-31T12:06:46.385</Modified>
+      <Modified>2023-05-31T12:15:56.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-31T12:06:10.850</Modified>
+      <Modified>2023-05-31T12:10:11.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\WebView2Loader.dll">
       <PackagePath>WebView2Loader.dll</PackagePath>
