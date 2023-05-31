@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Toolkit.Uwp.Notifications;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -50,7 +51,20 @@ namespace PokeGo
                 mediaElement.IsMuted = true;
                 mediaElement.Play();
             }
-            
+            notificacionRendirte();
+        }
+
+        /// <summary>
+        /// Notificación al rendirse en la batalla
+        /// </summary>
+        private void notificacionRendirte()
+        {
+            new ToastContentBuilder()
+                .AddArgument("action", "Favoritos")
+                .AddArgument("conversationId", 9813)
+                .AddText("Has decidido rendirte")
+                .AddText("Puedes ver más información en PokeGo")
+                .Show();
         }
 
         /// <summary>

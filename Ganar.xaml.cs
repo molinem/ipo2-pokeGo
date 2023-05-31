@@ -1,10 +1,13 @@
-﻿using System;
+﻿using Microsoft.Toolkit.Uwp.Notifications;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Notifications;
+using Windows.UI.StartScreen;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -49,6 +52,20 @@ namespace PokeGo
                 mediaElement.IsMuted = true;
                 mediaElement.Play();
             }
+            notificacionGanar();
+        }
+
+        /// <summary>
+        /// Notificación al ganar la batalla
+        /// </summary>
+        private void notificacionGanar()
+        {
+            new ToastContentBuilder()
+                .AddArgument("action", "Favoritos")
+                .AddArgument("conversationId", 9813)
+                .AddText("Has ganado la batalla")
+                .AddText("Puedes ver más información en PokeGo")
+                .Show();
         }
 
         /// <summary>

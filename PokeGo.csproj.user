@@ -5,6 +5,14 @@
     <AppxShowAllApps>False</AppxShowAllApps>
     <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
     <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <Source>C:\Repositorios\ipo2-pokeGo\Assets\PokeGo.png</Source>
+    <SmallTileSource>C:\Repositorios\ipo2-pokeGo\Assets\PokeGo.png</SmallTileSource>
+    <MediumTileSource>C:\Repositorios\ipo2-pokeGo\Assets\PokeGo.png</MediumTileSource>
+    <WideTileSource>C:\Repositorios\ipo2-pokeGo\Assets\PokeGo.png</WideTileSource>
+    <LargeTileSource>C:\Repositorios\ipo2-pokeGo\Assets\PokeGo.png</LargeTileSource>
+    <AppIconSource>C:\Repositorios\ipo2-pokeGo\Assets\PokeGo.png</AppIconSource>
+    <SplashScreenSource>C:\Repositorios\ipo2-pokeGo\Assets\PokeGo.png</SplashScreenSource>
+    <PackageLogoSource>C:\Repositorios\ipo2-pokeGo\Assets\PokeGo.png</PackageLogoSource>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
     <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>

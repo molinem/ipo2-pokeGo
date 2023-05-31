@@ -125,7 +125,6 @@ namespace PokeGo
                 Pokemon pk = (Pokemon)lstPokemon.SelectedItem;
 
                 //Imagen
-                
                 string rutaCarpeta1 = "Assets";
                 string rutaCarpeta2 = "PoKeDex";
                 string nombreArchivo = pk.Nombre.ToLower() + ".png";
