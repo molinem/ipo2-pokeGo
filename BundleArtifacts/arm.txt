@@ -1,2 +1,6 @@
-MainPackage=C:\Repositorios\ipo2-pokeGo\bin\ARM\Release\PokeGo_1.0.1.0_ARM.msix
-SymbolPackage=C:\Repositorios\ipo2-pokeGo\obj\ARM\Release\Symbols\PokeGo_1.0.1.0_ARM.appxsym
+MainPackage=C:\Users\angel\Desktop\ipo2-pokeGo\bin\ARM\Debug\PokeGo_1.0.2.0_ARM_Debug.msix
+SymbolPackage=C:\Users\angel\Desktop\ipo2-pokeGo\obj\ARM\Debug\Symbols\PokeGo_1.0.2.0_ARM_Debug.appxsym
+ResourcePack=C:\Users\angel\Desktop\ipo2-pokeGo\bin\ARM\Debug\PokeGo_1.0.2.0_scale-100.msix
+ResourcePack=C:\Users\angel\Desktop\ipo2-pokeGo\bin\ARM\Debug\PokeGo_1.0.2.0_scale-125.msix
+ResourcePack=C:\Users\angel\Desktop\ipo2-pokeGo\bin\ARM\Debug\PokeGo_1.0.2.0_scale-150.msix
+ResourcePack=C:\Users\angel\Desktop\ipo2-pokeGo\bin\ARM\Debug\PokeGo_1.0.2.0_scale-400.msix

@@ -1,0 +1,43 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PokeGo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.UI.Xaml.Controls"
+    x:Class="PokeGo.Combate"
+    mc:Ignorable="d">
+
+    <Viewbox Stretch="Fill">
+
+        <Grid Height="1000" Width="1500">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+
+            <Image x:ConnectionId='2' x:Name="imgFondo" Source="/Assets/Combate/fondo.png" Margin="0,-140,0,-6" RequestedTheme="Light" Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Stretch="Fill" />
+
+
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="456,20,0,20" HorizontalAlignment="Left" Width="537">
+                <Image x:ConnectionId='9' x:Name="imgCombate" Source="/Assets/Combate/combate.png" Height="170" Width="454" Margin="59,0,0,0"/>
+            </StackPanel>
+
+            <TextBlock x:ConnectionId='3' x:Name="txt1Jugador" FontWeight="Bold" Text="1 Jugador" Margin="339,58,984,647" FontSize="36" Foreground="#FF0E0E0E" Grid.Row="1"/>
+            <Button x:ConnectionId='4' x:Name="btnUnJugador" Margin="282,136,0,0"  Height="334" Width="283" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Row="1" VerticalAlignment="Top"                                                                     ToolTipService.ToolTip="1 Jugador" >
+                <Image x:ConnectionId='8' x:Name="imgVolto1" Source="/Assets/Combate/volto1.png" Margin="-21,-7,-21,-16" RequestedTheme="Light" ToolTipService.ToolTip="1 Jugador"/>
+            </Button>
+
+            <TextBlock x:ConnectionId='5' x:Name="txt2Jugador" FontWeight="Bold" Text="2 Jugadores" Margin="1012,58,266,647" FontSize="36" Foreground="#FF0E0E0E" Grid.Row="1"/>
+            <Button x:ConnectionId='6' x:Name="btnDosJugador"  Margin="966,136,0,0"  Height="334" Width="295" Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}" Grid.Row="1" VerticalAlignment="Top"                             ToolTipService.ToolTip="2 Jugadores">
+                <Image x:ConnectionId='7' x:Name="imgVolto2" Source="/Assets/Combate/volto2.png" Margin="0,-7,-21,-16" RequestedTheme="Light" ToolTipService.ToolTip="2 Jugadores"/>
+            </Button>
+        </Grid>
+
+    </Viewbox>
+
+</Page>
+

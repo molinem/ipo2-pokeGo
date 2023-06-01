@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="e11c221a-444d-478f-b0a9-5ea43ce7229b" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>LIGHTUNPLATED,UNPLATED</AlternateForm>
+			<Language>EN-US</Language>
+			<Scale>200</Scale>
+			<TargetSize>256,16,24,32,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Combate.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Combate.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CombatePokemon1Player.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/CombatePokemon1Player.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CombatePokemon2Player.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/CombatePokemon2Player.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Ganar.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Ganar.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Inicio.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Inicio.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PokeDex.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/PokeDex.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PokeGo.xr.xml" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/PokeGo.xr.xml">
+				<Candidate type="Path">
+					<Value>PokeGo.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Rendirse.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Rendirse.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SeleccionPokemon1Player.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/SeleccionPokemon1Player.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SeleccionPokemon2Players.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/SeleccionPokemon2Players.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ucVisorCharmander.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/ucVisorCharmander.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ucVisorDragonite.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/ucVisorDragonite.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ucVisorJigglypuff.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/ucVisorJigglypuff.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ucVisorZapdos.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/ucVisorZapdos.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="fondo.mp4" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/fondo.mp4">
+					<Candidate type="Path">
+						<Value>Assets\fondo.mp4</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fondoInicial.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/fondoInicial.png">
+					<Candidate type="Path">
+						<Value>Assets\fondoInicial.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ganar.mp4" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/ganar.mp4">
+					<Candidate type="Path">
+						<Value>Assets\ganar.mp4</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="inicio.mp4" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/inicio.mp4">
+					<Candidate type="Path">
+						<Value>Assets\inicio.mp4</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/LargeTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LargeTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="perder.mp4" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/perder.mp4">
+					<Candidate type="Path">
+						<Value>Assets\perder.mp4</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PokeGo.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeGo.png">
+					<Candidate type="Path">
+						<Value>Assets\PokeGo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/SmallTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SmallTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Combate">
+					<NamedResource name="1jugador.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/1jugador.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\1jugador.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="1_Jugador.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/1_Jugador.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\1_Jugador.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="2_Jugadores.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/2_Jugadores.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\2_Jugadores.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="aceptar.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/aceptar.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\aceptar.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="atras.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/atras.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\atras.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="batalla_1_jugador.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/batalla_1_jugador.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\batalla_1_jugador.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="batalla_2_jugador.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/batalla_2_jugador.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\batalla_2_jugador.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="batalla_ganada.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/batalla_ganada.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\batalla_ganada.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="charmander.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/charmander.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\charmander.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="combate.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/combate.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\combate.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="combate1Player.jpg" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/combate1Player.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Combate\combate1Player.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="dragonite.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/dragonite.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\dragonite.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="energy.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/energy.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\energy.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="fondo.jpg" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/fondo.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Combate\fondo.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="fondo.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/fondo.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\fondo.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="fondo_batalla.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/fondo_batalla.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\fondo_batalla.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="health.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/health.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\health.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jigglypuff.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/jigglypuff.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\jigglypuff.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="rendirse.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/rendirse.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\rendirse.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="volto1.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/volto1.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\volto1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="volto2.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/volto2.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\volto2.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="zapdos.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Combate/zapdos.png">
+						<Candidate type="Path">
+							<Value>Assets\Combate\zapdos.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Inicio">
+					<NamedResource name="inicial.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/Inicio/inicial.png">
+						<Candidate type="Path">
+							<Value>Assets\Inicio\inicial.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="PokeDex">
+					<NamedResource name="actualizar.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/actualizar.png">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\actualizar.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ekans.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/ekans.png">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\ekans.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jigglypuff.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/jigglypuff.png">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\jigglypuff.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="lupa.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/lupa.png">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\lupa.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="nombrePokedex.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/nombrePokedex.png">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\nombrePokedex.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="pokedex2.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/pokedex2.png">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\pokedex2.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="pokemon_random.gif" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/pokemon_random.gif">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\pokemon_random.gif</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="psyduck.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/psyduck.png">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\psyduck.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="staryu.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/staryu.png">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\staryu.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="togepi.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/togepi.png">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\togepi.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="zapdos.png" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Assets/PokeDex/zapdos.png">
+						<Candidate type="Path">
+							<Value>Assets\PokeDex\zapdos.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Microsoft.UI.Xaml">
+				<ResourceMapSubtree name="DensityStyles">
+					<NamedResource name="Compact.xbf" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Microsoft.UI.Xaml/DensityStyles/Compact.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Data.Sqlite.Properties.Resources">
+			<NamedResource name="AmbiguousColumnName" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/AmbiguousColumnName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The name '{name}' is ambiguous between columns '{column1}' and '{column2}'. Specify one using its exact case.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AmbiguousParameterName" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/AmbiguousParameterName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot bind the value for parameter '{parameterName}' because multiple matching parameters were found in the command text. Specify the parameter name with the symbol prefix, e.g. '@{parameterName}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CalledOnNullValue" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/CalledOnNullValue">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The data is NULL at ordinal {ordinal}. This method can't be called on NULL values. Check using IsDBNull before calling.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CallRequiresOpenConnection" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/CallRequiresOpenConnection">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>{methodName} can only be called when the connection is open.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotStoreNaN" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/CannotStoreNaN">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot store 'NaN' values.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ConnectionStringRequiresClosedConnection" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/ConnectionStringRequiresClosedConnection">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>ConnectionString cannot be set when the connection is open.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ConvertFailed" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/ConvertFailed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot convert object of type '{sourceType}' to object of type '{targetType}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataReaderClosed" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/DataReaderClosed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Invalid attempt to call {operation} when reader is closed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataReaderOpen" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/DataReaderOpen">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>An open reader is already associated with this command. Close it before opening a new one.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DefaultNativeError" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/DefaultNativeError">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>For more information on this error code see https://www.sqlite.org/rescode.html</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EncryptionNotSupported" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/EncryptionNotSupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>You specified a password in the connection string, but the native SQLite library '{libraryName}' doesn't support encryption.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidCommandType" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/InvalidCommandType">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The CommandType '{commandType}' is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidEnumValue" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/InvalidEnumValue">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The {enumType} enumeration value, {value}, is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidIsolationLevel" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/InvalidIsolationLevel">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The IsolationLevel '{isolationLevel}' is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidOffsetAndCount" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/InvalidOffsetAndCount">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Offset and count were out of bounds for the buffer.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidParameterDirection" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/InvalidParameterDirection">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The ParameterDirection '{direction}' is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="KeywordNotSupported" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/KeywordNotSupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Connection string keyword '{keyword}' is not supported. For a possible alternative, see https://go.microsoft.com/fwlink/?linkid=2142181.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MissingParameters" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/MissingParameters">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Must add values for the following parameters: {parameters}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NoData" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/NoData">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>No data exists for the row/column.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ParallelTransactionsNotSupported" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/ParallelTransactionsNotSupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SqliteConnection does not support nested transactions.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ParameterNotFound" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/ParameterNotFound">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>A SqliteParameter with ParameterName '{parameterName}' is not contained by this SqliteParameterCollection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RequiresSet" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/RequiresSet">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>{propertyName} must be set.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ResizeNotSupported" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/ResizeNotSupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The size of a blob may not be changed by the SqliteBlob API. Use an UPDATE command instead.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SeekBeforeBegin" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/SeekBeforeBegin">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>An attempt was made to move the position before the beginning of the stream.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SetRequiresNoOpenReader" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/SetRequiresNoOpenReader">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>An open reader is associated with this command. Close it before changing the {propertyName} property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SqlBlobRequiresOpenConnection" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/SqlBlobRequiresOpenConnection">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SqliteBlob can only be used when the connection is open.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SqliteNativeError" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/SqliteNativeError">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SQLite Error {errorCode}: '{message}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TooManyRestrictions" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/TooManyRestrictions">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>More restrictions were provided than the collection '{collectionName}' supports.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TransactionCompleted" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/TransactionCompleted">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>This SqliteTransaction has completed; it is no longer usable.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TransactionConnectionMismatch" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/TransactionConnectionMismatch">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The transaction object is not associated with the same connection object as this command.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TransactionRequired" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/TransactionRequired">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Execute requires the command to have a transaction object when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="UDFCalledWithNull" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/UDFCalledWithNull">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The SQL function '{function}' was called with a NULL argument at ordinal {ordinal}. Create the function using a Nullable parameter or rewrite your query to avoid passing NULL.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="UnknownCollection" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/UnknownCollection">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The requested collection '{collectionName}' is not defined.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="UnknownDataType" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/UnknownDataType">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>No mapping exists from object type {typeName} to a known managed provider native type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WriteNotSupported" uri="ms-resource://e11c221a-444d-478f-b0a9-5ea43ce7229b/Microsoft.Data.Sqlite.Properties.Resources/WriteNotSupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Stream does not support writing.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

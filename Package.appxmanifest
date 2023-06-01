@@ -9,7 +9,7 @@
   <Identity
     Name="e11c221a-444d-478f-b0a9-5ea43ce7229b"
     Publisher="CN=PokeGo"
-    Version="1.0.1.0" />
+    Version="1.0.2.0" />
 
   <mp:PhoneIdentity PhoneProductId="e11c221a-444d-478f-b0a9-5ea43ce7229b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

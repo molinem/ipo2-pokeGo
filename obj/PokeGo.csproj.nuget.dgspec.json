@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositorios\\ipo2-pokeGo\\PokeGo.csproj": {}
+    "C:\\Users\\angel\\Desktop\\ipo2-pokeGo\\PokeGo.csproj": {}
   },
   "projects": {
-    "C:\\Repositorios\\ipo2-pokeGo\\PokeGo.csproj": {
+    "C:\\Users\\angel\\Desktop\\ipo2-pokeGo\\PokeGo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorios\\ipo2-pokeGo\\PokeGo.csproj",
+        "projectUniqueName": "C:\\Users\\angel\\Desktop\\ipo2-pokeGo\\PokeGo.csproj",
         "projectName": "PokeGo",
-        "projectPath": "C:\\Repositorios\\ipo2-pokeGo\\PokeGo.csproj",
-        "packagesPath": "C:\\Users\\Moli\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorios\\ipo2-pokeGo\\obj\\",
+        "projectPath": "C:\\Users\\angel\\Desktop\\ipo2-pokeGo\\PokeGo.csproj",
+        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angel\\Desktop\\ipo2-pokeGo\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Moli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

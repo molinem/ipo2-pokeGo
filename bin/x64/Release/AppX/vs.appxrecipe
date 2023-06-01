@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>MOLI-PC</Machine>
-    <WindowsUser>Moli</WindowsUser>
+    <Machine>DESKTOP-VVSEITL</Machine>
+    <WindowsUser>angel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>e11c221a-444d-478f-b0a9-5ea43ce7229b</PackageIdentityName>
     <PackageIdentityPublisher>CN=PokeGo</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Repositorios\ipo2-pokeGo\obj\x64\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\angel\Desktop\ipo2-pokeGo\obj\x64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,520 +18,520 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Repositorios\ipo2-pokeGo\bin\x64\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>69A808AD87665A771279FE445D6BD74F00F4984E275F96A7DF535E59AA521A0E</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>e11c221a-444d-478f-b0a9-5ea43ce7229b_1.0.1.0_x64__b3vrv987xv4vj</RegisteredPackageMoniker>
+    <LayoutDir>C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>4EAC9DF4251478FBAE6AE2CC6377301B4D2020890E167D71292CA814D6994C06</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e11c221a-444d-478f-b0a9-5ea43ce7229b_1.0.2.0_x64__b3vrv987xv4vj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>e11c221a-444d-478f-b0a9-5ea43ce7229b_b3vrv987xv4vj!App</RegisteredUserModeAppID>
     <RegisteredPackageID>e11c221a-444d-478f-b0a9-5ea43ce7229b</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=PokeGo</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.1.0</RegisteredVersion>
+    <RegisteredVersion>1.0.2.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T12:15:56.929</Modified>
+      <Modified>2023-06-01T10:25:27.783</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\1jugador.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\1jugador.png">
       <PackagePath>Assets\Combate\1jugador.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.844</Modified>
+      <Modified>2023-06-01T10:20:40.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\1_Jugador.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\1_Jugador.png">
       <PackagePath>Assets\Combate\1_Jugador.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.805</Modified>
+      <Modified>2023-06-01T10:20:40.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\2_Jugadores.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\2_Jugadores.png">
       <PackagePath>Assets\Combate\2_Jugadores.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.859</Modified>
+      <Modified>2023-06-01T10:20:40.406</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\aceptar.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\aceptar.png">
       <PackagePath>Assets\Combate\aceptar.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.873</Modified>
+      <Modified>2023-06-01T10:20:40.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\atras.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\atras.png">
       <PackagePath>Assets\Combate\atras.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.903</Modified>
+      <Modified>2023-06-01T10:20:40.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\batalla_1_jugador.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\batalla_1_jugador.png">
       <PackagePath>Assets\Combate\batalla_1_jugador.png</PackagePath>
-      <Modified>2023-05-17T21:39:45.862</Modified>
+      <Modified>2023-06-01T10:20:40.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\batalla_2_jugador.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\batalla_2_jugador.png">
       <PackagePath>Assets\Combate\batalla_2_jugador.png</PackagePath>
-      <Modified>2023-05-29T11:00:19.842</Modified>
+      <Modified>2023-06-01T10:20:40.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\batalla_ganada.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\batalla_ganada.png">
       <PackagePath>Assets\Combate\batalla_ganada.png</PackagePath>
-      <Modified>2023-05-30T11:34:27.891</Modified>
+      <Modified>2023-06-01T10:20:40.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\charmander.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\charmander.png">
       <PackagePath>Assets\Combate\charmander.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.921</Modified>
+      <Modified>2023-06-01T10:20:40.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\combate.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\combate.png">
       <PackagePath>Assets\Combate\combate.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.935</Modified>
+      <Modified>2023-06-01T10:20:40.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\combate1Player.jpg">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\combate1Player.jpg">
       <PackagePath>Assets\Combate\combate1Player.jpg</PackagePath>
-      <Modified>2023-05-14T23:04:19.097</Modified>
+      <Modified>2023-06-01T10:20:40.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\dragonite.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\dragonite.png">
       <PackagePath>Assets\Combate\dragonite.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.952</Modified>
+      <Modified>2023-06-01T10:20:40.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\energy.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\energy.png">
       <PackagePath>Assets\Combate\energy.png</PackagePath>
-      <Modified>2023-05-17T22:35:40.831</Modified>
+      <Modified>2023-06-01T10:20:40.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\fondo.jpg">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\fondo.jpg">
       <PackagePath>Assets\Combate\fondo.jpg</PackagePath>
-      <Modified>2023-05-14T22:29:09.010</Modified>
+      <Modified>2023-06-01T10:20:40.419</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\fondo.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\fondo.png">
       <PackagePath>Assets\Combate\fondo.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.975</Modified>
+      <Modified>2023-06-01T10:20:40.422</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\fondo_batalla.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\fondo_batalla.png">
       <PackagePath>Assets\Combate\fondo_batalla.png</PackagePath>
-      <Modified>2023-05-21T10:47:38.239</Modified>
+      <Modified>2023-06-01T10:20:40.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\health.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\health.png">
       <PackagePath>Assets\Combate\health.png</PackagePath>
-      <Modified>2023-05-17T22:35:12.689</Modified>
+      <Modified>2023-06-01T10:20:40.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\jigglypuff.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\jigglypuff.png">
       <PackagePath>Assets\Combate\jigglypuff.png</PackagePath>
-      <Modified>2023-04-30T10:21:44.121</Modified>
+      <Modified>2023-06-01T10:20:40.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\rendirse.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\rendirse.png">
       <PackagePath>Assets\Combate\rendirse.png</PackagePath>
-      <Modified>2023-05-30T10:55:25.552</Modified>
+      <Modified>2023-06-01T10:20:40.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\volto1.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\volto1.png">
       <PackagePath>Assets\Combate\volto1.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.989</Modified>
+      <Modified>2023-06-01T10:20:40.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\volto2.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\volto2.png">
       <PackagePath>Assets\Combate\volto2.png</PackagePath>
-      <Modified>2023-04-30T09:29:07.004</Modified>
+      <Modified>2023-06-01T10:20:40.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\zapdos.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Combate\zapdos.png">
       <PackagePath>Assets\Combate\zapdos.png</PackagePath>
-      <Modified>2023-05-14T22:38:47.649</Modified>
+      <Modified>2023-06-01T10:20:40.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\fondo.mp4">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\fondo.mp4">
       <PackagePath>Assets\fondo.mp4</PackagePath>
-      <Modified>2023-05-30T16:54:07.079</Modified>
+      <Modified>2023-06-01T10:20:40.617</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\fondoInicial.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\fondoInicial.png">
       <PackagePath>Assets\fondoInicial.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.789</Modified>
+      <Modified>2023-06-01T10:20:40.617</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\ganar.mp4">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\ganar.mp4">
       <PackagePath>Assets\ganar.mp4</PackagePath>
-      <Modified>2023-05-30T16:54:13.131</Modified>
+      <Modified>2023-06-01T10:20:40.652</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\inicio.mp4">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\inicio.mp4">
       <PackagePath>Assets\inicio.mp4</PackagePath>
-      <Modified>2023-05-30T16:54:19.197</Modified>
+      <Modified>2023-06-01T10:20:40.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Inicio\inicial.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Inicio\inicial.png">
       <PackagePath>Assets\Inicio\inicial.png</PackagePath>
-      <Modified>2023-04-30T09:29:07.020</Modified>
+      <Modified>2023-06-01T10:20:40.437</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.048</Modified>
+      <Modified>2023-06-01T10:20:40.437</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.074</Modified>
+      <Modified>2023-06-01T10:20:40.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.105</Modified>
+      <Modified>2023-06-01T10:20:40.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.153</Modified>
+      <Modified>2023-06-01T10:20:40.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.315</Modified>
+      <Modified>2023-06-01T10:20:40.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2023-04-30T09:29:06.691</Modified>
+      <Modified>2023-06-01T10:20:40.440</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\perder.mp4">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\perder.mp4">
       <PackagePath>Assets\perder.mp4</PackagePath>
-      <Modified>2023-05-30T16:54:24.680</Modified>
+      <Modified>2023-06-01T10:20:40.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\actualizar.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\actualizar.png">
       <PackagePath>Assets\PokeDex\actualizar.png</PackagePath>
-      <Modified>2023-04-30T09:29:07.036</Modified>
+      <Modified>2023-06-01T10:20:40.440</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\ekans.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\ekans.png">
       <PackagePath>Assets\PokeDex\ekans.png</PackagePath>
-      <Modified>2023-04-30T09:29:09.208</Modified>
+      <Modified>2023-06-01T10:20:40.442</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\jigglypuff.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\jigglypuff.png">
       <PackagePath>Assets\PokeDex\jigglypuff.png</PackagePath>
-      <Modified>2023-04-30T10:21:44.121</Modified>
+      <Modified>2023-06-01T10:20:40.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\lupa.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\lupa.png">
       <PackagePath>Assets\PokeDex\lupa.png</PackagePath>
-      <Modified>2023-04-30T09:29:09.270</Modified>
+      <Modified>2023-06-01T10:20:40.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\nombrePokedex.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\nombrePokedex.png">
       <PackagePath>Assets\PokeDex\nombrePokedex.png</PackagePath>
-      <Modified>2023-04-30T09:29:09.284</Modified>
+      <Modified>2023-06-01T10:20:40.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\pokedex2.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\pokedex2.png">
       <PackagePath>Assets\PokeDex\pokedex2.png</PackagePath>
-      <Modified>2023-04-30T09:29:09.312</Modified>
+      <Modified>2023-06-01T10:20:40.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\pokemon_random.gif">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\pokemon_random.gif">
       <PackagePath>Assets\PokeDex\pokemon_random.gif</PackagePath>
-      <Modified>2023-04-30T09:29:09.333</Modified>
+      <Modified>2023-06-01T10:20:40.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\psyduck.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\psyduck.png">
       <PackagePath>Assets\PokeDex\psyduck.png</PackagePath>
-      <Modified>2023-04-30T09:29:09.348</Modified>
+      <Modified>2023-06-01T10:20:40.494</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\staryu.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\staryu.png">
       <PackagePath>Assets\PokeDex\staryu.png</PackagePath>
-      <Modified>2023-04-30T09:29:09.361</Modified>
+      <Modified>2023-06-01T10:20:40.495</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\togepi.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\togepi.png">
       <PackagePath>Assets\PokeDex\togepi.png</PackagePath>
-      <Modified>2023-04-30T09:29:09.375</Modified>
+      <Modified>2023-06-01T10:20:40.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\zapdos.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeDex\zapdos.png">
       <PackagePath>Assets\PokeDex\zapdos.png</PackagePath>
-      <Modified>2023-04-30T10:22:18.116</Modified>
+      <Modified>2023-06-01T10:20:40.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeGo.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\PokeGo.png">
       <PackagePath>Assets\PokeGo.png</PackagePath>
-      <Modified>2023-05-31T10:59:01.794</Modified>
+      <Modified>2023-06-01T10:20:40.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.697</Modified>
+      <Modified>2023-06-01T10:20:40.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.709</Modified>
+      <Modified>2023-06-01T10:20:40.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.721</Modified>
+      <Modified>2023-06-01T10:20:40.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.736</Modified>
+      <Modified>2023-06-01T10:20:40.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.761</Modified>
+      <Modified>2023-06-01T10:20:40.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.642</Modified>
+      <Modified>2023-06-01T10:20:40.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.677</Modified>
+      <Modified>2023-06-01T10:20:40.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.723</Modified>
+      <Modified>2023-06-01T10:20:40.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.796</Modified>
+      <Modified>2023-06-01T10:20:40.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:17.063</Modified>
+      <Modified>2023-06-01T10:20:40.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.776</Modified>
+      <Modified>2023-06-01T10:20:40.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.790</Modified>
+      <Modified>2023-06-01T10:20:40.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.806</Modified>
+      <Modified>2023-06-01T10:20:40.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.826</Modified>
+      <Modified>2023-06-01T10:20:40.515</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.874</Modified>
+      <Modified>2023-06-01T10:20:40.515</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.548</Modified>
+      <Modified>2023-06-01T10:20:40.515</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.560</Modified>
+      <Modified>2023-06-01T10:20:40.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.615</Modified>
+      <Modified>2023-06-01T10:20:40.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.572</Modified>
+      <Modified>2023-06-01T10:20:40.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.583</Modified>
+      <Modified>2023-06-01T10:20:40.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.466</Modified>
+      <Modified>2023-06-01T10:20:40.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.535</Modified>
+      <Modified>2023-06-01T10:20:40.518</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.490</Modified>
+      <Modified>2023-06-01T10:20:40.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.502</Modified>
+      <Modified>2023-06-01T10:20:40.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.327</Modified>
+      <Modified>2023-06-01T10:20:40.519</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.339</Modified>
+      <Modified>2023-06-01T10:20:40.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.350</Modified>
+      <Modified>2023-06-01T10:20:40.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.362</Modified>
+      <Modified>2023-06-01T10:20:40.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.379</Modified>
+      <Modified>2023-06-01T10:20:40.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.392</Modified>
+      <Modified>2023-06-01T10:20:40.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.405</Modified>
+      <Modified>2023-06-01T10:20:40.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.478</Modified>
+      <Modified>2023-06-01T10:20:40.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.453</Modified>
+      <Modified>2023-06-01T10:20:40.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.417</Modified>
+      <Modified>2023-06-01T10:20:40.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.429</Modified>
+      <Modified>2023-06-01T10:20:40.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:17.074</Modified>
+      <Modified>2023-06-01T10:20:40.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:17.086</Modified>
+      <Modified>2023-06-01T10:20:40.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:17.099</Modified>
+      <Modified>2023-06-01T10:20:40.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:17.113</Modified>
+      <Modified>2023-06-01T10:20:40.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:17.135</Modified>
+      <Modified>2023-06-01T10:20:40.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.889</Modified>
+      <Modified>2023-06-01T10:20:40.609</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.906</Modified>
+      <Modified>2023-06-01T10:20:40.609</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.926</Modified>
+      <Modified>2023-06-01T10:20:40.609</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:15.952</Modified>
+      <Modified>2023-06-01T10:20:40.610</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-31T10:59:16.028</Modified>
+      <Modified>2023-06-01T10:20:40.610</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
       <Modified>2021-02-05T00:15:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
       <Modified>2023-01-10T20:13:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2022-12-16T01:17:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Microsoft.Web.WebView2.Core.dll">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
       <Modified>2022-06-28T22:02:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\Microsoft.Web.WebView2.Core.winmd">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\Microsoft.Web.WebView2.Core.winmd">
       <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
       <Modified>2022-06-28T22:02:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\PokeGo.dll">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\PokeGo.dll">
       <PackagePath>PokeGo.dll</PackagePath>
-      <Modified>2023-05-31T12:15:56.067</Modified>
+      <Modified>2023-06-01T10:25:27.105</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\PokeGo.exe">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\PokeGo.exe">
       <PackagePath>PokeGo.exe</PackagePath>
-      <Modified>2023-05-31T12:15:56.917</Modified>
+      <Modified>2023-06-01T10:25:27.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\PokeGo.pdb">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\PokeGo.pdb">
       <PackagePath>PokeGo.pdb</PackagePath>
-      <Modified>2023-05-31T12:15:56.916</Modified>
+      <Modified>2023-06-01T10:25:27.759</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-31T12:10:11.771</Modified>
+      <Modified>2023-06-01T10:24:49.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Repositorios\ipo2-pokeGo\bin\x64\Release\ilc\WebView2Loader.dll">
+    <AppxPackagedFile Include="C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Release\ilc\WebView2Loader.dll">
       <PackagePath>WebView2Loader.dll</PackagePath>
       <Modified>2022-06-28T22:02:22.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\Moli\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\angel\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Moli\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\angel\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Moli\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\angel\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>Win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Moli\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\angel\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Moli\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\angel\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Moli\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\angel\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Moli\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\angel\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Moli\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\angel\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Moli\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
+    <ResolvedSDKReference Include="C:\Users\angel\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx">
       <Name>Microsoft.UI.Xaml.2.8</Name>
       <Version>8.2212.15002.0</Version>
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.8, MinVersion = 8.2212.15002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Moli\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
+      <AppxLocation>C:\Users\angel\.nuget\packages\microsoft.ui.xaml\2.8.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.8.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

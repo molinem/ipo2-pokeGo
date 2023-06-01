@@ -1,2 +1,2 @@
-MainPackage=C:\Repositorios\ipo2-pokeGo\bin\x64\Release\PokeGo_1.0.1.0_x64.msix
-SymbolPackage=C:\Repositorios\ipo2-pokeGo\obj\x64\Release\Symbols\PokeGo_1.0.1.0_x64.appxsym
+MainPackage=C:\Users\angel\Desktop\ipo2-pokeGo\bin\x64\Debug\PokeGo_1.0.2.0_x64_Debug.msix
+SymbolPackage=C:\Users\angel\Desktop\ipo2-pokeGo\obj\x64\Debug\Symbols\PokeGo_1.0.2.0_x64_Debug.appxsym

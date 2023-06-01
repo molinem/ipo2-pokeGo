@@ -1,0 +1,63 @@
+﻿<Page x:ConnectionId='1' x:Name="pokedex"
+    x:Class="PokeGo.PokeDex"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PokeGo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" RequestedTheme="Light"                     >
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <MediaElement x:ConnectionId='2' x:Name="mediaElement" Stretch="UniformToFill"                                      Grid.RowSpan="2"/>
+        <Viewbox Margin="0,20,0,0" Grid.RowSpan="2" Stretch="Fill">
+            <Grid Height="980" Width="1500">
+                <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="20,0,20,872">
+                    <Image Source="/Assets/PokeDex/nombrePokedex.png" Height="108" Width="370" ToolTipService.ToolTip="Logo Pokedex"/>
+                    <TextBox x:ConnectionId='16' x:Name="txtFiltroNombre" PlaceholderText="Nombre" Width="411" Height="47" Margin="10,10,0,0" FontSize="24" ToolTipService.ToolTip="Escribe el nombre del pokemon"/>
+                    <Button x:ConnectionId='17' x:Name="btnLupa" Margin="50,10,5,0"  Height="47" Width="55"                       Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
+                        <Image x:ConnectionId='20' x:Name="imgLupa" Source="/Assets/PokeDex/lupa.png" Margin="-22,-12,-20,-11" RequestedTheme="Light" FocusVisualPrimaryBrush="{x:Null}" ToolTipService.ToolTip="Permite realizar una búsqueda"/>
+                    </Button>
+                    <Button x:ConnectionId='18' x:Name="btnActualizar" Margin="50,10,5,0"  Height="47" Width="55"                              Foreground="{x:Null}" FocusVisualPrimaryBrush="{x:Null}">
+                        <Image x:ConnectionId='19' x:Name="imgActualizar" Source="/Assets/PokeDex/actualizar.png" Margin="-22,-12,-20,-11" RequestedTheme="Light" ToolTipService.ToolTip="Actualiza la lista de pokemons"/>
+                    </Button>
+                </StackPanel>
+
+                <Grid Margin="0,128,0,0">
+                    <!-- Lista de Pokemon -->
+                    <ListView x:ConnectionId='3' x:Name="lstPokemon" Margin="100,100,909,100"                                               >
+                        <ListView.ItemTemplate>
+                            <DataTemplate                           >
+                                <StackPanel x:ConnectionId='12' Margin="5">
+                                    <TextBlock x:ConnectionId='13' x:Name="txtNumero"                             Style="{ThemeResource BaseTextBlockStyle}" FontSize="18" FontWeight="Bold" />
+                                    <TextBlock x:ConnectionId='14' x:Name="TxtNombre"                             Style="{ThemeResource BodyTextBlockStyle}" FontSize="22" />
+                                    <Image x:ConnectionId='15' x:Name="imgPokemon"                               Stretch="Fill" Width="150" Height="200"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                    <TextBlock x:ConnectionId='4' x:Name="txtNombrePk" Text="?" HorizontalAlignment="Left" Width="132" Margin="744,608,0,197" RenderTransformOrigin="0.5,0.5" FontSize="24" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold"/>
+                    <TextBlock x:ConnectionId='5' x:Name="txtDescripcionPk" Text="?" HorizontalAlignment="Left" Width="314" Margin="1138,303,0,448" RenderTransformOrigin="0.5,0.5" FontSize="16" TextAlignment="Start" Canvas.ZIndex="10" FontWeight="Bold" Foreground="White" TextWrapping="Wrap"/>
+                    <TextBlock x:ConnectionId='6' x:Name="txtCategoriaPk" Text="?" HorizontalAlignment="Left" Width="126" Margin="1138,505,0,305" RenderTransformOrigin="0.5,0.5" FontSize="28" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold"/>
+                    <TextBlock x:ConnectionId='7' x:Name="txtAlturaPk" Text="?" HorizontalAlignment="Left" Width="131" Margin="1144,584,0,231" RenderTransformOrigin="0.5,0.5" FontSize="20" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold" Foreground="White"/>
+                    <TextBlock x:ConnectionId='8' x:Name="txtPesoPk" Text="?" HorizontalAlignment="Left" Width="140" Margin="1310,584,0,214" RenderTransformOrigin="0.5,0.5" FontSize="20" TextAlignment="Center" Canvas.ZIndex="10" FontWeight="Bold" Foreground="White"/>
+                    <Image x:ConnectionId='9' x:Name="imgPokedex" Source="/Assets/PokeDex/pokedex2.png" Margin="625,101,-110,97" Height="654"/>
+                    <Image x:ConnectionId='10' x:Name="imgPokemon" Source="/Assets/PokeDex/pokemon_random.gif" Margin="819,356,508,297"/>
+                </Grid>
+
+
+            </Grid>
+        </Viewbox>
+
+        <!-- Controles de filtrado -->
+
+
+    </Grid>
+</Page>
+
