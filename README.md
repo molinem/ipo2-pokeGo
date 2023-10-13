@@ -5,7 +5,7 @@
 Aplicación desarrollada utilizando C# y WPF. En ella, podemos encontrar 3 "Pages" independientes:
 
 ## Inicio
-Encontramos un `<b>mediaElement</b>` que actua de fondo reproduciendo un vídeo de la intro de pokemon, además hay un cuadro de texto mostrando los integrantes del proyecto.
+Encontramos un `mediaElement` que actua de fondo reproduciendo un vídeo de la intro de pokemon, además hay un cuadro de texto mostrando los integrantes del proyecto.
 <br>
 
 ![image](https://github.com/molinem/ipo2-pokeGo/assets/47080025/f68b3a05-9eb3-49a8-a753-2f91752b9ea5)
